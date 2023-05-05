@@ -1,0 +1,126 @@
+.loremIpsumLorem,
+.sobreNosotros1 {
+  position: relative;
+  line-height: 24px;
+}
+.loremIpsumLorem {
+  align-self: stretch;
+  font-size: var(--buttons-500-size);
+  line-height: 16px;
+}
+.sobreNosotrosParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.buttonsDesktopChild {
+  position: absolute;
+  height: 110%;
+  width: 102.5%;
+  top: -5%;
+  right: -1.25%;
+  bottom: -5%;
+  left: -1.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.enabled {
+  position: absolute;
+  height: 36.36%;
+  width: 43.28%;
+  top: 31.82%;
+  left: 28.36%;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonsDesktop {
+  position: relative;
+  width: 160px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.buttonsDesktopWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-9xs);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--buttons-500-size);
+  color: var(--marrones-marron-7);
+}
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameChild,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild {
+  width: 383.5px;
+  flex-shrink: 0;
+}
+.frameItem {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+}
+.vectorParent,
+.vectorWrapper {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorWrapper {
+  align-self: stretch;
+  width: 383.5px;
+  flex-shrink: 0;
+  display: flex;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+}
+.vectorParent {
+  gap: var(--gap-base);
+}
+.frameParent,
+.sobreNosotros,
+.vectorParent {
+  align-self: stretch;
+  display: flex;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.sobreNosotros {
+  height: 576px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--h2-400-size);
+  color: var(--color-black);
+  font-family: var(--h2-400);
+}

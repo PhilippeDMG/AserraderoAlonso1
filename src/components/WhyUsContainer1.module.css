@@ -1,0 +1,80 @@
+.titulo {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #000000;
+  font-stretch: 100;
+}
+.subtitulo {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #000000;
+  font-stretch: 100;
+}
+.textoArriba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 100%;
+}
+.accountCircleIcon {
+  width: 64px;
+  height: 64px;
+}
+.personalAltamenteCualificado {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  font-stretch: 100;
+}
+.accountCircleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: fit-content;
+}
+.frameParent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  justify-items: center;
+}
+/* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px; */
+.porQueElegirnos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0px;
+  gap: 80px;
+  width: 100vw;
+}
+
+@media screen and (max-width: 1100px) {
+  .frameParent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

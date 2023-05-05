@@ -1,0 +1,74 @@
+.iconos {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.empresa,
+.home {
+  position: relative;
+  line-height: 16px;
+}
+.empresa {
+  flex: 1;
+}
+.home {
+  font-weight: 600;
+}
+.linkButtons,
+.linkButtons1,
+.linkButtons2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linkButtons {
+  border-bottom: 4px solid var(--marrones-marron-5);
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-75xl);
+  justify-content: space-between;
+  color: var(--marrones-marron-5);
+}
+.linkButtons1,
+.linkButtons2 {
+  background-color: var(--color-gainsboro);
+  padding: var(--padding-5xs);
+}
+.linkButtons1 {
+  border-bottom: 4px solid var(--marrones-marron-3);
+  justify-content: space-between;
+}
+.linkButtons2 {
+  justify-content: center;
+}
+.navbarLinks,
+.navbars {
+  box-sizing: border-box;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navbarLinks {
+  flex: 1;
+  padding: var(--padding-12xs) 0;
+  align-items: flex-start;
+  font-family: var(--footer-400-opensans);
+}
+.navbars {
+  align-self: stretch;
+  background-color: var(--marrones-marron-1);
+  border-bottom: 1px solid var(--marrones-marron-2);
+  flex-shrink: 0;
+  overflow: hidden;
+  padding: var(--padding-xs);
+  align-items: center;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--buttons-500-size);
+  color: var(--marrones-marron-8);
+  font-family: var(--h2-400);
+}

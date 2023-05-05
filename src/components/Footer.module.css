@@ -1,0 +1,65 @@
+.empresa {
+  position: relative;
+  line-height: 24px;
+}
+.empresaWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-13xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--h2-400-size);
+  font-family: var(--h2-400);
+}
+.footerChild {
+  position: relative;
+  border-right: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1px;
+  height: 153px;
+  flex-shrink: 0;
+}
+.inicio {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+}
+.inicioParent {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-45xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-45xl);
+}
+.redesIcon {
+  position: relative;
+  width: 163.13px;
+  height: 33px;
+  flex-shrink: 0;
+}
+.footer,
+.redesParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redesParent {
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  gap: var(--gap-xs);
+  text-align: center;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--marrones-marron-0);
+  height: 207px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--footer-400-opensans-size);
+  color: var(--color-black);
+  font-family: var(--footer-400-opensans);
+}
