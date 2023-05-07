@@ -1,0 +1,89 @@
+/* viewport 800 los botones no se muestran bien */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background: #fcf8f7;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.empresa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 10px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  gap: 12px;
+}
+
+.palo {
+  width: 152px;
+  height: 0px;
+
+  border: 1px solid #a0a0a0;
+  transform: rotate(90deg);
+}
+
+.iconos {
+  width: 163.12px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  justify-content: center;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 64px;
+  gap: 32px;
+}
+@media screen and (max-width: 1100px) {
+  .botones {
+    flex-wrap: wrap;
+    gap: 32px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+  }
+  .botones {
+    flex-direction: column;
+    gap: 0;
+  }
+  .boton {
+    width: 100%;
+    padding: 8px 0 8px 0;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: center;
+  }
+  .boton:nth-child(2) {
+    border-top: none;
+  }
+  .boton:nth-child(3) {
+    border-top: none;
+    border-bottom: none;
+  }
+  .palo {
+    display: none;
+  }
+}

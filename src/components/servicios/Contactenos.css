@@ -1,0 +1,59 @@
+.contactenos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 1592px;
+  height: 430px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 530.67px;
+  height: 430px;
+}
+.mapa {
+  box-sizing: border-box;
+
+  width: 530.67px;
+  height: 430px;
+
+  background: url("../../../public/mapa.png");
+  /* $gris-4 */
+
+  border-left: 1px solid #a0a0a0;
+}
+.titulo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #000000;
+}
+.botonBorder {
+  border: 2px solid rgba(209, 158, 121, 1);
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.input {
+  height: 32px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.text {
+  height: 102px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 4px;
+}

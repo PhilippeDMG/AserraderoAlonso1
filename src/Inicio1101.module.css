@@ -1,16 +1,8 @@
 .test {
   display: flex;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex: 1;
   background-color: var(--marrones-marron-0);
   flex-direction: column;
   align-items: center;
-}
-.inicio1101 {
-  position: relative;
   width: 100%;
-  height: 3314px;
-  flex-direction: row;
-  align-items: flex-start;
+  box-sizing: border-box;
 }

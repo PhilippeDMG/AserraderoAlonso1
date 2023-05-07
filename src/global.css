@@ -8,33 +8,23 @@ body {
   line-height: normal;
 }
 :root {
-  /* fonts */
-  --footer-400-opensans: "Open Sans";
-  --h2-400: Roboto;
-  --h1-900-bold: Inter;
-
   /* font sizes */
-  --footer-400-opensans-size: 12px;
-  --h2-400-size: 24px;
-  --buttons-500-size: 16px;
-  --font-size-17xl: 36px;
-  --h1-900-bold-size: 64px;
 
   /* Colors */
   --marrones-marron-0: #fcf8f7;
+  --marrones-marron-1: #ebe8e6;
+  --marrones-marron-2: #d1b6a3;
+  --marrones-marron-3: #d19e79;
+  --marrones-marron-5: #9e531c;
   --marrones-marron-7: #381800;
-  --color-gray-100: #00151f;
   --marrones-marron-8: #1f0300;
+  --color-gray-100: #00151f;
   --azules-negro-azul: #000a0e;
   --color-black: #000;
   --color-darkgray: #a0a0a0;
-  --marrones-marron-2: #d1b6a3;
-  --marrones-marron-3: #d19e79;
   --gris-1: #f1f2f3;
-  --marrones-marron-1: #ebe8e6;
   --azules-blanco-azul: #f5fcff;
   --color-gainsboro: rgba(217, 217, 217, 0);
-  --marrones-marron-5: #9e531c;
 
   /* Gaps */
   --gap-xs: 12px;
@@ -57,4 +47,134 @@ body {
   --padding-23xl: 42px;
   --padding-12xs: 1px;
   --padding-75xl: 94px;
+}
+.displayLarge {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 64px;
+  color: #000000;
+}
+.displayMedium {
+  background: #000000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 52px;
+  color: #000000;
+}
+.displaySmall {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+.headlineLarge {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+}
+.headlineMedium {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #000000;
+}
+.headlineSmall {
+  background: #000000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.titleLarge {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.titleMedium {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.titleSmall {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.bodyLarge {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.bodyMedium {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.bodySmall {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+.labelLarge {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.labelMedium {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+.labelSmall {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  color: #000000;
+}
+.botonBorder {
+  border: 2px solid rgba(209, 158, 121, 1);
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
