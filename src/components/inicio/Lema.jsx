@@ -1,21 +1,18 @@
-import styles from "./Lema.css"
+import styles from "./Lema.module.css"
+import typography from "../../global.module.css"
 const Lema = () => {
   return (
     <div className={styles.lema}>
-      <div className={styles.subtitulo}>"LEMA DE LA EMPRESA"</div>
-      <div className={styles.empresa}>EMPRESA</div>
+      <div className={typography.titleLarge}>Madera que inspira confianza</div>
+      <div className={typography.headlineLarge}>Alonso Timbercraft</div>
       <div className={styles.tarjeta}>LOCALIZACION</div>
-      <div className={`${styles.texto} ${styles.corto}`}>
+      <div className={`${typography.bodyLarge} ${styles.corto}`}>
         <p>Av. ejemplo 123 Provincia Argentina</p>
       </div>
       <div className={styles.palo}></div>
-      <div className={styles.texto}>
-        <p>¿CONSULTAS? LLÁMENOS +123 456 7890</p>
-      </div>
-      <div className={styles.redes}>
-        <img src='../../public/insta-circulo.png' />
-        <img src='../../public/mail-circulo.png' />
-        <img src='../../public/wpp-circulo.png' />
+      <div className={typography.bodyMedium}>
+        <p>¿CONSULTAS?</p>
+        <p>LLÁMENOS +123 456 7890</p>
       </div>
     </div>
   )

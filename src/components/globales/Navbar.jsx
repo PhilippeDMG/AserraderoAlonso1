@@ -1,5 +1,5 @@
-import styles from "./EmpresaContainer.module.css"
-const EmpresaContainer = () => {
+import styles from "./Navbar.module.css"
+const Navbar = () => {
   return (
     <div className={styles.navbars}>
       <img className={styles.iconos} alt='' src='/iconos4.svg' />
@@ -22,4 +22,4 @@ const EmpresaContainer = () => {
   )
 }
 
-export default EmpresaContainer
+export default Navbar

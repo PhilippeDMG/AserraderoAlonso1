@@ -1,0 +1,47 @@
+.nuestrosServicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 46px 50px rgba(0, 0, 0, 0.04))
+    drop-shadow(0px 29.8148px 29.2824px rgba(0, 0, 0, 0.0303704))
+    drop-shadow(0px 17.7185px 15.9259px rgba(0, 0, 0, 0.0242963))
+    drop-shadow(0px 9.2px 8.125px rgba(0, 0, 0, 0.02))
+    drop-shadow(0px 3.74815px 4.07407px rgba(0, 0, 0, 0.0157037));
+}
+.resumen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -75px;
+  gap: 24px;
+  width: 100%;
+  height: 260px;
+}
+.cartas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 64px;
+  gap: 12px;
+  width: 100%;
+}
+.carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px 16px;
+  gap: 16px;
+  width: 522.67px;
+  height: 124px;
+  background: #fcf8f7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 46px 50px rgba(0, 0, 0, 0.04),
+    0px 29.8148px 29.2824px rgba(0, 0, 0, 0.0303704),
+    0px 17.7185px 15.9259px rgba(0, 0, 0, 0.0242963),
+    0px 9.2px 8.125px rgba(0, 0, 0, 0.02),
+    0px 3.74815px 4.07407px rgba(0, 0, 0, 0.0157037);
+}

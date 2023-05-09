@@ -1,5 +1,5 @@
-import styles from "./Ejemplos.css"
-import typography from "../../global.css"
+import styles from "./Ejemplos.module.css"
+import typography from "../../global.module.css"
 
 const Ejemplos = () => {
   return (
@@ -25,13 +25,10 @@ const Ejemplos = () => {
           </div>
           <div className={typography.botonBorder}>Más</div>
         </div>
-        <div className={styles.figuras}>
-          <div className={styles.rectangulo1}></div>
-          <img src='../../../public/Maderas.png' className={styles.imagen} />
-          <div className={styles.rectangulo2}></div>
-        </div>
+        <img src='../../../public/Pallets.png' />
       </div>
       <div className={styles.carta}>
+        <img src='../../../public/Pallets2.png' />
         <div className={styles.texto}>
           <div className={typography.headlineLarge}>
             Tratamiento fitosanitario de tablas
@@ -50,11 +47,6 @@ const Ejemplos = () => {
             las regulaciones fitosanitarias.
           </div>
           <div className={typography.botonBorder}>Más</div>
-        </div>
-        <div className={styles.figuras}>
-          <div className={styles.rectangulo1}></div>
-          <img src='../../../public/Maderas.png' className={styles.imagen} />
-          <div className={styles.rectangulo2}></div>
         </div>
       </div>
       <div className={styles.carta}>
@@ -77,11 +69,7 @@ const Ejemplos = () => {
           </div>
           <div className={typography.botonBorder}>Más</div>
         </div>
-        <div className={styles.figuras}>
-          <div className={styles.rectangulo1}></div>
-          <img src='../../../public/Maderas.png' className={styles.imagen} />
-          <div className={styles.rectangulo2}></div>
-        </div>
+        <img src='../../../public/Pallets3.png' />
       </div>
     </div>
   )

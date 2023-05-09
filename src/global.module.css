@@ -11,20 +11,13 @@ body {
   /* font sizes */
 
   /* Colors */
-  --marrones-marron-0: #fcf8f7;
-  --marrones-marron-1: #ebe8e6;
-  --marrones-marron-2: #d1b6a3;
-  --marrones-marron-3: #d19e79;
-  --marrones-marron-5: #9e531c;
-  --marrones-marron-7: #381800;
-  --marrones-marron-8: #1f0300;
-  --color-gray-100: #00151f;
-  --azules-negro-azul: #000a0e;
-  --color-black: #000;
-  --color-darkgray: #a0a0a0;
-  --gris-1: #f1f2f3;
-  --azules-blanco-azul: #f5fcff;
-  --color-gainsboro: rgba(217, 217, 217, 0);
+  --primario-0: #fcf8f7;
+  --primario-1: #ebe8e6;
+  --primario-2: #d1b6a3;
+  --primario-3: #d19e79;
+  --primario-5: #9e531c;
+  --primario-7: #381800;
+  --primario-8: #1f0300;
 
   /* Gaps */
   --gap-xs: 12px;

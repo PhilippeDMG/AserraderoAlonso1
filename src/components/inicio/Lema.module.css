@@ -1,18 +1,14 @@
-.iconos {
-  width: 163.12px;
-  height: 33px;
-  display: flex;
-  flex-direction: row;
-  gap: 10%;
-  justify-content: center;
-}
 .lema {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 24px 12px;
-  gap: 16px;
+  text-align: center;
+  padding: 0px 12px;
+  gap: 24px;
+
+  width: 530.67px;
+  height: 430px;
 }
 .subtitulo {
   font-family: "Open Sans";

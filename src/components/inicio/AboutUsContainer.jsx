@@ -1,5 +1,5 @@
 import styles from "./AboutUsContainer.module.css"
-import typography from "../../global.css"
+import typography from "../../global.module.css"
 
 const AboutUsContainer = () => {
   return (
