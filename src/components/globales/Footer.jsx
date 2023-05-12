@@ -1,17 +1,17 @@
-import styles from "./Footer.module.css"
+import "./Footer.css"
 const Footer = () => {
   return (
-    <div className={styles.footer}>
-      <div className={styles.empresa}>Empresa</div>
-      <div className={styles.palo}></div>
-      <div className={styles.botones}>
-        <div className={styles.boton}>Inicio</div>
-        <div className={styles.boton}>Nosotros</div>
-        <div className={styles.boton}>Servicios</div>
-        <div className={styles.boton}>Contactos</div>
+    <div className='footer'>
+      <div className='empresa'>Empresa</div>
+      <div className='palo'></div>
+      <div className='botones'>
+        <div className='boton'>Inicio</div>
+        <div className='boton'>Nosotros</div>
+        <div className='boton'>Servicios</div>
+        <div className='boton'>Contactos</div>
       </div>
-      <div className={styles.redes}>
-        <div className={styles.iconos}>
+      <div className='redes'>
+        <div className='iconos'>
           <img src='../../public/insta-circulo.png' />
           <img src='../../public/mail-circulo.png' />
           <img src='../../public/wpp-circulo.png' />

@@ -1,32 +1,24 @@
 import styles from "./ServicioContainer.module.css"
+
 const ServicioContainer = () => {
   return (
     <div className={styles.servicios}>
-      <div className={styles.imagenes}>
-        <img
-          src='../../public/rectangle-611@2x.png'
-          loading='lazy'
-          className={styles.imagen1}
-        />
-        <img
-          src='../../public/rectangle-581@2x.png'
-          loading='lazy'
-          className={styles.imagen2}
-        />
+      <div className={styles.carrusel}>
+        <img src='../../public/ServiciosInicio.png' loading='lazy' />
       </div>
       <div className={styles.texto}>
-        <div className={styles.titulo}>Servicio</div>
-        <div className={styles.cuerpo}>
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum
+        <div className='displayLarge'>Tratamiento fitosanitario</div>
+        <div className='bodyLarge'>
+          El tratamiento fitosanitario es un conjunto de técnicas utilizadas en
+          la agricultura para proteger las plantas y cultivos de plagas,
+          enfermedades y malezas. Involucra la aplicación de productos químicos,
+          biológicos o métodos de control integrado para mantener la salud de
+          las plantas y garantizar una producción agrícola eficiente y
+          sostenible.
         </div>
         <div className={styles.botones}>
-          <div className={styles.botonBorder}>Más</div>
-          <div className={styles.botonFill}>Contáctenos</div>
+          <div className='botonBorder'>Más</div>
+          <div className='botonFull'>Contáctenos</div>
         </div>
       </div>
     </div>

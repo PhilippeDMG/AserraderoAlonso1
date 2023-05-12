@@ -4,3 +4,8 @@
   align-items: flex-start;
   padding: 0px;
 }
+.mapa {
+  box-sizing: border-box;
+  height: auto;
+  width: 33.33%;
+}

@@ -1,15 +1,14 @@
-import styles from "./Ejemplos.module.css"
-import typography from "../../global.module.css"
+import "./Ejemplos.module.css"
 
 const Ejemplos = () => {
   return (
-    <div className={styles.ejemplos}>
-      <div className={styles.carta}>
-        <div className={styles.texto}>
-          <div className={typography.headlineLarge}>
+    <div className='ejemplos'>
+      <div className='carta'>
+        <div className='texto'>
+          <div className='headlineLarge'>
             Tratamiento fitosanitario de pallets
           </div>
-          <div className={typography.bodyLarge}>
+          <div className='bodyLarge'>
             Nuestro servicio de tratamiento fitosanitario de pallets es una
             etapa esencial en la cadena logística y comercial. Mediante un
             proceso cuidadoso de calentamiento controlado, eliminamos plagas y
@@ -23,17 +22,17 @@ const Ejemplos = () => {
             su vida útil y asegurando un rendimiento confiable en el manejo y
             almacenamiento de mercancías.
           </div>
-          <div className={typography.botonBorder}>Más</div>
+          <div className='botonBorder'>Más</div>
         </div>
         <img src='../../../public/Pallets.png' />
       </div>
-      <div className={styles.carta}>
+      <div className='carta'>
         <img src='../../../public/Pallets2.png' />
-        <div className={styles.texto}>
-          <div className={typography.headlineLarge}>
+        <div className='texto'>
+          <div className='headlineLarge'>
             Tratamiento fitosanitario de tablas
           </div>
-          <div className={typography.bodyLarge}>
+          <div className='bodyLarge'>
             Nuestro servicio de tratamiento fitosanitario de tablas de madera es
             esencial para garantizar su calidad, durabilidad y cumplimiento
             fitosanitario. A través de un proceso de calentamiento controlado,
@@ -46,15 +45,13 @@ const Ejemplos = () => {
             tranquilidad a nuestros clientes y garantizando la conformidad con
             las regulaciones fitosanitarias.
           </div>
-          <div className={typography.botonBorder}>Más</div>
+          <div className='botonBorder'>Más</div>
         </div>
       </div>
-      <div className={styles.carta}>
-        <div className={styles.texto}>
-          <div className={typography.headlineLarge}>
-            Fabricación de pallets tratados
-          </div>
-          <div className={typography.bodyLarge}>
+      <div className='carta'>
+        <div className='texto'>
+          <div className='headlineLarge'>Fabricación de pallets tratados</div>
+          <div className='bodyLarge'>
             Nuestro servicio de fabricación de pallets tratados es la solución
             perfecta para sus necesidades de transporte y almacenamiento
             seguros. Utilizando madera sometida a un riguroso proceso de
@@ -67,7 +64,7 @@ const Ejemplos = () => {
             de sus productos y la eficiencia en su cadena de suministro,
             brindando soluciones confiables y seguras para su negocio.
           </div>
-          <div className={typography.botonBorder}>Más</div>
+          <div className='botonBorder'>Más</div>
         </div>
         <img src='../../../public/Pallets3.png' />
       </div>

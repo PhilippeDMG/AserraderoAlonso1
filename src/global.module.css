@@ -47,16 +47,13 @@ body {
   font-weight: 400;
   font-size: 57px;
   line-height: 64px;
-  color: #000000;
 }
 .displayMedium {
-  background: #000000;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
   line-height: 52px;
-  color: #000000;
 }
 .displaySmall {
   font-family: "Open Sans";
@@ -64,7 +61,6 @@ body {
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
-  color: #000000;
 }
 .headlineLarge {
   font-family: "Open Sans";
@@ -72,7 +68,6 @@ body {
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
-  color: #000000;
 }
 .headlineMedium {
   font-family: "Open Sans";
@@ -80,7 +75,6 @@ body {
   font-weight: 400;
   font-size: 28px;
   line-height: 36px;
-  color: #000000;
 }
 .headlineSmall {
   background: #000000;
@@ -89,7 +83,6 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  color: #000000;
 }
 .titleLarge {
   font-family: "Open Sans";
@@ -97,7 +90,6 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  color: #000000;
 }
 .titleMedium {
   font-family: "Open Sans";
@@ -105,7 +97,6 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
 }
 .titleSmall {
   font-family: "Open Sans";
@@ -113,7 +104,6 @@ body {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #000000;
 }
 .bodyLarge {
   font-family: "Open Sans";
@@ -121,7 +111,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
 }
 .bodyMedium {
   font-family: "Open Sans";
@@ -129,7 +118,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #000000;
 }
 .bodySmall {
   font-family: "Open Sans";
@@ -137,7 +125,6 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #000000;
 }
 .labelLarge {
   font-family: "Open Sans";
@@ -145,7 +132,6 @@ body {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #000000;
 }
 .labelMedium {
   font-family: "Open Sans";
@@ -153,7 +139,6 @@ body {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  color: #000000;
 }
 .labelSmall {
   font-family: "Open Sans";
@@ -161,13 +146,28 @@ body {
   font-weight: 600;
   font-size: 11px;
   line-height: 16px;
-  color: #000000;
 }
 .botonBorder {
   border: 2px solid rgba(209, 158, 121, 1);
-  width: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
+  width: 120px;
+  padding: 8px 16px;
+}
+.botonFull {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  color: var(--primario-0);
+  background: #331200;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 46px 50px rgba(0, 0, 0, 0.04),
+    0px 29.8148px 29.2824px rgba(0, 0, 0, 0.0303704),
+    0px 17.7185px 15.9259px rgba(0, 0, 0, 0.0242963),
+    0px 9.2px 8.125px rgba(0, 0, 0, 0.02),
+    0px 3.74815px 4.07407px rgba(0, 0, 0, 0.0157037);
 }
