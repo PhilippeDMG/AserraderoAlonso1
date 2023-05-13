@@ -6,6 +6,7 @@
 body {
   margin: 0;
   line-height: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 :root {
   /* font sizes */
