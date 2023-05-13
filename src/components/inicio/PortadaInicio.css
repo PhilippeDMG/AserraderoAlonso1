@@ -1,0 +1,48 @@
+.fondo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 64px;
+  gap: 36px;
+  background: url("InicioFondo.jpg");
+  width: 100%;
+  height: auto;
+}
+.cuadro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 13px;
+  gap: 55px;
+
+  width: 1576px;
+  height: 486px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(12, 12, 11, 0.0186047) 37.5%,
+    rgba(126, 124, 124, 0.2) 90.62%,
+    rgba(252, 248, 247, 0.3) 100%
+  );
+  /* material-theme/sys/light/on-primary */
+
+  border: 2px solid #ffffff;
+}
+.estediv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
+.cuadro * {
+  color: var(--primario-0);
+}
+.contenedorBotones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}

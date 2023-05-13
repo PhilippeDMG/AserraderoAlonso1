@@ -1,16 +1,18 @@
 import Navbar from "../components/globales/Navbar"
 import NuestrosServicios from "../components/servicios/NuestrosServicios"
 import Ejemplos from "../components/servicios/Ejemplos"
-import Contactenos from "../components/globales/Contactenos"
+import Contactos from "../components/globales/Contactos"
 import Footer from "../components/globales/Footer"
-import styles from "./Servicios.css"
+import "./Servicios.css"
 const Servicios = () => {
   return (
-    <div className={styles.main}>
+    <div className='main'>
       <Navbar />
       <NuestrosServicios />
       <Ejemplos />
-      <Contactenos />
+      <Contactos>
+        <img src='../../../public/mapa.png' className='mapa' />
+      </Contactos>
       <Footer />
     </div>
   )

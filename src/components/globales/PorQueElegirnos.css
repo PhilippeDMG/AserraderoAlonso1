@@ -1,0 +1,37 @@
+.textoArriba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+.accountCircleIcon {
+  width: 64px;
+  height: 64px;
+}
+.accountCircleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+}
+.frameParent {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  gap: 10%;
+}
+.porQueElegirnos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 0px;
+  gap: 32px;
+  width: 100vw;
+}
+
+@media screen and (max-width: 1100px) {
+  .frameParent {
+  }
+}

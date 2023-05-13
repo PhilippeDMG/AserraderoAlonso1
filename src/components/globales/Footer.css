@@ -2,22 +2,16 @@
 
 .footer {
   display: flex;
-  flex-direction: row;
   align-items: center;
   width: 100%;
-  background: #fcf8f7;
+  color: var(--primario-0);
+  background: var(--primario-7);
   flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .empresa {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 32px;
-  gap: 10px;
 }
 
 .redes {
@@ -42,11 +36,10 @@
 }
 
 .palo {
-  width: 152px;
-  height: 0px;
+  width: 0;
+  height: 64px;
 
   border: 1px solid #a0a0a0;
-  transform: rotate(90deg);
 }
 
 .botones {

@@ -1,10 +1,14 @@
 import Portada from "../components/globales/Portada"
 import Navbar from "../components/globales/Navbar"
 import Footer from "../components/globales/Footer"
-import styles from "./SobreNosotros.module.css"
+import MisionVision from "../components/sobreNosotros/MisionVision"
+import Instalaciones from "../components/sobreNosotros/Instalaciones"
+import PorQueElegirnos from "../components/globales/PorQueElegirnos"
+import Contactos from "../components/globales/Contactos"
+import "./SobreNosotros.css"
 const SobreNosotros = () => {
   return (
-    <div className={styles.main}>
+    <div className='main'>
       <Navbar />
       <Portada
         titulo={"Sobre Nosotros"}
@@ -13,6 +17,10 @@ const SobreNosotros = () => {
         }
         nombreImagen={"SobreNosotrosPortada.png"}
       />
+      <MisionVision />
+      <Instalaciones />
+      <PorQueElegirnos />
+      <Contactos />
       <Footer />
     </div>
   )

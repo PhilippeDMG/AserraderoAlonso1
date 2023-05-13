@@ -1,20 +1,21 @@
-import AboutUsContainer from "../components/inicio/AboutUsContainer"
-import CompanyNameContainer from "../components/inicio/CompanyNameContainer"
-import Lema from "../components/inicio/Lema"
 import Navbar from "../components/globales/Navbar"
-import Footer from "../components/globales/Footer"
+import PortadaInicio from "../components/inicio/PortadaInicio"
+import AboutUsContainer from "../components/inicio/AboutUsContainer"
+import PorQueElegirnos from "../components/globales/PorQueElegirnos"
 import ServicioContainer from "../components/inicio/ServicioContainer"
-import WhyUsContainer1 from "../components/inicio/WhyUsContainer1"
-import styles from "./Inicio1101.module.css"
+import Footer from "../components/globales/Footer"
+import Direccion from "../components/inicio/Direccion"
+import "./Inicio.css"
+
 const Inicio = () => {
   return (
-    <div className={styles.test}>
+    <div className='main'>
       <Navbar />
-      <CompanyNameContainer />
+      <PortadaInicio />
       <AboutUsContainer />
-      <WhyUsContainer1 />
+      <PorQueElegirnos />
       <ServicioContainer />
-      <Lema />
+      <Direccion />
       <Footer />
     </div>
   )
