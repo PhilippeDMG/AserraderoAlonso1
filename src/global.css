@@ -152,7 +152,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 32px;
   width: 120px;
   padding: 8px 16px;
 }
@@ -162,7 +162,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 120px;
-  height: 40px;
+  height: 32px;
   color: var(--primario-0);
   background: #331200;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 46px 50px rgba(0, 0, 0, 0.04),

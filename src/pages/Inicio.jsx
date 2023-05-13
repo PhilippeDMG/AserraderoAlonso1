@@ -5,7 +5,7 @@ import PorQueElegirnos from "../components/globales/PorQueElegirnos"
 import ServicioContainer from "../components/inicio/ServicioContainer"
 import Footer from "../components/globales/Footer"
 import Direccion from "../components/inicio/Direccion"
-import "./Inicio.module.css"
+import "./Inicio.css"
 
 const Inicio = () => {
   return (

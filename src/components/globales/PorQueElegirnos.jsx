@@ -15,15 +15,11 @@ const PorQueElegirnos = () => {
             alt=''
             src='/account-circle21.svg'
           />
-          <div className='personalAltamenteCualificado'>
-            Personal altamente cualificado
-          </div>
+          <div className='bodyLarge'>Seguridad</div>
         </div>
         <div className='accountCircleParent'>
           <img className='accountCircleIcon' alt='' src='/eco.svg' />
-          <div className='personalAltamenteCualificado'>
-            Personal altamente cualificado
-          </div>
+          <div className='bodyLarge'>Experiencia</div>
         </div>
         <div className='accountCircleParent'>
           <img
@@ -31,15 +27,11 @@ const PorQueElegirnos = () => {
             alt=''
             src='/health-and-safety.svg'
           />
-          <div className='personalAltamenteCualificado'>
-            Personal altamente cualificado
-          </div>
+          <div className='bodyLarge'>Confianza</div>
         </div>
         <div className='accountCircleParent'>
           <img className='accountCircleIcon' alt='' src='/apartment.svg' />
-          <div className='personalAltamenteCualificado'>
-            Personal altamente cualificado
-          </div>
+          <div className='bodyLarge'>Eficiencia</div>
         </div>
       </div>
     </div>

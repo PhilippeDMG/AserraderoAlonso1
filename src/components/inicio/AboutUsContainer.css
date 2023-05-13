@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
   max-width: 45%;
   height: 100%;
   overflow: hidden;
@@ -36,7 +36,7 @@
   width: 383.5px;
   height: 512px;
 
-  background: url("../../public/image21.png"), #f5fcff;
+  background: url("image21.png"), #f5fcff;
 }
 .imagen2 {
   box-sizing: border-box;
@@ -44,11 +44,11 @@
   width: 351.5px;
   height: 480px;
 
-  background: url("../../public/image22.png"), #f5fcff;
+  background: url("image22.png"), #f5fcff;
   border: 1px solid #000000;
 }
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
   .imagenes {
     flex-direction: column;
     padding: 32px 0px;
@@ -64,4 +64,4 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-}
+} */

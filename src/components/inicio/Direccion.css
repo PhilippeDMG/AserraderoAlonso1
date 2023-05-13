@@ -1,0 +1,27 @@
+.imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: url("Direccion.jpg");
+  margin-bottom: 64px;
+  width: 100vw;
+}
+.rectangulo {
+  background: var(--primario-0);
+  padding: 32px 16px;
+  width: fit-content;
+}
+.eltexto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.lascols {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.titleLarge {
+  padding: 8px 0px;
+}

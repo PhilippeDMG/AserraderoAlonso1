@@ -5,7 +5,7 @@
   align-items: center;
   padding: 56px 64px;
   gap: 36px;
-  background: url("../../../public/InicioFondo.jpg");
+  background: url("InicioFondo.jpg");
   width: 100%;
   height: auto;
 }
@@ -31,7 +31,7 @@
 
   border: 2px solid #ffffff;
 }
-.texto {
+.estediv {
   display: flex;
   flex-direction: column;
   align-items: center;
