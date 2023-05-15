@@ -4,17 +4,17 @@ const Footer = () => {
     <div className='footer'>
       <div className='titleLarge empresa'>Empresa</div>
       <div className='palo'></div>
-      <div className='botones'>
-        <div className='labelLarge'>Inicio</div>
-        <div className='labelLarge'>Nosotros</div>
-        <div className='labelLarge'>Servicios</div>
-        <div className='labelLarge'>Contactos</div>
+      <div className='losBotones'>
+        <div className='labelLarge elBoton'>Inicio</div>
+        <div className='labelLarge elBoton'>Nosotros</div>
+        <div className='labelLarge elBoton'>Servicios</div>
+        <div className='labelLarge elBoton'>Contactos</div>
       </div>
       <div className='redes'>
         <div className='iconos'>
-          <img src='/insta-circulo.png' />
-          <img src='/mail-circulo.png' />
-          <img src='/wpp-circulo.png' />
+          <img src='/insta-circulo.svg' />
+          <img src='/mail-circulo.svg' />
+          <img src='/wpp-circulo.svg' />
         </div>
 
         <div className='labelLarge'>ejemplo@mail.com</div>

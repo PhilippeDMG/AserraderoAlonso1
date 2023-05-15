@@ -1,4 +1,4 @@
-import "./Ejemplos.module.css"
+import "./Ejemplos.css"
 
 const Ejemplos = () => {
   return (

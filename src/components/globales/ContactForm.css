@@ -1,0 +1,28 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0px 32px;
+  height: 400px;
+  justify-content: center;
+}
+
+.input {
+  height: 32px;
+  width: 340px;
+  background: var(--primario-0);
+  border: none;
+}
+.text {
+  height: 102px;
+  width: 340px;
+  background: var(--primario-0);
+  border-radius: 4px;
+  border: none;
+}
+@media screen and (max-width: 800px) {
+  .contactForm {
+    align-items: center;
+  }
+}

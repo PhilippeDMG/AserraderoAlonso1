@@ -1,6 +1,6 @@
 .fondo {
   width: 95%;
-  height: 630px;
+  height: 50%;
   display: flex;
   flex-direction: column;
   padding: 120px 64px;
@@ -19,10 +19,7 @@
       rgba(0, 0, 0, 0) 100%
     );
 }
-.white {
-  color: #ffffff;
-  width: 550px;
-}
+
 .texto1 {
   background: #381800;
   height: 100%;
@@ -39,4 +36,7 @@
     rgba(255, 255, 255, 0) 100%
   );
   border-radius: 4px;
+}
+.texto1 > * {
+  color: var(--primario-0);
 }

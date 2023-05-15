@@ -3,12 +3,16 @@ const Lema = () => {
   return (
     <div className='lema'>
       <div className='titleLarge'>Madera que inspira confianza</div>
-      <div className='headlineLarge'>Alonso Timbercraft</div>
-      <div className='tarjeta'>LOCALIZACION</div>
-      <div className='bodyLarge corto'>
-        <p>Av. ejemplo 123 Provincia Argentina</p>
+      <div className='headlineLarge'>Alonso TimberCraft</div>
+      <div className='tarjeta'>LOCALIZACIÓN</div>
+      <div className='bodyLarge'>
+        Av. ejemplo 123
+        <br />
+        Provincia
+        <br />
+        Argentina
       </div>
-      <div className='palo'></div>
+      <div className='mipalo'></div>
       <div className='bodyMedium'>
         <p>¿CONSULTAS?</p>
         <p>LLÁMENOS +123 456 7890</p>
