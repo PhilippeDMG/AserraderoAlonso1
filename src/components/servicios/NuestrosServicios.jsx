@@ -12,7 +12,7 @@ const NuestrosServicios = () => {
       />
       <div className='resumen'>
         <div className='cartas'>
-          <div className='carta'>
+          <div className='miCarta'>
             <div className='titleLarge'>
               Tratamiento fitosanitario de pallets
             </div>
@@ -21,7 +21,7 @@ const NuestrosServicios = () => {
               bioseguridad en el transporte y almacenamiento.
             </div>
           </div>
-          <div className='carta'>
+          <div className='miCarta'>
             <div className='titleLarge'>
               Tratamiento fitosanitario de tablas
             </div>
@@ -31,7 +31,7 @@ const NuestrosServicios = () => {
               y cumplimiento fitosanitario.
             </div>
           </div>
-          <div className='carta'>
+          <div className='miCarta'>
             <div className='titleLarge'>Fabricación de pallets tratados</div>
             <div className='bodyLarge'>
               Fabricación de estructuras de madera para facilitar el transporte

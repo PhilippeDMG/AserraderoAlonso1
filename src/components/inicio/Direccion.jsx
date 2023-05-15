@@ -2,7 +2,7 @@ import "./Direccion.css"
 
 const Direccion = () => {
   return (
-    <div className='imagen'>
+    <div className='direccion'>
       <div className='rectangulo'>
         <div className='eltexto'>
           <div className='headlineLarge'>Dónde encontrarnos</div>

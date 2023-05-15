@@ -30,6 +30,11 @@
   height: 100%;
   overflow: hidden;
 }
+.img {
+  display: block;
+  border: 0;
+  padding: 0;
+}
 .imagen1 {
   box-sizing: border-box;
 

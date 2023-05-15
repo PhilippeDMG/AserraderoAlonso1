@@ -7,13 +7,12 @@ import "./Servicios.css"
 const Servicios = () => {
   return (
     <div className='main'>
-      <Navbar />
+      {/* <Navbar /> */}
       <NuestrosServicios />
-      <Ejemplos />
-      <Contactos>
-        <img src='../../../public/mapa.png' className='mapa' />
-      </Contactos>
-      <Footer />
+      {/* <Ejemplos /> */}
+      {/* <Contactos /> */}
+
+      {/* <Footer /> */}
     </div>
   )
 }

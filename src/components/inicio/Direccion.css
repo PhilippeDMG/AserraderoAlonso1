@@ -1,15 +1,21 @@
-.imagen {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: url("Direccion.jpg");
-  margin-bottom: 64px;
+.direccion {
+  background: url("/Direccion.jpg");
+  background-size: cover;
   width: 100vw;
+  height: 550px;
 }
 .rectangulo {
   background: var(--primario-0);
   padding: 32px 16px;
   width: fit-content;
+  position: relative;
+  z-index: 2;
+  left: 10%;
+  top: 10%;
+  max-width: 80%;
+}
+.rectangulo .botonBorder {
+  margin-top: 8px;
 }
 .eltexto {
   display: flex;
@@ -22,6 +28,6 @@
   justify-content: space-between;
   width: 100%;
 }
-.titleLarge {
+.lascols .titleLarge {
   padding: 8px 0px;
 }
