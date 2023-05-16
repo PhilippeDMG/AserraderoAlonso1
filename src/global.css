@@ -9,11 +9,12 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
+  width: 100vw;
   line-height: normal;
   font-family: 'Open Sans', sans-serif;
 }
 :root {
-  /* font sizes */
 
   /* Colors */
   --primario-0: #fcf8f7;
