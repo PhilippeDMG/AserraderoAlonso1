@@ -1,17 +1,17 @@
-import "./Direccion.css"
+import style from "./Direccion.module.css"
 
 const Direccion = () => {
   return (
-    <div className='direccion'>
-      <div className='rectangulo'>
-        <div className='eltexto'>
+    <div className={style.direccion}>
+      <div className={style.rectangulo}>
+        <div className={style.eltexto}>
           <div className='headlineLarge'>Dónde encontrarnos</div>
           <div className='bodyLarge'>
             Nuestra empresa se encuentra en Concordia Entre Rios, ubicada en
             Osvaldo Magnasco.
           </div>
-          <div className='lascols'>
-            <div className='prim'>
+          <div className={style.lascols}>
+            <div>
               <div className='titleLarge'>Address</div>
               <div className='bodyMedium'>
                 MWPW+9F
@@ -21,7 +21,7 @@ const Direccion = () => {
                 Entre Ríos
               </div>
             </div>
-            <div className='seg'>
+            <div>
               <div className='titleLarge'>Telephone</div>
               <div className='bodyMedium'>+54 954 4814 485</div>
               <div className='titleLarge'>Email</div>

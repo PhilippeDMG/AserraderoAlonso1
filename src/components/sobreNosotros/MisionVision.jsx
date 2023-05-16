@@ -1,10 +1,10 @@
-import "./MisionVision.css"
+import style from "./MisionVision.module.css"
 
 const MisionVision = () => {
   return (
-    <div className='misionVision'>
-      <div className='contenedor'>
-        <div className='texto'>
+    <div className={style.misionVision}>
+      <div className={style.contenedor}>
+        <div className={style.texto}>
           <div className='headlineLarge'>Mision</div>
           <div className='bodyLarge'>
             Nuestra misión es ser líderes en la industria como proveedores
@@ -21,9 +21,9 @@ const MisionVision = () => {
         </div>
         <img src='../../../public/Mision.png' />
       </div>
-      <div className='contenedor'>
+      <div className={style.contenedor}>
         <img src='../../../public/Vision.png' />
-        <div className='texto'>
+        <div className={style.texto}>
           <div className='headlineLarge'>Vision</div>
           <div className='bodyLarge'>
             Nuestra visión es ser reconocidos como referentes en la industria,

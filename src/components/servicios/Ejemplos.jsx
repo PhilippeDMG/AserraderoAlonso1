@@ -1,10 +1,10 @@
-import "./Ejemplos.css"
+import style from "./Ejemplos.module.css"
 
 const Ejemplos = () => {
   return (
-    <div className='ejemplos'>
-      <div className='carta'>
-        <div className='texto'>
+    <div className={style.ejemplos}>
+      <div className={style.carta}>
+        <div className={style.texto}>
           <div className='headlineLarge'>
             Tratamiento fitosanitario de pallets
           </div>
@@ -26,9 +26,9 @@ const Ejemplos = () => {
         </div>
         <img src='../../../public/Pallets.png' />
       </div>
-      <div className='carta'>
+      <div className={style.carta}>
         <img src='../../../public/Pallets2.png' />
-        <div className='texto'>
+        <div className={style.texto}>
           <div className='headlineLarge'>
             Tratamiento fitosanitario de tablas
           </div>
@@ -48,8 +48,8 @@ const Ejemplos = () => {
           <div className='botonBorder'>Más</div>
         </div>
       </div>
-      <div className='carta'>
-        <div className='texto'>
+      <div className={style.carta}>
+        <div className={style.texto}>
           <div className='headlineLarge'>Fabricación de pallets tratados</div>
           <div className='bodyLarge'>
             Nuestro servicio de fabricación de pallets tratados es la solución

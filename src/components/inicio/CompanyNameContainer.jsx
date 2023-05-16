@@ -1,10 +1,10 @@
-import "./CompanyNameContainer.module.css"
+import style from "./CompanyNameContainer.module.css"
 const CompanyNameContainer = () => {
   return (
-    <div className='fondo'>
-      <div className='contenido'>
-        <div className='titulo'>Nombre de la Empresa</div>
-        <div className='subtitulo'>
+    <div className={style.fondo}>
+      <div className={style.contenido}>
+        <div className='displayLarge'>Nombre de la Empresa</div>
+        <div className='bodyLarge'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           condimentum ex quis massa fermentum, quis suscipit leo tincidunt.
           Aenean vel dignissim turpis.

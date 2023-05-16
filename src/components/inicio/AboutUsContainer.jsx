@@ -1,11 +1,11 @@
-import "./AboutUsContainer.css"
+import style from "./AboutUsContainer.module.css"
 
 const AboutUsContainer = () => {
   return (
-    <div className='sobreNosotros'>
-      <div className='izquierda'>
-        <div className='texto'>
-          <div className='displayLarge'>Sobre Nosotros</div>
+    <div className={style.sobreNosotros}>
+      <div className={style.izquierda}>
+        <div className={style.texto}>
+          <div className={style.displayLarge}>Sobre Nosotros</div>
           <div className='bodyLarge'>
             Somos un aserradero familiar con más de 40 años de experiencia en el
             rubro. Nos enorgullece ofrecer una amplia gama de servicios, desde
@@ -18,11 +18,11 @@ const AboutUsContainer = () => {
             brindar soluciones a medida para sus necesidades de madera.
           </div>
         </div>
-        <div className='botonBorder labelLarge'>Más</div>
+        <div className={`botonBorder labelLarge`}>Más</div>
       </div>
-      <div className='imagenes'>
-        <img className='imagen1' />
-        <img className='imagen2' />
+      <div className={style.imagenes}>
+        <img className={style.imagen1} />
+        <img className={style.imagen2} />
       </div>
     </div>
   )

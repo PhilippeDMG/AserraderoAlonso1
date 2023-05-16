@@ -14,7 +14,7 @@ const Contactenos = () => {
         }
         nombreImagen={"NuestrosServiciosFondo.png"}
       />
-      <Contactos usarMapa={false} />
+      <Contactos />
       <Footer />
     </div>
   )

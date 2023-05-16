@@ -10,6 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  max-width: 100%;
   width: 100vw;
   line-height: normal;
   font-family: 'Open Sans', sans-serif;
@@ -47,6 +48,8 @@ body {
   --padding-12xs: 1px;
   --padding-75xl: 94px;
 }
+
+  /* font sizes */
 .displayLarge {
   font-family: "Open Sans";
   font-style: normal;
@@ -153,6 +156,7 @@ body {
   font-size: 11px;
   line-height: 16px;
 }
+
 .botonBorder {
   border: 2px solid rgba(209, 158, 121, 1);
   display: flex;

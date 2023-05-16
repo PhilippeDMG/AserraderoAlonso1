@@ -37,7 +37,7 @@ body {
 
   backdrop-filter: blur(2px);
 }
-.titulo {
+/* .titulo {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -53,13 +53,13 @@ body {
   font-size: 14px;
   line-height: 20px;
   /* or 143% */
-
+/* 
   text-align: center;
 
   /* material-theme/white */
 
-  color: #ffffff;
-}
+  /* color: #ffffff;
+} */
 
 .botones {
   display: flex;

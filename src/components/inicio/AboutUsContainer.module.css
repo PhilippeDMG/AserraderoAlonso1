@@ -16,11 +16,11 @@
   width: 45%;
 }
 .texto {
-  font-family: "Open Sans";
+  /* font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24px; */
   display: flex;
   align-items: start;
   text-align: start;

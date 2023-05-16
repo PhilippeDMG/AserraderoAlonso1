@@ -5,4 +5,5 @@
   max-width: 100%;
   box-sizing: border-box;
   background-color: var(--marrones-marron-0);
+  overflow: hidden;
 }

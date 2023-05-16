@@ -25,15 +25,15 @@
       "mapa mapa"
       "contactenos lema";
   }
-  .contactForm {
+  img {
+    grid-area: mapa;
+  }
+  /* .contactForm {
     grid-area: contactenos;
   }
   .lema {
     grid-area: lema;
-  }
-  img {
-    grid-area: mapa;
-  }
+  }*/
 }
 @media screen and (max-width: 800px) {
   .contactenos {

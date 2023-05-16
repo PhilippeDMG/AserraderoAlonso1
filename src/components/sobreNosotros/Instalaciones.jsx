@@ -1,9 +1,9 @@
-import "./Instalaciones.css"
+import style from "./Instalaciones.module.css"
 
 const Instalaciones = () => {
   return (
-    <div className='instalaciones'>
-      <div className='texto'>
+    <div className={style.instalaciones}>
+      <div className={style.texto}>
         <div className='headlineLarge'>Instalaciones</div>
         <div className='bodyLarge'>
           Nuestras instalaciones eficientes y funcionales están equipadas con
@@ -12,7 +12,7 @@ const Instalaciones = () => {
           capacitado para garantizar la calidad en nuestros servicios.
         </div>
       </div>
-      <div className='carrusel'>
+      <div className={style.carrusel}>
         {/* <img src='../../../public/flechaIzquierda.jpg' /> */}
         <img src='../../../public/Instalaciones.png' />
         {/* <img src='../../../public/flechaDerecha.jpg' /> */}

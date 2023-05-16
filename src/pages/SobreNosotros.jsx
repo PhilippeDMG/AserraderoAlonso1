@@ -5,10 +5,10 @@ import MisionVision from "../components/sobreNosotros/MisionVision"
 import Instalaciones from "../components/sobreNosotros/Instalaciones"
 import PorQueElegirnos from "../components/globales/PorQueElegirnos"
 import Contactos from "../components/globales/Contactos"
-import "./SobreNosotros.css"
+import style from "./SobreNosotros.module.css"
 const SobreNosotros = () => {
   return (
-    <div className='main'>
+    <div className={style.main}>
       <Navbar />
       <Portada
         titulo={"Sobre Nosotros"}

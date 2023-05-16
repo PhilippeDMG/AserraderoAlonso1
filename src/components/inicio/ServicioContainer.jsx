@@ -1,12 +1,12 @@
-import "./ServicioContainer.css"
+import style from "./ServicioContainer.module.css"
 
 const ServicioContainer = () => {
   return (
-    <div className='servicios'>
-      <div className='carrusel'>
+    <div className={style.servicios}>
+      <div className={style.carrusel}>
         <img src='ServiciosInicio.png' loading='lazy' />
       </div>
-      <div className='mitexto'>
+      <div className={style.mitexto}>
         <div className='displayLarge'>Tratamiento fitosanitario</div>
         <div className='bodyLarge'>
           El tratamiento fitosanitario es un conjunto de técnicas utilizadas en
@@ -16,7 +16,7 @@ const ServicioContainer = () => {
           las plantas y garantizar una producción agrícola eficiente y
           sostenible.
         </div>
-        <div className='botones'>
+        <div className={style.botones}>
           <div className='botonBorder labelLarge'>Más</div>
           <div className='botonFull labelLarge'>Contáctenos</div>
         </div>

@@ -1,8 +1,8 @@
-import "./NuestrosServicios.css"
+import style from "./NuestrosServicios.module.css"
 import Portada from "../globales/Portada"
 const NuestrosServicios = () => {
   return (
-    <div className='nuestrosServicios'>
+    <div className={style.nuestrosServicios}>
       <Portada
         titulo={"Nuestros Servicios"}
         cuerpo={
@@ -10,9 +10,9 @@ const NuestrosServicios = () => {
         }
         nombreImagen={"NuestrosServiciosFondo.png"}
       />
-      <div className='resumen'>
-        <div className='cartas'>
-          <div className='miCarta'>
+      <div className={style.resumen}>
+        <div className={style.cartas}>
+          <div className={style.miCarta}>
             <div className='titleLarge'>
               Tratamiento fitosanitario de pallets
             </div>
@@ -21,7 +21,7 @@ const NuestrosServicios = () => {
               bioseguridad en el transporte y almacenamiento.
             </div>
           </div>
-          <div className='miCarta'>
+          <div className={style.miCarta}>
             <div className='titleLarge'>
               Tratamiento fitosanitario de tablas
             </div>
@@ -31,7 +31,7 @@ const NuestrosServicios = () => {
               y cumplimiento fitosanitario.
             </div>
           </div>
-          <div className='miCarta'>
+          <div className={style.miCarta}>
             <div className='titleLarge'>Fabricación de pallets tratados</div>
             <div className='bodyLarge'>
               Fabricación de estructuras de madera para facilitar el transporte
