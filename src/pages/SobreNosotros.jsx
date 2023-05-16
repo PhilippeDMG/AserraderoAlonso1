@@ -20,7 +20,7 @@ const SobreNosotros = () => {
       <MisionVision />
       <Instalaciones />
       <PorQueElegirnos />
-      <Contactos />
+      <Contactos usarMapa={true} />
       <Footer />
     </div>
   )
