@@ -4,7 +4,7 @@ const Ejemplos = () => {
   return (
     <div className='ejemplos'>
       <div className='carta'>
-        <div className='texto'>
+        <div className='miTexto'>
           <div className='headlineLarge'>
             Tratamiento fitosanitario de pallets
           </div>
@@ -22,13 +22,13 @@ const Ejemplos = () => {
             su vida útil y asegurando un rendimiento confiable en el manejo y
             almacenamiento de mercancías.
           </div>
-          <div className='botonBorder'>Más</div>
+          <div className='botonBorder labelLarge'>Más</div>
         </div>
-        <img src='../../../public/Pallets.png' />
+        <img src='/Pallets.png' />
       </div>
       <div className='carta'>
-        <img src='../../../public/Pallets2.png' />
-        <div className='texto'>
+        <img src='/Pallets2.png' />
+        <div className='miTexto'>
           <div className='headlineLarge'>
             Tratamiento fitosanitario de tablas
           </div>
@@ -45,11 +45,11 @@ const Ejemplos = () => {
             tranquilidad a nuestros clientes y garantizando la conformidad con
             las regulaciones fitosanitarias.
           </div>
-          <div className='botonBorder'>Más</div>
+          <div className='botonBorder labelLarge'>Más</div>
         </div>
       </div>
       <div className='carta'>
-        <div className='texto'>
+        <div className='miTexto'>
           <div className='headlineLarge'>Fabricación de pallets tratados</div>
           <div className='bodyLarge'>
             Nuestro servicio de fabricación de pallets tratados es la solución
@@ -64,9 +64,9 @@ const Ejemplos = () => {
             de sus productos y la eficiencia en su cadena de suministro,
             brindando soluciones confiables y seguras para su negocio.
           </div>
-          <div className='botonBorder'>Más</div>
+          <div className='botonBorder labelLarge'>Más</div>
         </div>
-        <img src='../../../public/Pallets3.png' />
+        <img src='/Pallets3.png' />
       </div>
     </div>
   )

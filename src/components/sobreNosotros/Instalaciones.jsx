@@ -3,7 +3,7 @@ import "./Instalaciones.css"
 const Instalaciones = () => {
   return (
     <div className='instalaciones'>
-      <div className='texto'>
+      <div className='esteTexto'>
         <div className='headlineLarge'>Instalaciones</div>
         <div className='bodyLarge'>
           Nuestras instalaciones eficientes y funcionales están equipadas con
@@ -14,7 +14,7 @@ const Instalaciones = () => {
       </div>
       <div className='carrusel'>
         {/* <img src='../../../public/flechaIzquierda.jpg' /> */}
-        <img src='../../../public/Instalaciones.png' />
+        <img src='/Instalaciones.png' />
         {/* <img src='../../../public/flechaDerecha.jpg' /> */}
       </div>
     </div>

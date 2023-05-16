@@ -4,8 +4,8 @@ const MisionVision = () => {
   return (
     <div className='misionVision'>
       <div className='contenedor'>
-        <div className='texto'>
-          <div className='headlineLarge'>Mision</div>
+        <div className='miTexto'>
+          <div className='headlineLarge'>Misión</div>
           <div className='bodyLarge'>
             Nuestra misión es ser líderes en la industria como proveedores
             confiables de servicios de tratamiento fitosanitario, aserrado de
@@ -19,12 +19,11 @@ const MisionVision = () => {
             profesionalismo y la satisfacción mutua.
           </div>
         </div>
-        <img src='../../../public/Mision.png' />
+        <img src='/Mision.png' />
       </div>
       <div className='contenedor'>
-        <img src='../../../public/Vision.png' />
-        <div className='texto'>
-          <div className='headlineLarge'>Vision</div>
+        <div className='miTexto'>
+          <div className='headlineLarge'>Visión</div>
           <div className='bodyLarge'>
             Nuestra visión es ser reconocidos como referentes en la industria,
             destacando por nuestra excelencia en el tratamiento fitosanitario,
@@ -39,6 +38,7 @@ const MisionVision = () => {
             necesidades únicas de cada cliente.
           </div>
         </div>
+        <img src='/Vision.png' />
       </div>
     </div>
   )

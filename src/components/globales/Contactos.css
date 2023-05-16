@@ -4,7 +4,8 @@
   align-items: center;
   justify-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
+  margin-bottom: 32px;
 }
 .miMapa {
   box-sizing: border-box;

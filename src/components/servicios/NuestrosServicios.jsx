@@ -39,7 +39,7 @@ const NuestrosServicios = () => {
             </div>
           </div>
         </div>
-        <div className='botonBorder'>Consúltenos</div>
+        <div className='botonBorder labelLarge'>Consúltenos</div>
       </div>
     </div>
   )

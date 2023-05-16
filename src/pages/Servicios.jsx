@@ -7,12 +7,12 @@ import "./Servicios.css"
 const Servicios = () => {
   return (
     <div className='main'>
-      {/* <Navbar /> */}
+      <Navbar />
       <NuestrosServicios />
-      {/* <Ejemplos /> */}
-      {/* <Contactos /> */}
+      <Ejemplos />
+      <Contactos usarMapa={true} />
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

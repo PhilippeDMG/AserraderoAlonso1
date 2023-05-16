@@ -2,17 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 64px;
+  gap: 32px;
 }
-.texto {
+.esteTexto {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0px;
   gap: 32px;
-  width: 744px;
+  max-width: 700px;
+  padding: 0px 32px;
 }
 .carrusel {
   display: flex;
   justify-content: center;
+  padding: 0px 32px;
 }
