@@ -5,30 +5,10 @@
   align-items: center;
   text-align: center;
   gap: 24px;
-  margin: 0px 32px;
+  margin: 32px 32px;
   width: fit-content;
-  height: 430px;
+  height: fit-content;
 }
-/* .subtitulo {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 28px;
-  color: #1f0300;
-}
-.titulo {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-  /* identical to box height, or 125% */
-
-  /* marrones/$marron-8 */
-
-  /*color: #1f0300;}
-*/
 
 .tarjeta {
   display: flex;
@@ -36,24 +16,9 @@
   align-items: flex-start;
   padding: 4px 10px;
   gap: 10px;
-
   background: #f69256;
 }
-/* .texto {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
 
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #00151f;
-  width: 200px;
-} */ 
 .mipalo {
   width: 69%;
   height: 0px;

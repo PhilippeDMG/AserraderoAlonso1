@@ -18,6 +18,18 @@ body {
 :root {
 
   /* Colors */
+  --neutral-98: #FFF8F6;
+  --neutral-60: #998F8A;
+  --neutral-40: #655D59;
+  --neutral-30: #4D4542;
+
+  --neutral-4: #120D0A;
+  --primary: #974811;
+  --on-primary: #FFFFFF;
+  --on-primaty-container: #331200;
+  --primary-fixed-dim: #FFB68E;
+  --secondary: #765848;
+
   --primario-0: #fcf8f7;
   --primario-1: #ebe8e6;
   --primario-2: #d1b6a3;
@@ -86,7 +98,6 @@ body {
   line-height: 36px;
 }
 .headlineSmall {
-  background: #000000;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -158,14 +169,17 @@ body {
 }
 
 .botonBorder {
-  border: 2px solid rgba(209, 158, 121, 1);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 32px;
-  width: 120px;
-  padding: 8px 16px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: fit-content;
+  width: fit-content;
+  padding: 8px 12px;
+  place-items: center;
+  border: 2px solid var(--primary);
+  background: none;
 }
+
 .botonFull {
   padding: 8px 16px;
   display: flex;

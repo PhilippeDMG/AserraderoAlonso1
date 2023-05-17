@@ -1,11 +1,13 @@
 .contactenos {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100vw; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
+
 .miMapa {
   box-sizing: border-box;
   height: auto;
@@ -16,25 +18,29 @@
   max-height: 350px;
   max-width: 530px;
 }
+
 @media screen and (max-width: 1300px) {
   .contactenos {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "mapa mapa"
-      "contactenos lema";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr)
   }
-  img {
+
+  .miMapa {
     grid-area: mapa;
   }
-  /* .contactForm {
+
+  /* Si existen las clases .contactForm y .lema, descomenta y ajusta sus estilos según tus necesidades
+  .contactForm {
     grid-area: contactenos;
   }
+
   .lema {
     grid-area: lema;
-  }*/
+  }
+  */
 }
+
 @media screen and (max-width: 800px) {
   .contactenos {
     display: flex;
