@@ -1,6 +1,24 @@
 import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
+  const headline = useScreenSize({
+    small: 'headlineSmall',
+    medium: 'headlineMedium',
+    large: 'headlineLarge'
+  });
+
+  const body = useScreenSize({
+    small: 'bodySmall',
+    medium: 'bodyMedium',
+    large: 'bodyLarge'
+  });
+
+  const label = useScreenSize({
+    small: 'labelSmall',
+    medium: 'labelMedium',
+    large: 'labelLarge'
+  });
+
   return (
     <div className={styles.contactForm}>
       <div className='displayLarge'>Contáctenos</div>
