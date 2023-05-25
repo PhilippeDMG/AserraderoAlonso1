@@ -1,12 +1,27 @@
 import style from "./MisionVision.module.css"
+import { useScreenSize } from "../../utils/useScreenSize"
 
 const MisionVision = () => {
+  let headline = useScreenSize(
+    {
+      small: 'headlineSmall',
+      medium: 'headlineMedium',
+      large: 'headlineLarge',
+    }
+  )
+  let body = useScreenSize(
+    {
+      small: 'bodySmall',
+      medium: 'bodyMedium',
+      large: 'bodyLarge',
+    }
+  )
   return (
     <div className={style.misionVision}>
       <div className={style.contenedor}>
         <div className={style.texto}>
-          <div className='headlineLarge'>Mision</div>
-          <div className='bodyLarge'>
+          <div className={headline + ' bordeIzq'}>Mision</div>
+          <div className={body}>
             Nuestra misión es ser líderes en la industria como proveedores
             confiables de servicios de tratamiento fitosanitario, aserrado de
             madera y fabricación de pallets. Nos comprometemos a ofrecer
@@ -19,13 +34,29 @@ const MisionVision = () => {
             profesionalismo y la satisfacción mutua.
           </div>
         </div>
-        <img src='../../../public/Mision.png' />
+        <div className={style.imagenes}>
+          <picture>
+            <img src="https://rdzgil.com/wp-content/uploads/2021/07/Que-son-los-pallets.jpg" alt="" />
+          </picture>
+          <div className={style.imagen1}>
+            <div className={style.imagen3}></div>
+          </div>
+          <div className={style.imagen2}></div>
+        </div>
       </div>
       <div className={style.contenedor}>
-        <img src='../../../public/Vision.png' />
+        <div className={style.imagenes}>
+          <picture>
+            <img src="https://rdzgil.com/wp-content/uploads/2021/07/Que-son-los-pallets.jpg" alt="" />
+          </picture>
+          <div className={style.imagen1}>
+            <div className={style.imagen3}></div>
+          </div>
+          <div className={style.imagen2}></div>
+        </div>
         <div className={style.texto}>
-          <div className='headlineLarge'>Vision</div>
-          <div className='bodyLarge'>
+          <div className={headline + ' bordeIzq'}>Vision</div>
+          <div className={body}>
             Nuestra visión es ser reconocidos como referentes en la industria,
             destacando por nuestra excelencia en el tratamiento fitosanitario,
             aserrado de madera y fabricación de pallets. Buscamos expandir

@@ -18,22 +18,25 @@ const Lema = () => {
     medium: 'bodyMedium',
     large: 'bodyLarge'
   });
+  let label = useScreenSize({
+    small:'labelSmall',
+    medium: 'labelMedium',
+    large: 'labelLarge'
+  });
   return (
     <div className={style.lema}>
-      <div className={title}>Madera que inspira confianza</div>
-      <div className={headline}>Alonso TimberCraft</div>
-      <div className={style.tarjeta}>LOCALIZACIÓN</div>
+      <h4 className={title}>Madera que inspira confianza</h4>
+      <h2 className={headline}><span>Alonso</span> TimberCraft</h2>
+      <div className={`${style.tarjeta} ${label}`}>Localización:</div>
       <div className={body}>
-        Av. ejemplo 123
+        Osvaldo Magnasco
         <br />
-        Provincia
-        <br />
-        Argentina
+        Concordia, Entre Ríos, Argentina
       </div>
       <div className={style.mipalo}></div>
       <div className={body}>
-        <p>¿CONSULTAS?</p>
-        <p>LLÁMENOS +123 456 7890</p>
+        <p>¿Consultas? Llámenos </p>
+        <li>+54 9 345 403 2282</li>
       </div>
     </div>
   )

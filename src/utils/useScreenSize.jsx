@@ -20,7 +20,7 @@ export function useScreenSize(props) {
     const handleResize = () => {
       const width = window.innerWidth;
 
-      if (width < 426) {
+      if (width < 600) {
         setScreenSize('small');
       } else if (width < 800) {
         setScreenSize('medium');

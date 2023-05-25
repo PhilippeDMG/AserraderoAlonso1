@@ -1,12 +1,27 @@
 import style from "./PorQueElegirnos.module.css"
+import {useScreenSize} from '../../utils/useScreenSize'
 const PorQueElegirnos = () => {
+  let body = useScreenSize(
+    {
+      small: 'bodySmall',
+      medium: 'bodyMedium',
+      large: 'bodyLarge'
+    }
+  )
+  let headline = useScreenSize(
+    {
+      small: 'headlineSmall',
+      medium: 'headlineMedium',
+      large: 'headlineLarge'
+    }
+  )
   return (
     <div className={style.porQueElegirnos}>
       <div className={style.textoArriba}>
-        <div className='headlineLarge'>Por qué elegirnos</div>
-        <div className='bodyLarge'>
-          Con mas de 20 años de experiencia en el sector
-        </div>
+        <h2 className={headline + ' bordeIzq'}><span>Por</span> qué elegirnos</h2>
+        <p className={body}>
+          Con mas de <span>20 años</span> de experiencia en el sector
+        </p>
       </div>
       <div className={style.micuadro}>
         <div className={style.calidad}>
@@ -15,11 +30,11 @@ const PorQueElegirnos = () => {
             alt=''
             src='/account-circle21.svg'
           />
-          <div className='bodyLarge'>Seguridad</div>
+          <div className={body}>Seguridad</div>
         </div>
         <div className={style.calidad}>
           <img className={style.accountCircleIcon} alt='' src='/eco.svg' />
-          <div className='bodyLarge'>Experiencia</div>
+          <div className={body}>Experiencia</div>
         </div>
         <div className={style.calidad}>
           <img
@@ -27,11 +42,11 @@ const PorQueElegirnos = () => {
             alt=''
             src='/health-and-safety.svg'
           />
-          <div className='bodyLarge'>Confianza</div>
+          <div className={body}>Confianza</div>
         </div>
         <div className={style.calidad}>
           <img className={style.accountCircleIcon} alt='' src='/apartment.svg' />
-          <div className='bodyLarge'>Eficiencia</div>
+          <div className={body}>Eficiencia</div>
         </div>
       </div>
     </div>

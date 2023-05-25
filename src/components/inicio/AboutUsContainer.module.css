@@ -1,78 +1,87 @@
 .sobreNosotros {
-  margin-top: 64px;
+  margin: 64px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   gap: 48px;
-  width: 100%;
+  width:-webkit-fill-available;
+}
+h2 {
+  margin: 0;
+}
+span {
+  color: var(--primary);
 }
 .izquierda {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: flex-start; */
   gap: 24px;
   width: 45%;
 }
 .texto {
-  /* font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px; */
   display: flex;
+  flex-direction: column;
   align-items: start;
-  text-align: start;
-  color: #00151f;
   width: 100%;
 }
 .imagenes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  max-width: 45%;
+  position: relative;
+  width: 50%;
+}
+.imagenes picture{
+  width: 100%;
   height: 100%;
-  overflow: hidden;
 }
-.img {
-  display: block;
-  border: 0;
-  padding: 0;
+.imagenes img {    
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  object-fit: cover;
+  padding: 8px 0;
 }
+
 .imagen1 {
-  box-sizing: border-box;
-
-  width: 383.5px;
-  height: 512px;
-
-  background: url("image21.png"), #f5fcff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height:  -webkit-fill-available;
+  background: none;
 }
+
 .imagen2 {
-  box-sizing: border-box;
-
-  width: 351.5px;
-  height: 480px;
-
-  background: url("image22.png"), #f5fcff;
-  border: 1px solid #000000;
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  width: 50%;
+  height:  -webkit-fill-available;
+  background: none;
+  border-bottom:2em solid var(--on-primary);
+  border-top:2em solid var(--on-primary);
+  border-left: 0.5em solid var(--on-primary);
+  outline: none; 
 }
 
-/* @media screen and (max-width: 1100px) {
-  .imagenes {
-    flex-direction: column;
-    padding: 32px 0px;
-    gap: 4px;
+@media screen and (max-width: 1024px) {
+  .sobreNosotros {
+    flex-direction: column-reverse;
+    width: -webkit-fill-available;
+    align-items: center;
   }
-  .imagen1 {
-    background-image: url("../../public/image20.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  .izquierda, .imagenes {
+    width: 100%;
+    text-align: center;
+    align-items: center;
   }
-  .imagen2 {
-    background-image: url("../../public/image19.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  h2 {
+    align-self: center
   }
-} */
+}
+@media screen and (max-width: 600px) {
+  
+  .izquierda, .sobreNosotros {
+    gap: 16px;
+    margin: 32px;
+  }
+}

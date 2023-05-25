@@ -3,48 +3,57 @@
 .footer {
   display: flex;
   align-items: center;
-  width: 100%;
+  max-width: -webkit-fill-available;
+  width: 100vmax;
+  padding: 0 64px;
   color: var(--primario-0);
   background: var(--primario-7);
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
 }
-
-.footer .empresa {
-  padding: 32px;
+span {
+  color: var(--primary)
+}
+.empresa {
+  padding: 48px;
 }
 .redes {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 24px;
+  padding: 48px;
   gap: 12px;
 }
 .iconos {
+  list-style: none;
   width: 163.12px;
   height: 33px;
+  padding: 0;
   display: flex;
   flex-direction: row;
   gap: 10%;
   justify-content: center;
 }
-.iconos img {
+.iconos li img{
   width: 32px;
   height: 32px;
 }
 
 .palo {
   width: 0;
-  height: 64px;
-
-  border: 1px solid #a0a0a0;
+  height: 100px;
+  border: 1px solid var(--neutral-60)
 }
 
 .losBotones {
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  padding-left: 48px;
+  width: 100%;
   gap: 32px;
 }
 .losBotones > * {
@@ -53,10 +62,11 @@
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1023px) {
   .losBotones {
     flex-wrap: wrap;
     width: 100%;
+    padding: 0;
     gap: 0px;
     justify-content: center;
   }
@@ -66,7 +76,7 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .footer {
     flex-direction: column;
   }
@@ -74,15 +84,40 @@
     display: none;
   }
   .losBotones {
-    width: 256px;
+    width: 50%;
     column-gap: 16px;
   }
-  .losBotones .elBoton:nth-child(1),
+  .elBoton:nth-child(1),
   .elBoton:nth-child(2) {
     border-top: 1px solid var(--primario-1);
     border-bottom: 1px solid var(--primario-1);
+    padding: 8px;
   }
   .elBoton:nth-child(3),
+  .elBoton:nth-child(4) {
+    padding: 8px;
+    border-bottom: 1px solid var(--primario-1);
+  }
+}
+
+@media screen and (max-width: 607px) {
+  .footer {
+    flex-direction: column;
+    padding: 0;
+  }
+  .palo {
+    display: none;
+  }
+  .losBotones {
+    width: 100%;
+    flex-direction: column;
+  }
+  .losBotones .elBoton {
+    width: 100%;
+    border-top: 1px solid var(--primario-1);
+    border-bottom: none;
+    padding: 12px 0;
+  }
   .elBoton:nth-child(4) {
     border-bottom: 1px solid var(--primario-1);
   }

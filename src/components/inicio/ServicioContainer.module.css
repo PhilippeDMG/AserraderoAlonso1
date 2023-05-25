@@ -1,25 +1,41 @@
+span {
+  color: var(--primary);
+}
 .servicios {
-  box-sizing: border-box;
+  margin: 64px 120px;
+  width: -webkit-fill-available;
+}
+.servicio{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
-  margin-bottom: 64px;
-  width: 100%;
+  margin: 24px;
+  justify-content: center;
+  text-align: center;
 }
 .carrusel {
+  box-sizing: border-box;
+  width: --webkit-fill-available;
   display: flex;
-  width: 90%;
+  flex-direction: column;
+  gap: 48px;
   justify-content: center;
+  align-items: center;
+}
+picture {
+  width: 98%;
+  display: flex;
+  align-content: center;
+  align-items: center
 }
 img {
-  width: 95%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 500px
 }
 .mitexto {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
   width: 100%;
   text-align: center;
   height: 100%;
@@ -27,12 +43,17 @@ img {
 }
 
 .botones {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   align-items: center;
   justify-content: center;
-  padding: 12px 4px;
   gap: 12px;
-  width: 338px;
-  height: 64px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+  .servicios {
+    margin: 42px;
+  }
 }

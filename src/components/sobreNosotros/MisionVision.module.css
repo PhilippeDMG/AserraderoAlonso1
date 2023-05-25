@@ -5,22 +5,92 @@
   align-items: flex-start;
   gap: 48px;
 }
-
+.misionVision {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 120px;
+  gap: 64px;
+}
 .texto {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 32px;
+  gap: 24px;
   width: 40%;
 }
-img {
+.imagenes {
+  position: relative;
   width: 65%;
-  height: auto;
+  height: fit-content;
+  align-self: center;
+  overflow: hidden;
 }
-.misionVision {
-  display: flex;
-  flex-direction: column;
-  padding: 32px 64px;
-  gap: 32px;
+.imagenes img {
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  object-fit: cover;
+  margin: 6px;
+  overflow: hidden;
+}
+
+.imagen1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height:  -webkit-fill-available;
+  background: none;
+  overflow: hidden;
+}
+
+.imagen2 {
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  width: 50%;
+  height:  -webkit-fill-available;
+  background: none;
+  border-bottom:2em solid var(--on-primary);
+  border-top:2em solid var(--on-primary);
+  border-left: 0.5em solid var(--on-primary);
+  outline: none;
+}
+.imagen3 {
+  height: 50%;
+  width: 100%;
+  background: none;
+  border-bottom:0.5em solid var(--on-primary);
+  border-top:none;
+  border-left: 2em solid var(--on-primary);
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .contenedor {
+    flex-direction: column;
+  }
+  .contenedor:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .texto, .imagenes{
+    width: 100%
+  }
+}
+@media screen and (max-width: 600px) {
+  .misionVision {
+    padding: 32px;
+  }
+  .contenedor, .texto {
+    gap: 24px;
+    align-items: start;
+    height: fit-content;
+  }
+  .imagen3 {
+    border-left: 1em solid var(--on-primary)
+  }
+  .imagen2 {
+    border-top: 1em solid var(--on-primary);
+    border-bottom: 1em solid var(--on-primary);
+  }
 }

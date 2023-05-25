@@ -1,5 +1,5 @@
 import Navbar from "../components/globales/Navbar"
-import PortadaInicio from "../components/inicio/PortadaInicio"
+import CompanyNameContainer from "../components/inicio/CompanyNameContainer"
 import AboutUsContainer from "../components/inicio/AboutUsContainer"
 import PorQueElegirnos from "../components/globales/PorQueElegirnos"
 import ServicioContainer from "../components/inicio/ServicioContainer"
@@ -11,7 +11,7 @@ const Inicio = () => {
   return (
     <div className={style.main}>
       <Navbar />
-      <PortadaInicio />
+      <CompanyNameContainer />
       <AboutUsContainer />
       <PorQueElegirnos />
       <ServicioContainer />

@@ -1,8 +1,11 @@
 .instalaciones {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   align-items: center;
   gap: 64px;
+  width: 100%;
+  padding: 64px 0;
 }
 .texto {
   display: flex;
@@ -10,9 +13,43 @@
   text-align: center;
   padding: 0px;
   gap: 32px;
-  width: 744px;
+  margin: 0 120px;
 }
-.carrusel {
+.texto div:nth-child(1) {
+  width: fit-content;
+  align-self: center;
+}
+.container {
+  /* width: calc(100% - 96px); */
+  width: -webkit-fill-available;
+  margin: 0 120px;
+}
+picture {
+  width:100%;
   display: flex;
-  justify-content: center;
+  place-content: center;
+}
+.carouselImage {
+  width: calc(100% - 4px);
+  border-bottom: 4px solid var(--on-primary);
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.carouselImageActive {
+  transform: translateX(10px);
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 600px) {
+  .instalaciones {
+    gap: 32px;
+  }
+  .texto {
+    width: calc(100% - 48px);
+    gap: 16px;
+  }
+  .container {
+    width: calc(100% - 64px);
+  }
 }

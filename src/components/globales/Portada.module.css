@@ -1,9 +1,10 @@
 .fondo {
-  width: 95%;
-  height: 50%;
+  width: -webkit-fill-available;
   display: flex;
   flex-direction: column;
-  padding: 120px 64px;
+  padding: 80px 64px;
+  position: relative;
+  z-index: -1;
   background-repeat: no-repeat;
   background: linear-gradient(
       180deg,
@@ -21,8 +22,6 @@
 }
 
 .texto1 {
-  background: #381800;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,4 +38,15 @@
 }
 .texto1 > * {
   color: var(--primario-0);
+  max-width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .fondo, .texto1 {
+    padding: 64px 32px;
+    gap: 24px;
+  }
+  .texto1 > * {
+    max-width: none;
+  }
 }

@@ -1,14 +1,42 @@
 import style from "./Ejemplos.module.css"
-
+import { useScreenSize } from "../../utils/useScreenSize"
 const Ejemplos = () => {
+  let headline = useScreenSize(
+    {
+      small: 'headlineSmall',
+      medium: 'headlineMedium',
+      large: 'headlineLarge',
+    }
+  )
+  let body = useScreenSize(
+    {
+      small: 'bodySmall',
+      medium: 'bodyMedium',
+      large: 'bodyLarge',
+    }
+  )
+  let label = useScreenSize(
+    {
+      small: 'labelSmall',
+      medium: 'labelMedium',
+      large: 'labelLarge',
+    }
+  )
+  let bordeIzq = useScreenSize(
+    {
+      small: 'bordeIzq',
+      medium: 'bordeIzq',
+      large: 'bordeIzq'
+    }
+  )
   return (
     <div className={style.ejemplos}>
       <div className={style.carta}>
         <div className={style.texto}>
-          <div className='headlineLarge'>
-            Tratamiento fitosanitario de pallets
+          <div className={`${headline} ${bordeIzq}`}>
+          <span>Tratamiento</span> fitosanitario de pallets
           </div>
-          <div className='bodyLarge'>
+          <div className={body}>
             Nuestro servicio de tratamiento fitosanitario de pallets es una
             etapa esencial en la cadena logística y comercial. Mediante un
             proceso cuidadoso de calentamiento controlado, eliminamos plagas y
@@ -22,17 +50,53 @@ const Ejemplos = () => {
             su vida útil y asegurando un rendimiento confiable en el manejo y
             almacenamiento de mercancías.
           </div>
-          <div className='botonBorder'>Más</div>
+          <div className={`botonBorderLarge ${label}`}>Más</div>
         </div>
-        <img src='../../../public/Pallets.png' />
+        <div className={style.imgContainer}>
+          <div className={style.fig1}></div>
+          <div className={style.fig2}></div>
+          <picture>
+            {/* <source
+              media="(min-width: 800px)"
+              srcSet="/mapa.png"
+              style={usarMapa ? null : { display: "none" }}
+              className={style.imgServ}
+            />
+            <source
+              media="(min-width: 600px)"
+              srcSet="/mapa.png"
+              style={usarMapa ? null : { display: "none" }}
+              className={style.imgServ}
+            /> */}
+            <img src="https://cdn1.npcdn.net/image/1609492666583a74e8cdc68e61b55ff3430ba5d283.jpg?md5id=e8196c340a699ae946898b4f1f315056&new_width=1200&new_height=1200&size=max&w=-62170009200" alt="" className={style.imgServ}/>
+          </picture>
+        </div>
       </div>
       <div className={style.carta}>
-        <img src='../../../public/Pallets2.png' />
+        <div className={style.imgContainer}>
+          <div className={`${style.fig1} ${style.mod1}`}></div>
+          <div className={style.fig2}></div>
+          <picture>
+            {/* <source
+              media="(min-width: 800px)"
+              srcSet="/mapa.png"
+              style={usarMapa ? null : { display: "none" }}
+              className={style.imgServ}
+            />
+            <source
+              media="(min-width: 600px)"
+              srcSet="/mapa.png"
+              style={usarMapa ? null : { display: "none" }}
+              className={style.imgServ}
+            /> */}
+            <img src="https://cdn1.npcdn.net/image/1609492666583a74e8cdc68e61b55ff3430ba5d283.jpg?md5id=e8196c340a699ae946898b4f1f315056&new_width=1200&new_height=1200&size=max&w=-62170009200" alt="" className={style.imgServ}/>
+          </picture>
+        </div>
         <div className={style.texto}>
-          <div className='headlineLarge'>
-            Tratamiento fitosanitario de tablas
+          <div className={`${headline} ${bordeIzq}`}>
+          <span>Tratamiento</span> fitosanitario de tablas
           </div>
-          <div className='bodyLarge'>
+          <div className={body}>
             Nuestro servicio de tratamiento fitosanitario de tablas de madera es
             esencial para garantizar su calidad, durabilidad y cumplimiento
             fitosanitario. A través de un proceso de calentamiento controlado,
@@ -45,13 +109,13 @@ const Ejemplos = () => {
             tranquilidad a nuestros clientes y garantizando la conformidad con
             las regulaciones fitosanitarias.
           </div>
-          <div className='botonBorder'>Más</div>
+          <div className={`botonBorderLarge ${label}`}>Más</div>
         </div>
       </div>
       <div className={style.carta}>
         <div className={style.texto}>
-          <div className='headlineLarge'>Fabricación de pallets tratados</div>
-          <div className='bodyLarge'>
+          <div className={`${headline} ${bordeIzq}`}><span>Fabricación</span> de pallets tratados</div>
+          <div className={body}>
             Nuestro servicio de fabricación de pallets tratados es la solución
             perfecta para sus necesidades de transporte y almacenamiento
             seguros. Utilizando madera sometida a un riguroso proceso de
@@ -64,9 +128,27 @@ const Ejemplos = () => {
             de sus productos y la eficiencia en su cadena de suministro,
             brindando soluciones confiables y seguras para su negocio.
           </div>
-          <div className='botonBorder'>Más</div>
+          <div className={`botonBorderLarge ${label}`}>Más</div>
         </div>
-        <img src='../../../public/Pallets3.png' />
+        <div className={style.imgContainer}>
+          <div className={style.fig1}></div>
+          <div className={`${style.fig2} ${style.mod2}`}></div>
+          <picture>
+            {/* <source
+              media="(min-width: 800px)"
+              srcSet="/mapa.png"
+              style={usarMapa ? null : { display: "none" }}
+              className={style.imgServ}
+            />
+            <source
+              media="(min-width: 600px)"
+              srcSet="/mapa.png"
+              style={usarMapa ? null : { display: "none" }}
+              className={style.imgServ}
+            /> */}
+            <img src="https://cdn1.npcdn.net/image/1609492666583a74e8cdc68e61b55ff3430ba5d283.jpg?md5id=e8196c340a699ae946898b4f1f315056&new_width=1200&new_height=1200&size=max&w=-62170009200" alt="" className={style.imgServ}/>
+          </picture>
+        </div>
       </div>
     </div>
   )

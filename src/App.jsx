@@ -1,11 +1,11 @@
-// import Inicio from "./pages/Inicio"
-// import Servicios from "./pages/Servicios"
-// import SobreNosotros from "./pages/SobreNosotros"
-// import Contactenos from "./pages/Contactenos"
-import Contactos from "./components/globales/Contactos"
+/* eslint-disable no-unused-vars */
+import Inicio from "./pages/Inicio"
+import Servicios from "./pages/Servicios"
+import SobreNosotros from "./pages/SobreNosotros"
+import Contactenos from "./pages/Contactenos"
 
 const App = () => {
-  return <Contactos usarMapa={true} />
+  return <Inicio usarMapa={true} />
 }
 
 export default App
