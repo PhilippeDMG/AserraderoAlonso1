@@ -2,30 +2,17 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: './',
   plugins: [react()],
-  optimizeDeps: {
-    include: [
-      'slick-carousel',
-      'react-slick',
-    ],
-  },
-  build: {
-    commonjsOptions: {
-      include: [/slick-carousel/, /react-slick/, /node_modules/],
-    },
+  build:{
+    outDir: 'dist',
     rollupOptions: {
       input: {
-        home: 'src/pages/Inicio.jsx',
-        servicios: 'src/pages/Servicios.jsx',
-        contacto: 'src/pages/Contactenos.jsx',
-        sobreNosotros: 'src/pages/SobreNosotros.jsx',
-      },
-      output: {
-        dir: 'dist',
-        format: 'es',
-        entryFileNames: '[name].js', // Genera un archivo para cada página con su nombre
-        assetFileNames: '[name][extname]', // Genera un archivo para cada recurso estático con su nombre
-      },
-    },
-  },
+        inicio: './src/pages/inicio/index.html',
+        contacto: './src/pages/contactenos/index.html',
+        servicios: './src/pages/servicios/index.html',
+        nosotros: './src/pages/sobreNosotros/index.html',
+      }
+    }
+  }
 });
