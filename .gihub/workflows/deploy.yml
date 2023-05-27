@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/[email protected]
+    - name: Checkout code
+      uses: actions/[email protected]
+    - name: Install dependencies
+      run: |
+        cd frontend
+        npm install
+        cd ../backend
+        npm install
+    - name: Build frontend
+      run: |
+        cd frontend
+        npm run build
+    - name: Start backend
+      run: |
+        cd backend
+        node server.js
