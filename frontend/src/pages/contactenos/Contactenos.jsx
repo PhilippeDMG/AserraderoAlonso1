@@ -1,9 +1,9 @@
-import Portada from "../components/globales/Portada"
-import Navbar from "../components/globales/Navbar"
-import Footer from "../components/globales/Footer"
-import Direccion from "../components/globales/Direccion"
+import Portada from "../../components/globales/Portada"
+import Navbar from "../../components/globales/Navbar"
+import Footer from "../../components/globales/Footer"
+import Direccion from "../../components/globales/Direccion"
 import "./Contactenos.css"
-import Contactos from "../components/globales/Contactos"
+import Contactos from "../../components/globales/Contactos"
 const Contactenos = () => {
   return (
     <div className='main'>

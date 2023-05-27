@@ -1,10 +1,10 @@
-import Portada from "../components/globales/Portada"
-import Navbar from "../components/globales/Navbar"
-import Footer from "../components/globales/Footer"
-import MisionVision from "../components/sobreNosotros/MisionVision"
-import Instalaciones from "../components/sobreNosotros/Instalaciones"
-import PorQueElegirnos from "../components/globales/PorQueElegirnos"
-import Contactos from "../components/globales/Contactos"
+import Portada from "../../components/globales/Portada"
+import Navbar from "../../components/globales/Navbar"
+import Footer from "../../components/globales/Footer"
+import MisionVision from "../../components/sobreNosotros/MisionVision"
+import Instalaciones from "../../components/sobreNosotros/Instalaciones"
+import PorQueElegirnos from "../../components/globales/PorQueElegirnos"
+import Contactos from "../../components/globales/Contactos"
 import style from "./SobreNosotros.module.css"
 const SobreNosotros = () => {
   return (
