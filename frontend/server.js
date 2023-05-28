@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Servir archivos estáticos desde el directorio 'assets'
-app.use('/assets', express.static(__dirname + '/../frontend/dist/assets/', {
+app.use('/assets', express.static(__dirname + './dist/assets/', {
   setHeaders: (res, path) => {
     if (path.endsWith('.css')) {
       res.setHeader('Content-Type', 'text/css');
