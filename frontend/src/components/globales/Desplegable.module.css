@@ -1,0 +1,30 @@
+.desplegable {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.icono {
+  height: 24px;
+  width: 24px;
+}
+.botones {
+  display: flex;
+  flex-direction: column;
+}
+.boton {
+  width: 350px;
+  height: 96px;
+  display: flex;
+}
+.boton:hover {
+  border-left: 12px solid var(--primary-fixed-dim);
+}
+.boton:active {
+  border-left: 12px solid var(--primary);
+  background-color: var(--secondary);
+}
