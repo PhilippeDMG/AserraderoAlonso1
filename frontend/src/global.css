@@ -303,4 +303,19 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+}
+button {transition: all 0.3s ease;}
+button:hover {
+  background: var(--primary);
+  color: var(--on-primary);
+  transform: scale(1.1);
+}
+li {transition: all 0.3s ease;}
+li:hover {
+  transform: scale(1.1);
+}
+button:active {
+  background-color: var(--secondary);
+  transform: scale(0.9);
 }

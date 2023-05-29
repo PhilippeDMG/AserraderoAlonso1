@@ -45,12 +45,12 @@ span {
 .icono {
   padding: 0px 16px;
 }
-.linkButtons:hover {
+ul .linkButtons:hover {
   color: var(--primario-3);
   border-bottom: 4px solid var(--primario-3);
   cursor: pointer;
 }
-.linkButtons:active {
+ul .linkButtons:active {
   color: var(--primario-5);
   border-bottom: 4px solid var(--primario-5);
 }
