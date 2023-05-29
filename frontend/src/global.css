@@ -226,6 +226,7 @@ body {
   place-items: center;
   border: 2px solid var(--primary);
   background: none;
+  cursor: pointer;
 }
 
 .botonBorderMedium {
@@ -238,6 +239,7 @@ body {
   place-items: center;
   border: 2px solid var(--primary);
   background: none;
+  cursor: pointer;
 }
 
 .botonBorderLarge {
@@ -250,6 +252,7 @@ body {
   place-items: center;
   border: 2px solid var(--primary);
   background: none;
+  cursor: pointer;
 }
 .botonFull {
   display: flex;
@@ -261,6 +264,7 @@ body {
   color: var(--on-primary);
   background: var(--on-primary-container);
   border: 2px solid var(--on-primary-container);
+  cursor: pointer;
 }
 .botonFullMedium {
   display: flex;
@@ -272,6 +276,7 @@ body {
   color: var(--on-primary);
   background: var(--on-primary-container);
   border: 2px solid var(--on-primary-container);
+  cursor: pointer;
 }
 .botonFullLarge {
   display: flex;
@@ -283,8 +288,12 @@ body {
   color: var(--on-primary);
   background: var(--on-primary-container);
   border: 2px solid var(--on-primary-container);
+  cursor: pointer;
 }
 .bordeIzq {
   border-left: 6px solid var(--primary);
   padding: 0 24px;
+}
+a {
+  cursor: pointer;
 }

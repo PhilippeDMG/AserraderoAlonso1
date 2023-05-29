@@ -54,7 +54,7 @@ const CompanyNameContainer = () => {
     infinite: true, // Permite navegar en bucle
     speed: 1500, // Velocidad de transición
     slidesToShow: 1, // Cantidad de elementos a mostrar al mismo tiempo
-    autoplay: false, // Reproducción automática
+    autoplay: true, // Reproducción automática
     autoplaySpeed: 4000, // Velocidad de reproducción automática
     fade: false,
     cssEase: 'cubic-bezier(0.23, 1, 0.32, 1)',
@@ -72,8 +72,8 @@ const CompanyNameContainer = () => {
                           <h1 className={display}><span>{card.title.split(" ")[0]}</span> {card.title.split(" ").slice(1).join(" ")}</h1>
                           <div className={body}>{card.body}</div>
                           <div className={style.botones}>
-                            <div className={botonBorder + ' ' + label}>{card.firstButton}</div>
-                            <div className={botonFull + ' ' + label}>{card.secondButton}</div>
+                            <button className={botonBorder + ' ' + label}><a href={card.href1}>{card.firstButton}</a></button>
+                            <button className={botonFull + ' ' + label}><a href={card.href2}>{card.secondButton}</a></button>
                           </div>
                       </div>
                     </div>
@@ -89,12 +89,16 @@ const CompanyNameContainer = () => {
       title: 'Alonso TimberCraft',
       body: 'Expertos en madera para soluciones confiables y duraderas.',
       firstButton: 'Sobre Nosotros',
+      href1: '/nosotros',
+      href2: '/contacto',
       secondButton: 'Contáctenos',
     },
     {
       title: 'Nuestros Servicios',
       body: 'Soluciones personalizadas en tratamiento, aserrado y fabricación de pallets para transporte y almacenamiento eficiente, con enfoque en la calidad y el cuidado del medio ambiente.',
       firstButton: 'Servicios',
+      href1: '/servicios',
+      href2: '/contacto',
       secondButton: 'Contáctenos',
     },
   ]

@@ -22,10 +22,10 @@ const Navbar = () => {
       <div className={body}><span>Alonso</span> TimberCraft</div>
       <img className={style.burger} alt='' src='/burger.svg'></img>
       <ul className={style.navbarLinks}>
-        <li className={`${style.linkButtons} ${label}`}>Home</li>
-        <li className={`${style.linkButtons} ${label}`}>Nosotros</li>
-        <li className={`${style.linkButtons} ${label}`}>Servicios</li>
-        <li className={`${style.linkButtons} ${label}`}>Contactos</li>
+        <li className={`${style.linkButtons} ${label}`}><a href="/">Inicio</a></li>
+        <li className={`${style.linkButtons} ${label}`}><a href="/nosotros">Nosotros</a></li>
+        <li className={`${style.linkButtons} ${label}`}><a href="/servicios">Servicios</a></li>
+        <li className={`${style.linkButtons} ${label}`}><a href="/contacto">Contacto</a></li>
       </ul>
     </div>
   )

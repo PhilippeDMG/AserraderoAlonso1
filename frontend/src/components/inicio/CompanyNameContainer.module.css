@@ -14,7 +14,7 @@
       rgba(0, 0, 0, 0) 100%
     ),
     linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://www.shutterstock.com/image-photo/pile-pine-logs-sawmill-further-260nw-1106587385.jpg");
+    url("https://palletsjauregui.com.ar/site/wp-content/uploads/2018/06/pallets-especiales-embalajes-3-700x280.jpg");
   background-size: cover;
   background-position: center;
   padding: 48px 64px 64px 64px;
@@ -23,8 +23,11 @@ h1 {
   margin: 0;
   color: var(--on-primary);
 }
-span {
-  color: var(--primary);
+.botones button a {
+  color: var(--on-primary);
+}
+.contenido h1 span {
+  color: var(--primary-fixed-dim);
 }
 .contenedor {
   width: 100%;

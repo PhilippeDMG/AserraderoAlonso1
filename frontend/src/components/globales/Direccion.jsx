@@ -55,7 +55,9 @@ const Direccion = () => {
             </div>
           </div>
         </div>
-        <div className={`${button} ${label}`} style={{maxWidth: '100px'}}>Contáctenos</div>
+        <a href="/contacto">
+          <button className={`${button} ${label}`} style={{maxWidth: '100px'}}>Contáctenos</button>
+        </a>
       </div>
     </div>
   )

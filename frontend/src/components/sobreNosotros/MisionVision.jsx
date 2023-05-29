@@ -47,7 +47,7 @@ const MisionVision = () => {
       <div className={style.contenedor}>
         <div className={style.imagenes}>
           <picture>
-            <img src="https://rdzgil.com/wp-content/uploads/2021/07/Que-son-los-pallets.jpg" alt="" />
+            <img src="https://palletsjauregui.com.ar/site/wp-content/uploads/2018/06/pallets-jauregui-empresa-3.jpg" alt="" />
           </picture>
           <div className={style.imagen1}>
             <div className={style.imagen3}></div>

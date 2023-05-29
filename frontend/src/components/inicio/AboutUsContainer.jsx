@@ -53,7 +53,7 @@ const AboutUsContainer = () => {
             brindar soluciones a medida para sus necesidades de madera.
           </p>
         </div>
-        <button className={boton + label} style={{maxWidth: '100px'}}>Más</button>
+        <button className={boton + label} style={{maxWidth: '100px'}}><a href="/contacto">Contáctenos</a></button>
       </div>
       <div className={style.imagenes}>
         <picture>

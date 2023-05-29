@@ -16,10 +16,10 @@ const Footer = () => {
       <div className={`${title} ${style.empresa}`}><span>Alonso</span> TimberCraft</div>
       <div className={style.palo}></div>
       <ul className={style.losBotones}>
-        <li className={`${label} ${style.elBoton}`}>Inicio</li>
-        <li className={`${label} ${style.elBoton}`}>Nosotros</li>
-        <li className={`${label} ${style.elBoton}`}>Servicios</li>
-        <li className={`${label} ${style.elBoton}`}>Contactos</li>
+        <li className={`${label} ${style.elBoton}`}><a href="/">Inicio</a></li>
+        <li className={`${label} ${style.elBoton}`}><a href="/nosotros">Nosotros</a></li>
+        <li className={`${label} ${style.elBoton}`}><a href="/servicios">Servicios</a></li>
+        <li className={`${label} ${style.elBoton}`}><a href="/contacto">Contacto</a></li>
       </ul>
       <div className={style.redes}>
         <ul className={style.iconos}>

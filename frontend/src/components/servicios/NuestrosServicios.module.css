@@ -17,10 +17,14 @@
   align-items: center;
   gap: 42px;
   position: absolute;
-  margin-top: -80px;
+  margin-top: -42px;
   padding: 0 64px;
   width: -webkit-fill-available;
   height: fit-content;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 .cartas {
   display: flex;

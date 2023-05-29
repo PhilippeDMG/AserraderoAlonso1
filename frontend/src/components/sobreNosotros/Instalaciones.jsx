@@ -35,7 +35,7 @@ const Instalaciones = () => {
     slidesToShow: slides, // Cantidad de elementos a mostrar al mismo tiempo
     rows: 2,
     slidesPerRow: 1,
-    autoplay: false, // Reproducción automática
+    autoplay: true, // Reproducción automática
     autoplaySpeed: 4000, // Velocidad de reproducción automática
     fade: false, 
     cssEase: 'cubic-bezier(0.23, 1, 0.32, 1)',
@@ -70,28 +70,27 @@ const Instalaciones = () => {
       alt: 'foto2'
     },
     {
-      url: 'https://www.argentinaforestal.com/wp-content/uploads/2019/04/Aserradero-Garupa-2.jpg',
-      alt: 'foto3'
+      url: 'https://palletsjauregui.com.ar/site/wp-content/uploads/2018/07/aserradero-madera-pallets-4.jpg'
     },
     {
-      url: 'https://us.123rf.com/450wm/shablovskyistock/shablovskyistock2111/shablovskyistock211100204/178121291-aserradero-tablones-de-madera-en-un-aserradero-o-en-un-taller-de-carpinter%C3%ADa-aserrado-y-secado-de.jpg',
+      url: 'https://ss-static-01.esmsv.com/id/112648/galeriaimagenes/obtenerimagen/?id=19&tipoEscala=stretch&width=977&height=733',
       alt: 'foto4'
     },
     {
+      url: 'https://exportpack.com.ar/wp-content/uploads/2013/11/horno-expor-pack.png',
+      alt: 'foto5'
+    },
+    {
+      url: 'https://powdertronic.com/wp-content/uploads/2022/10/hornoMadera-scaled.jpg',
+      alt: 'foto6'
+    },
+    {
       url: 'https://www.argentinaforestal.com/wp-content/uploads/2019/04/Aserradero-Garupa-2.jpg',
-      alt: 'foto1'
+      alt: 'foto7'
     },
     {
-      url: 'https://us.123rf.com/450wm/shablovskyistock/shablovskyistock2111/shablovskyistock211100204/178121291-aserradero-tablones-de-madera-en-un-aserradero-o-en-un-taller-de-carpinter%C3%ADa-aserrado-y-secado-de.jpg',
-      alt: 'foto2'
-    },
-    {
-      url: 'https://www.argentinaforestal.com/wp-content/uploads/2019/04/Aserradero-Garupa-2.jpg',
-      alt: 'foto3'
-    },
-    {
-      url: 'https://us.123rf.com/450wm/shablovskyistock/shablovskyistock2111/shablovskyistock211100204/178121291-aserradero-tablones-de-madera-en-un-aserradero-o-en-un-taller-de-carpinter%C3%ADa-aserrado-y-secado-de.jpg',
-      alt: 'foto4'
+      url: 'https://palletchacabuco.com.ar/wp-content/uploads/2022/05/catem-palletchacabuco.jpg',
+      alt: 'foto8'
     }
   ];
 

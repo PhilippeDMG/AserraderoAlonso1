@@ -10,6 +10,10 @@
   background: var(--primario-0);
   border-bottom: 1px solid #974811;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .icono {
   width: 36px;
   height: 36px;

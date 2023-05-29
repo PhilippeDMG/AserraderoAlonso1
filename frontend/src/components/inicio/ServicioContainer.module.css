@@ -11,6 +11,10 @@ span {
   justify-content: center;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .carrusel {
   box-sizing: border-box;
   width: --webkit-fill-available;
@@ -39,7 +43,7 @@ img {
   width: 100%;
   text-align: center;
   height: 100%;
-  margin: auto;
+  margin: 4px;
 }
 
 .botones {

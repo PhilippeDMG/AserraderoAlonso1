@@ -50,7 +50,7 @@ const Ejemplos = () => {
             su vida útil y asegurando un rendimiento confiable en el manejo y
             almacenamiento de mercancías.
           </div>
-          <div className={`botonBorderLarge ${label}`}>Más</div>
+          <button className={`botonBorderLarge ${label}`}><a href="/contacto">Consúltenos</a></button>
         </div>
         <div className={style.imgContainer}>
           <div className={style.fig1}></div>
@@ -89,7 +89,7 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="https://cdn1.npcdn.net/image/1609492666583a74e8cdc68e61b55ff3430ba5d283.jpg?md5id=e8196c340a699ae946898b4f1f315056&new_width=1200&new_height=1200&size=max&w=-62170009200" alt="" className={style.imgServ}/>
+            <img src="https://ss-static-01.esmsv.com/id/58379/galeriaimagenes/obtenerimagen/?id=65&tipoEscala=stretch&width=977&height=977" alt="" className={style.imgServ}/>
           </picture>
         </div>
         <div className={style.texto}>
@@ -109,7 +109,7 @@ const Ejemplos = () => {
             tranquilidad a nuestros clientes y garantizando la conformidad con
             las regulaciones fitosanitarias.
           </div>
-          <div className={`botonBorderLarge ${label}`}>Más</div>
+          <button className={`botonBorderLarge ${label}`}><a href="/contacto">Consúltenos</a></button>
         </div>
       </div>
       <div className={style.carta}>
@@ -128,7 +128,7 @@ const Ejemplos = () => {
             de sus productos y la eficiencia en su cadena de suministro,
             brindando soluciones confiables y seguras para su negocio.
           </div>
-          <div className={`botonBorderLarge ${label}`}>Más</div>
+          <button className={`botonBorderLarge ${label}`}><a href="/contacto">Consúltenos</a></button>
         </div>
         <div className={style.imgContainer}>
           <div className={style.fig1}></div>
@@ -146,7 +146,7 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="https://cdn1.npcdn.net/image/1609492666583a74e8cdc68e61b55ff3430ba5d283.jpg?md5id=e8196c340a699ae946898b4f1f315056&new_width=1200&new_height=1200&size=max&w=-62170009200" alt="" className={style.imgServ}/>
+            <img src="https://ss-static-01.esmsv.com/id/58379/galeriaimagenes/obtenerimagen/?id=64&tipoEscala=crop&width=977&height=733" alt="" className={style.imgServ}/>
           </picture>
         </div>
       </div>

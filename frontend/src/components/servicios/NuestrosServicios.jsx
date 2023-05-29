@@ -61,7 +61,7 @@ const NuestrosServicios = () => {
             </div>
           </div>
         </div>
-        <div className={`${label} botonBorderLarge`} >Consúltenos</div>
+        <button className={`${label} botonBorderLarge`} ><a href="/contacto">Consúltenos</a></button>
       </div>
     </div>
   )
