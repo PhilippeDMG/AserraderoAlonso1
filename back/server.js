@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 const express = require('express');
 const app = express();
-const path = require('path');
 // Servir archivos estáticos desde el directorio 'assets'
 app.use('/assets', express.static(__dirname + '/../frontend/dist/assets/', {
   setHeaders: (res, path) => {
