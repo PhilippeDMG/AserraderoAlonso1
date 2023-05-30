@@ -1,10 +1,9 @@
 import style from "./Navbar_.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false)
-
   const toggleVisible = () => {
     setVisible(!visible)
   }
@@ -20,6 +19,17 @@ const Navbar = () => {
     medium: "labelMedium",
     large: "labelLarge",
   })
+  useEffect(() => {
+    const hide = () => {
+      setVisible(false);
+    };
+
+    window.addEventListener('popstate', hide);
+
+    return () => {
+      window.removeEventListener('popstate', hide);
+    };
+  }, []);
   return (
     <div className={style.navbar}>
       {/* <img className={style.icono} alt='' src='/home.svg' /> */}
