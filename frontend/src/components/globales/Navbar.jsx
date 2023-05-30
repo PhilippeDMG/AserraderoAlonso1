@@ -1,6 +1,5 @@
 import style from "./Navbar_.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
-import Desplegable from "./Desplegable"
 import { useState } from "react"
 
 const Navbar = () => {
@@ -9,6 +8,7 @@ const Navbar = () => {
   const toggleVisible = () => {
     setVisible(!visible)
   }
+  
   let body = useScreenSize({
     small: "bodySmall",
     medium: "bodyMedium",
@@ -26,14 +26,13 @@ const Navbar = () => {
       <div className={body}>
         <span>Alonso</span> TimberCraft
       </div>
-      <Desplegable visible={visible} />
       <img
         className={style.burger}
         alt=''
-        src='/burger.svg'
-        onClick={() => toggleVisible()}
+        src={visible ? '/flechaDesplegable.svg' : '/burger.svg'}
+        onClick={toggleVisible}
       />
-      <ul className={style.navbarLinks}>
+      <ul className={visible ? style.navbarLinks + ' ' + style.active : style.navbarLinks}>
         <li className={`${style.linkButtons} ${label}`}>
           <a href='/'>Inicio</a>
         </li>
