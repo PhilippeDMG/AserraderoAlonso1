@@ -24,10 +24,10 @@ const Navbar = () => {
       setVisible(false);
     };
 
-    window.addEventListener('popstate', hide);
+    window.addEventListener('beforeunload', hide);
 
     return () => {
-      window.removeEventListener('popstate', hide);
+      window.removeEventListener('beforeunload', hide);
     };
   }, []);
   return (
