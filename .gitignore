@@ -1,7 +1,7 @@
 node_modules
 .VSCodeCounter
 .node_modules
-
+./frontend/dist
 
 logs
 .log
@@ -24,3 +24,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+frontend/dist/*

@@ -73,13 +73,13 @@ ul .linkButtons:active {
     top: 64px;
     z-index: 1;
     grid-template-columns: 0;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 64px);
     justify-items: start;
     align-items: center;
     margin: 0;
     padding: 0;
     width: 0;
-    height: 90vh;
+    height: 100vh;
     background: #ffff;
     transition: width 0.3s ease;
   }
@@ -96,7 +96,7 @@ ul .linkButtons:active {
     display: block;
     cursor: pointer;
   }
-  ul li {
+  .navbarLinks li {
     transform-origin: left center; 
   }
   ul .linkButtons:hover {
