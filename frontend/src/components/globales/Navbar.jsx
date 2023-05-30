@@ -13,12 +13,17 @@ const Navbar = () => {
     medium: "bodyMedium",
     large: "bodyLarge",
   })
-
   let label = useScreenSize({
     small: "labelSmall",
     medium: "labelMedium",
     large: "labelLarge",
   })
+  const handleItemClick = (event, url) => {
+    event.preventDefault();
+    setTimeout(() => {
+      window.location.replace(url);
+    }, 300);
+  };
   useEffect(() => {
     const hide = () => {
       setVisible(false);
@@ -30,6 +35,7 @@ const Navbar = () => {
       window.removeEventListener('beforeunload', hide);
     };
   }, []);
+
   return (
     <div className={style.navbar}>
       {/* <img className={style.icono} alt='' src='/home.svg' /> */}
@@ -43,17 +49,17 @@ const Navbar = () => {
         onClick={toggleVisible}
       />
       <ul className={visible ? style.navbarLinks + ' ' + style.active : style.navbarLinks}>
-        <li className={`${style.linkButtons} ${label}`}>
-          <a href='/'>Inicio</a>
+      <li className={`${style.linkButtons} ${label}`}>
+          <a href='/' onClick={(event) => handleItemClick(event, '/')}>Inicio</a>
         </li>
         <li className={`${style.linkButtons} ${label}`}>
-          <a href='/nosotros'>Nosotros</a>
+          <a href='/nosotros' onClick={(event) => handleItemClick(event, '/nosotros')}>Nosotros</a>
         </li>
         <li className={`${style.linkButtons} ${label}`}>
-          <a href='/servicios'>Servicios</a>
+          <a href='/servicios' onClick={(event) => handleItemClick(event, '/servicios')}>Servicios</a>
         </li>
         <li className={`${style.linkButtons} ${label}`}>
-          <a href='/contacto'>Contacto</a>
+          <a href='/contacto' onClick={(event) => handleItemClick(event, '/contacto')}>Contacto</a>
         </li>
       </ul>
     </div>
