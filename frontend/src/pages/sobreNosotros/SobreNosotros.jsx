@@ -1,4 +1,5 @@
 import Portada from "../../components/globales/Portada"
+import Separador from "../../components/globales/Separador"
 import Navbar from "../../components/globales/Navbar"
 import Footer from "../../components/globales/Footer"
 import MisionVision from "../../components/sobreNosotros/MisionVision"
@@ -18,7 +19,9 @@ const SobreNosotros = () => {
         nombreImagen={"SobreNosotrosPortada.png"}
       />
       <MisionVision />
+      <Separador />
       <Instalaciones />
+      <Separador />
       <PorQueElegirnos />
       <Contactos usarMapa={true} />
       <Footer />

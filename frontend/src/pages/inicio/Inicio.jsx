@@ -1,4 +1,5 @@
 import Navbar from "../../components/globales/Navbar"
+import Separador from "../../components/globales/Separador"
 import CompanyNameContainer from "../../components/inicio/CompanyNameContainer"
 import AboutUsContainer from "../../components/inicio/AboutUsContainer"
 import PorQueElegirnos from "../../components/globales/PorQueElegirnos"
@@ -13,8 +14,11 @@ const Inicio = () => {
       <Navbar />
       <CompanyNameContainer />
       <AboutUsContainer />
-      <PorQueElegirnos />
-      <ServicioContainer />
+      <Separador />
+      <PorQueElegirnos />      
+      <Separador />
+      <ServicioContainer />    
+      <Separador />
       <Direccion />
       <Footer />
     </div>

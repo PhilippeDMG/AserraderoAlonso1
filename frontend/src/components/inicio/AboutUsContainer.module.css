@@ -1,5 +1,5 @@
 .sobreNosotros {
-  margin: 64px;
+  padding: 64px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -83,9 +83,10 @@ span {
   }
 }
 @media screen and (max-width: 600px) {
-  
   .izquierda, .sobreNosotros {
     gap: 16px;
-    margin: 32px;
+  }
+  .sobreNosotros {
+    padding: 32px;
   }
 }

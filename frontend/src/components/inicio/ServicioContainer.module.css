@@ -2,12 +2,12 @@ span {
   color: var(--primary);
 }
 .servicios {
-  margin: 64px 120px;
+  margin: 64px;
   width: -webkit-fill-available;
 }
 .servicio{
   display: flex;
-  margin: 24px;
+  margin-bottom: 42px;
   justify-content: center;
   text-align: center;
 }
@@ -60,6 +60,9 @@ img {
 
 @media screen and (max-width: 800px) {
   .servicios {
-    margin: 42px;
+    margin: 32px;
+  }
+  .servicio {
+    margin-bottom: 24px;
   }
 }

@@ -37,9 +37,9 @@ span {
 
 @media screen and (max-width: 800px) {
   .porQueElegirnos {
-    padding: 32px;
     text-align: center;
-  }
+    padding: 32px;
+}
   .calidad {
     flex-basis: 100%;
   }
@@ -49,6 +49,9 @@ span {
   }
 }
 @media screen and (max-width: 500px) {
+  .porQueElegirnos {
+    padding: 32px;
+  }
   .micuadro {
     flex-direction: column;
     width: fit-content;

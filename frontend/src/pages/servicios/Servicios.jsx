@@ -1,4 +1,5 @@
 import Navbar from "../../components/globales/Navbar"
+import Separador from "../../components/globales/Separador"
 import NuestrosServicios from "../../components/servicios/NuestrosServicios"
 import Ejemplos from "../../components/servicios/Ejemplos"
 import Contactos from "../../components/globales/Contactos"
@@ -9,6 +10,7 @@ const Servicios = () => {
     <div className={style.main}>
       <Navbar />
       <NuestrosServicios />
+      <Separador />
       <Ejemplos />
       <Contactos usarMapa={true} />
       <Footer />
