@@ -20,7 +20,7 @@
   background-image: url('/Direccion.jpg');
   background-size: cover;
   background-position: 80% center;
-  height: auto;
+  height: 100%;
 }
 .contactLema {
   grid-column: 1/3;

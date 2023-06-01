@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm"
 const Contactos = ({ usarMapa }) => {
   return (
     <div className={usarMapa? style.contactenos : style.contactTwo}>
-      <picture className={usarMapa? style.mapConteiner : style.inactive}>
+      <div className={usarMapa? style.mapConteiner : style.inactive}>
         {/* <source
           media="(min-width: 800px)"
           srcSet="/mapa.png"
@@ -22,7 +22,7 @@ const Contactos = ({ usarMapa }) => {
           className={style.miMapa}
           style={usarMapa ? null : { display: "none" }}
         ></div>
-      </picture>
+      </div>
       <div className={usarMapa ? style.contactLema : style.contactLemaTwo}>
         <ContactForm />
         <Lema />
