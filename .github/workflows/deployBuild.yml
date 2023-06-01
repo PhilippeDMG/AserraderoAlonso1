@@ -2,9 +2,9 @@ name: helloDeploy
 
 on:
   push:
-    branches: gabrielBranch
+    branches: main
   pull_request:
-    branches: gabrielBranch
+    branches: main
 
 jobs:
   build:
