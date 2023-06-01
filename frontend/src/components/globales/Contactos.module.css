@@ -16,7 +16,12 @@
   object-fit: cover;
   overflow: hidden;
 }
-
+.miMapa {
+  background-image: url('/Direccion.jpg');
+  background-size: cover;
+  background-position: 80% center;
+  height: auto;
+}
 .contactLema {
   grid-column: 1/3;
   grid-row: 1/2;
@@ -58,6 +63,7 @@
     grid-column: 1/2;
     grid-row: 1/2;
     max-height: 500px;
+    min-height: 300px;
   }
   .mapConteiner,
   .miMapa {

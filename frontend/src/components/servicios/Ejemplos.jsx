@@ -68,7 +68,7 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="https://cdn1.npcdn.net/image/1609492666583a74e8cdc68e61b55ff3430ba5d283.jpg?md5id=e8196c340a699ae946898b4f1f315056&new_width=1200&new_height=1200&size=max&w=-62170009200" alt="" className={style.imgServ}/>
+            <img src="/palletsAdentroDeHorno.jpeg" alt="" className={style.imgServ}/>
           </picture>
         </div>
       </div>
@@ -89,7 +89,7 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="https://ss-static-01.esmsv.com/id/58379/galeriaimagenes/obtenerimagen/?id=65&tipoEscala=stretch&width=977&height=977" alt="" className={style.imgServ}/>
+            <img src="/paquetesTablasCamion.jpeg" alt="" className={style.imgServ}/>
           </picture>
         </div>
         <div className={style.texto}>
@@ -146,7 +146,7 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="https://ss-static-01.esmsv.com/id/58379/galeriaimagenes/obtenerimagen/?id=64&tipoEscala=crop&width=977&height=733" alt="" className={style.imgServ}/>
+            <img src="/tresPalletsConFilm.jpeg" alt="" className={style.imgServ}/>
           </picture>
         </div>
       </div>

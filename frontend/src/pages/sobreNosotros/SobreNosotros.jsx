@@ -16,7 +16,7 @@ const SobreNosotros = () => {
         cuerpo={
           "Pasión por la madera, calidad en cada detalle. Descubrí quiénes somos y lo que hacemos"
         }
-        nombreImagen={"SobreNosotrosPortada.png"}
+        nombreImagen={"palletsEnCamionDentroRecinto.jpeg"}
       />
       <MisionVision />
       <Separador />

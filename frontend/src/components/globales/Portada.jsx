@@ -17,7 +17,7 @@ const Portada = ({ titulo, cuerpo, nombreImagen }) => {
     }
   )
   return (
-    <div className={style.fondo} style={{ backgroundImage: `url(/${nombreImagen})` }}>
+    <div className={style.fondo} style={{ backgroundImage: `url(/${nombreImagen})`, backgroundSize: 'cover', backgroundPosition: 'center 30%', backgroundRepeat: 'no-repeat'}}>
       <div className={style.texto1}>
         <div className={display}>{titulo}</div>
         <div className={body}>{cuerpo}</div>

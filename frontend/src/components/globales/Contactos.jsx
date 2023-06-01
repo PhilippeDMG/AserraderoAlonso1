@@ -18,11 +18,10 @@ const Contactos = ({ usarMapa }) => {
           style={usarMapa ? null : { display: "none" }}
           className={style.miMapa}
         /> */}
-        <img
-        src='/mapa.png'
-        className={style.miMapa}
-        style={usarMapa ? null : { display: "none" }}
-        /> 
+        <div
+          className={style.miMapa}
+          style={usarMapa ? null : { display: "none" }}
+        ></div>
       </picture>
       <div className={usarMapa ? style.contactLema : style.contactLemaTwo}>
         <ContactForm />

@@ -57,7 +57,7 @@ const AboutUsContainer = () => {
       </div>
       <div className={style.imagenes}>
         <picture>
-          <img src="https://rdzgil.com/wp-content/uploads/2021/07/Que-son-los-pallets.jpg" alt="" />
+          <img src="/binsFueraDeRecinto.jpeg" alt="" />
         </picture>
         <div className={style.imagen1}></div>
         <div className={style.imagen2}></div>
