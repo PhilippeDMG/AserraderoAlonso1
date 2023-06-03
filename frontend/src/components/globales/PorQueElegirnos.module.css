@@ -4,7 +4,7 @@
   align-items: center;
   padding: 64px;
   gap: 32px;
-  max-width: -webkit-fill-available;
+  max-width: 70%;
   width: 100vw;
 }
 span {
@@ -17,23 +17,35 @@ span {
   width: 100%;
 }
 .micuadro {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
   width: 100%;
   justify-content: space-around;
 }
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-left: 1px solid var(--primary);
+  width: 100%;
+  height: 100%;
+  padding-left: 8px;
+}
 .accountCircleIcon {
-  width: 64px;
-  height: 64px;
+  width: 24px;
+  height: 24px;
+  margin: 4px;
 }
 .calidad {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 8px;
-  width: fit-content;
+  width: 100%;
+  align-items: flex-start;
 }
+
 
 @media screen and (max-width: 800px) {
   .porQueElegirnos {
@@ -47,6 +59,13 @@ span {
   .calidad:nth-child(2n) {
     flex-basis: 50%;
   }
+  .micuadro {
+    grid-template-columns: 1fr; 
+  }
+  .contenedor {
+    text-align: start;
+  }
+  .accountCircleIcon {margin: 0;}
 }
 @media screen and (max-width: 500px) {
   .porQueElegirnos {
