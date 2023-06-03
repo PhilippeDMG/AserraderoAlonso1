@@ -38,10 +38,10 @@ const ServicioContainer = () => {
     dots: true, // Muestra los puntos de navegación
     arrows: true, // Muestra las flechas de navegación
     infinite: true, // Permite navegar en bucle
-    speed: 1500, // Velocidad de transición
+    speed: 700, // Velocidad de transición
     slidesToShow: 1, // Cantidad de elementos a mostrar al mismo tiempo
     autoplay: true, // Reproducción automática
-    autoplaySpeed: 4000, // Velocidad de reproducción automática
+    autoplaySpeed: 6000, // Velocidad de reproducción automática
     fade: false,
     cssEase: 'cubic-bezier(0.23, 1, 0.32, 1)',
     transform: 'translate3d(0, 0, 0)',
