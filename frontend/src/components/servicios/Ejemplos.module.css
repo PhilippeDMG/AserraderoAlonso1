@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 320px;
-  margin: 360px 0 160px;
+  margin: 320px 0 160px;
   background-image: url("/cargandoBinsFuera.jpeg");
   background-attachment: fixed;
   background-position: center;
@@ -135,7 +135,7 @@ span {
 
 @media screen and (max-width: 600px) {
   .ejemplos {
-    margin: 640px 0 24px;
+    margin: 480px 0 24px;
   }
   .fig1 {
     left: -24px;
@@ -151,5 +151,10 @@ span {
   }
   .imgContainer {
     width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .ejemplos {
+    margin: 580px 0 24px;
   }
 }

@@ -21,6 +21,9 @@ body {
 :root {
 
   /* Colors */
+  --success: #270;
+  --error: #D8000C;
+
   --neutral-98: #FFF8F6;
   --neutral-60: #998F8A;
   --neutral-40: #655D59;
@@ -312,9 +315,10 @@ a {
   transition: all 0.3s ease;
 }
 button {transition: all 0.3s ease;}
-button:hover {
-  background: var(--primary);
-  color: var(--on-primary);
+.botonBorder:hover, .botonBorderLarge:hover, .botonBorderMedium:hover {
+  transform: scale(1.1);
+}
+.botonFull:hover, .botonFullLarge:hover, .botonFullMedium:hover {
   transform: scale(1.1);
 }
 li {transition: all 0.3s ease;}

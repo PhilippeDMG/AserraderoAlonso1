@@ -70,7 +70,6 @@ h1 {
   width: fit-content;
   height: fit-content;
 }
-
 @media screen and (max-width: 600px) {
   .fondo {
     padding: 36px 32px 48px 32px;
