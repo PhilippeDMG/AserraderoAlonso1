@@ -122,7 +122,7 @@ const ContactForm = () => {
           />
           {captchaValido === false && (
             <div className={statusStyle + " " + body}>
-              Por favor acepta el captcha
+              Por favor aceptá el captcha
             </div>
           )}
         </div>
