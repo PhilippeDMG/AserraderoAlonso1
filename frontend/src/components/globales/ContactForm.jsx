@@ -114,7 +114,8 @@ const ContactForm = () => {
             Mensaje
           </label>
         </div>
-        <div className={styles.recaptcha}>
+        <div>estoanda?</div>
+        <div>
           <ReCAPTCHA
             ref={captcha}
             sitekey='6LeuLnomAAAAAPGltTfdYYfaTcIinZ4KWHGw4kGz'
