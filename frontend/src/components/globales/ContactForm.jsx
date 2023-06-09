@@ -114,11 +114,10 @@ const ContactForm = () => {
             Mensaje
           </label>
         </div>
-        <div>estoanda?</div>
         <div>
           <ReCAPTCHA
             ref={captcha}
-            sitekey='6LeuLnomAAAAAPGltTfdYYfaTcIinZ4KWHGw4kGz'
+            sitekey='6LftVoAmAAAAAPuiV5A0T5jHRAPVA7wpR413cEsL'
             onChange={onChange}
           />
           {captchaValido === false && (

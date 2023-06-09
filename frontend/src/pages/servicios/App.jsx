@@ -1,7 +1,13 @@
 import Servicios from "./Servicios"
+import WhatsAppIcon from "../../components/globales/WhatsAppIcon"
 
 const App = () => {
-  return <Servicios />
+  return (
+    <>
+      <Servicios />
+      <WhatsAppIcon />
+    </>
+  )
 }
 
 export default App

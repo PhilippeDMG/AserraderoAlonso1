@@ -1,0 +1,8 @@
+.whatsapp {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+}

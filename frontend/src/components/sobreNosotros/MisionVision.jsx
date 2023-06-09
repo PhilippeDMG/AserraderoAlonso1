@@ -2,25 +2,21 @@ import style from "./MisionVision.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
 
 const MisionVision = () => {
-  let headline = useScreenSize(
-    {
-      small: 'headlineSmall',
-      medium: 'headlineMedium',
-      large: 'headlineLarge',
-    }
-  )
-  let body = useScreenSize(
-    {
-      small: 'bodySmall',
-      medium: 'bodyMedium',
-      large: 'bodyLarge',
-    }
-  )
+  let headline = useScreenSize({
+    small: "headlineSmall",
+    medium: "headlineMedium",
+    large: "headlineLarge",
+  })
+  let body = useScreenSize({
+    small: "bodySmall",
+    medium: "bodyMedium",
+    large: "bodyLarge",
+  })
   return (
     <div className={style.misionVision}>
       <div className={style.contenedor}>
         <div className={style.texto}>
-          <div className={headline + ' bordeIzq'}>Mision</div>
+          <div className={headline + " bordeIzq"}>Misión</div>
           <div className={body}>
             Nuestra misión es ser líderes en la industria como proveedores
             confiables de servicios de tratamiento fitosanitario, aserrado de
@@ -36,7 +32,10 @@ const MisionVision = () => {
         </div>
         <div className={style.imagenes}>
           <picture>
-            <img src="https://rdzgil.com/wp-content/uploads/2021/07/Que-son-los-pallets.jpg" alt="" />
+            <img
+              src='https://rdzgil.com/wp-content/uploads/2021/07/Que-son-los-pallets.jpg'
+              alt=''
+            />
           </picture>
           <div className={style.imagen1}>
             <div className={style.imagen3}></div>
@@ -47,7 +46,10 @@ const MisionVision = () => {
       <div className={style.contenedor}>
         <div className={style.imagenes}>
           <picture>
-            <img src="https://palletsjauregui.com.ar/site/wp-content/uploads/2018/06/pallets-jauregui-empresa-3.jpg" alt="" />
+            <img
+              src='https://palletsjauregui.com.ar/site/wp-content/uploads/2018/06/pallets-jauregui-empresa-3.jpg'
+              alt=''
+            />
           </picture>
           <div className={style.imagen1}>
             <div className={style.imagen3}></div>
@@ -55,7 +57,7 @@ const MisionVision = () => {
           <div className={style.imagen2}></div>
         </div>
         <div className={style.texto}>
-          <div className={headline + ' bordeIzq'}>Vision</div>
+          <div className={headline + " bordeIzq"}>Visión</div>
           <div className={body}>
             Nuestra visión es ser reconocidos como referentes en la industria,
             destacando por nuestra excelencia en el tratamiento fitosanitario,

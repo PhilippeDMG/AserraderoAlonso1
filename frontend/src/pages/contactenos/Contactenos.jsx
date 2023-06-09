@@ -11,7 +11,7 @@ const Contactenos = () => {
       <Portada
         titulo={"Contáctenos"}
         cuerpo={
-          "¡Estamos aquí para ayudarte! Contáctanos y descubre cómo podemos cumplir tus necesidades."
+          "Estamos para ayudarlo. Contáctenos y descubra cómo podemos cumplir sus necesidades"
         }
         nombreImagen={"NuestrosServiciosFondo.png"}
       />

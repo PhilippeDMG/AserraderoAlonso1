@@ -14,7 +14,7 @@ const SobreNosotros = () => {
       <Portada
         titulo={"Sobre Nosotros"}
         cuerpo={
-          "Pasión por la madera, calidad en cada detalle. Descubrí quiénes somos y lo que hacemos"
+          "Pasión por la madera, calidad en cada detalle. Descubra quiénes somos y lo que hacemos"
         }
         nombreImagen={"palletsEnCamionDentroRecinto.jpeg"}
       />
