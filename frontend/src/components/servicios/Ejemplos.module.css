@@ -7,14 +7,14 @@
   align-items: flex-start;
   gap: 320px;
   margin: 320px 0 160px;
-  background-image: url("/cargandoBinsFuera.jpeg");
+  background-image: url("/PalletsAdentro.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .carta {
-  height:fit-content;
+  height: fit-content;
   width: -webkit-fill-available;
   display: flex;
   flex-direction: row;
@@ -22,7 +22,7 @@
   justify-content: space-between;
   background: #ffff;
   gap: 64px;
-  padding: 64px 120px; 
+  padding: 64px 120px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 a {
@@ -39,7 +39,7 @@ a {
   height: fit-content;
 }
 span {
-  color: var(--primary)
+  color: var(--primary);
 }
 /* .figuras {
   width: 100%;
@@ -64,7 +64,11 @@ span {
   top: -24px;
   z-index: -1;
   border-radius: 24px;
-  background: linear-gradient(to bottom right, var(--primary), var(--primary-fixed-dim));
+  background: linear-gradient(
+    to bottom right,
+    var(--primary),
+    var(--primary-fixed-dim)
+  );
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 .mod1 {
@@ -80,7 +84,11 @@ span {
   bottom: -32px;
   z-index: -1;
   border-radius: 24px;
-  background: linear-gradient(to bottom right, var(--secondary), var(--primary-fixed-dim));
+  background: linear-gradient(
+    to bottom right,
+    var(--secondary),
+    var(--primary-fixed-dim)
+  );
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -108,7 +116,7 @@ span {
   .carta {
     flex-direction: column-reverse;
     align-items: center;
-    padding: 64px 32px; 
+    padding: 64px 32px;
   }
   .carta:nth-child(2) {
     flex-direction: column;

@@ -1,32 +1,25 @@
 /* eslint-disable react/prop-types */
 import style from "./Instalaciones.module.css"
-import Slider from 'react-slick';
+import Slider from "react-slick"
 import { useScreenSize } from "../../utils/useScreenSize"
 import "../../utils/slick-carousel/slick/slick-theme.css"
 import "../../utils/slick-carousel/slick/slick.css"
 const Instalaciones = () => {
-
-  let headline = useScreenSize(
-    {
-      small: 'headlineSmall',
-      medium: 'headlineMedium',
-      large: 'headlineLarge',
-    }
-  )
-  let body = useScreenSize(
-    {
-      small: 'bodySmall',
-      medium: 'bodyMedium',
-      large: 'bodyLarge',
-    }
-  )
-  let slides = useScreenSize(
-    {
-      small: 1,
-      medium: 2,
-      large: 3,
-    }
-  )
+  let headline = useScreenSize({
+    small: "headlineSmall",
+    medium: "headlineMedium",
+    large: "headlineLarge",
+  })
+  let body = useScreenSize({
+    small: "bodySmall",
+    medium: "bodyMedium",
+    large: "bodyLarge",
+  })
+  let slides = useScreenSize({
+    small: 1,
+    medium: 2,
+    large: 3,
+  })
   const settings = {
     dots: true, // Muestra los puntos de navegación
     arrows: true, // Muestra las flechas de navegación
@@ -37,62 +30,67 @@ const Instalaciones = () => {
     slidesPerRow: 1,
     autoplay: true, // Reproducción automática
     autoplaySpeed: 6000, // Velocidad de reproducción automática
-    fade: false, 
-    cssEase: 'cubic-bezier(0.23, 1, 0.32, 1)',
-    transform: 'translate3d(0, 0, 0)',
-  };
+    fade: false,
+    cssEase: "cubic-bezier(0.23, 1, 0.32, 1)",
+    transform: "translate3d(0, 0, 0)",
+  }
 
   const Carrucel = ({ imgs }) => {
     return (
-      <Slider {...settings}> 
-          {imgs.map((img) => {
-              return (
-                  <div key={img.alt}>
-                      <picture>
-                          <source />
-                          <source />
-                          <img src={img.url} alt={img.alt} className={style.carouselImage}/>
-                      </picture>
-                  </div>
-              );
-          })}
+      <Slider {...settings}>
+        {imgs.map((img) => {
+          return (
+            <div key={img.alt}>
+              <picture>
+                <source />
+                <source />
+                <img
+                  src={img.url}
+                  alt={img.alt}
+                  className={style.carouselImage}
+                />
+              </picture>
+            </div>
+          )
+        })}
       </Slider>
-    );
+    )
   }
 
-  let caca = [
+  const cartas = [
     {
-      url: 'https://www.argentinaforestal.com/wp-content/uploads/2019/04/Aserradero-Garupa-2.jpg',
-      alt: 'foto1'
+      url: "/PalletsAlonso.jpg",
+      alt: "foto1",
     },
     {
-      url: 'https://us.123rf.com/450wm/shablovskyistock/shablovskyistock2111/shablovskyistock211100204/178121291-aserradero-tablones-de-madera-en-un-aserradero-o-en-un-taller-de-carpinter%C3%ADa-aserrado-y-secado-de.jpg',
-      alt: 'foto2'
+      url: "https://us.123rf.com/450wm/shablovskyistock/shablovskyistock2111/shablovskyistock211100204/178121291-aserradero-tablones-de-madera-en-un-aserradero-o-en-un-taller-de-carpinter%C3%ADa-aserrado-y-secado-de.jpg",
+      alt: "foto2",
     },
     {
-      url: 'https://palletsjauregui.com.ar/site/wp-content/uploads/2018/07/aserradero-madera-pallets-4.jpg'
+      url: "https://palletsjauregui.com.ar/site/wp-content/uploads/2018/07/aserradero-madera-pallets-4.jpg",
+      alt: "foto3",
     },
     {
-      url: 'https://ss-static-01.esmsv.com/id/112648/galeriaimagenes/obtenerimagen/?id=19&tipoEscala=stretch&width=977&height=733',
-      alt: 'foto4'
+      url: "/Pallets2.jpg",
+      alt: "foto4",
     },
     {
-      url: 'https://exportpack.com.ar/wp-content/uploads/2013/11/horno-expor-pack.png',
-      alt: 'foto5'
+      url: "/MuchosPallets.jpg",
+      alt: "foto5",
     },
     {
-      url: 'https://powdertronic.com/wp-content/uploads/2022/10/hornoMadera-scaled.jpg',
-      alt: 'foto6'
+      url: "/InstalacionesExterior.jpg",
+      alt: "foto6",
     },
     {
-      url: 'https://www.argentinaforestal.com/wp-content/uploads/2019/04/Aserradero-Garupa-2.jpg',
-      alt: 'foto7'
+      url: "/PalletsMaquina.jpg",
+      alt: "foto7",
     },
     {
-      url: 'https://palletchacabuco.com.ar/wp-content/uploads/2022/05/catem-palletchacabuco.jpg',
-      alt: 'foto8'
-    }
-  ];
+      url: "/Herramientas.jpg",
+      alt: "foto8",
+    },
+  ]
 
   return (
     <div className={style.instalaciones}>
@@ -105,8 +103,8 @@ const Instalaciones = () => {
           capacitado para garantizar la calidad en nuestros servicios.
         </div>
       </div>
-      <div className= {style.container}>
-        <Carrucel imgs={caca}/>
+      <div className={style.container}>
+        <Carrucel imgs={cartas} />
       </div>
     </div>
   )

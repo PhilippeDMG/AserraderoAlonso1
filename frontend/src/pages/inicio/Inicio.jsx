@@ -15,9 +15,9 @@ const Inicio = () => {
       <CompanyNameContainer />
       <AboutUsContainer />
       <Separador />
-      <PorQueElegirnos />      
+      <PorQueElegirnos />
       <Separador />
-      <ServicioContainer />    
+      <ServicioContainer />
       <Separador />
       <Direccion />
       <Footer />

@@ -1,46 +1,38 @@
 import style from "./AboutUsContainer.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
 const AboutUsContainer = () => {
-  let body = useScreenSize(
-    {
-      small: 'bodySmall',
-      medium: 'bodyMedium',
-      large: 'bodyLarge'
-    },
-  )
-  let label = useScreenSize(
-    {
-      small: 'labelSmall',
-      medium: 'labelMedium',
-      large: 'labelLarge'
-    },
-  )
-  let headline = useScreenSize(
-    {
-      small: 'headlineSmall',
-      medium: 'headlineMedium',
-      large: 'headlineLarge'
-    },
-  )
-  let bordeIzq = useScreenSize(
-    {
-      small: ' bordeIzq',
-      medium: ' bordeIzq',
-      large: ' bordeIzq'
-    },
-  )
-  let boton = useScreenSize(
-    {
-      small: 'botonBorder ',
-      medium: 'botonBorderMedium ',
-      large: 'botonBorderLarge '
-    },
-  )
+  let body = useScreenSize({
+    small: "bodySmall",
+    medium: "bodyMedium",
+    large: "bodyLarge",
+  })
+  let label = useScreenSize({
+    small: "labelSmall",
+    medium: "labelMedium",
+    large: "labelLarge",
+  })
+  let headline = useScreenSize({
+    small: "headlineSmall",
+    medium: "headlineMedium",
+    large: "headlineLarge",
+  })
+  let bordeIzq = useScreenSize({
+    small: " bordeIzq",
+    medium: " bordeIzq",
+    large: " bordeIzq",
+  })
+  let boton = useScreenSize({
+    small: "botonBorder ",
+    medium: "botonBorderMedium ",
+    large: "botonBorderLarge ",
+  })
   return (
     <div className={style.sobreNosotros}>
       <div className={style.izquierda}>
         <div className={style.texto}>
-          <h2 className={headline + bordeIzq}><span>Sobre</span>  Nosotros</h2>
+          <h2 className={headline + bordeIzq}>
+            <span>Sobre</span> Nosotros
+          </h2>
           <p className={body}>
             Somos un aserradero familiar con más de 20 años de experiencia en el
             rubro. Nos enorgullece ofrecer una amplia gama de servicios, desde
@@ -53,11 +45,13 @@ const AboutUsContainer = () => {
             brindar soluciones a medida para sus necesidades de madera.
           </p>
         </div>
-        <button className={boton + label} style={{maxWidth: '100px'}}><a href="/contacto">Contáctenos</a></button>
+        <button className={boton + label} style={{ maxWidth: "100px" }}>
+          <a href='/contacto'>Contáctenos</a>
+        </button>
       </div>
       <div className={style.imagenes}>
         <picture>
-          <img src="/binsFueraDeRecinto.jpeg" alt="" />
+          <img src='/PalletsMaquina.jpg' alt='' />
         </picture>
         <div className={style.imagen1}></div>
         <div className={style.imagen2}></div>
