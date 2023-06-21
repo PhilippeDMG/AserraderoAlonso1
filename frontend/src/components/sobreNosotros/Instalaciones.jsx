@@ -59,35 +59,35 @@ const Instalaciones = () => {
 
   const cartas = [
     {
-      url: "/PalletsAlonso.jpg",
+      url: "/PalletsAlonso.webp",
       alt: "foto1",
     },
     {
-      url: "https://us.123rf.com/450wm/shablovskyistock/shablovskyistock2111/shablovskyistock211100204/178121291-aserradero-tablones-de-madera-en-un-aserradero-o-en-un-taller-de-carpinter%C3%ADa-aserrado-y-secado-de.jpg",
+      url: "/palletsEnCamionDentroRecinto.webp",
       alt: "foto2",
     },
     {
-      url: "https://palletsjauregui.com.ar/site/wp-content/uploads/2018/07/aserradero-madera-pallets-4.jpg",
+      url: "/recintoVistaOscuraConPallets.webp",
       alt: "foto3",
     },
     {
-      url: "/Pallets2.jpg",
+      url: "/Pallets2.webp",
       alt: "foto4",
     },
     {
-      url: "/MuchosPallets.jpg",
+      url: "/MuchosPallets.webp",
       alt: "foto5",
     },
     {
-      url: "/InstalacionesExterior.jpg",
+      url: "/InstalacionesExterior.webp",
       alt: "foto6",
     },
     {
-      url: "/PalletsMaquina.jpg",
+      url: "/PalletsMaquina.webp",
       alt: "foto7",
     },
     {
-      url: "/Herramientas.jpg",
+      url: "/Herramientas.webp",
       alt: "foto8",
     },
   ]

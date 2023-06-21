@@ -51,7 +51,7 @@ const AboutUsContainer = () => {
       </div>
       <div className={style.imagenes}>
         <picture>
-          <img src='/PalletsMaquina.jpg' alt='' />
+          <img src='/PalletsMaquina.webp' alt='' />
         </picture>
         <div className={style.imagen1}></div>
         <div className={style.imagen2}></div>

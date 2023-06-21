@@ -1,40 +1,32 @@
 import style from "./Ejemplos.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
 const Ejemplos = () => {
-  let headline = useScreenSize(
-    {
-      small: 'headlineSmall',
-      medium: 'headlineMedium',
-      large: 'headlineLarge',
-    }
-  )
-  let body = useScreenSize(
-    {
-      small: 'bodySmall',
-      medium: 'bodyMedium',
-      large: 'bodyLarge',
-    }
-  )
-  let label = useScreenSize(
-    {
-      small: 'labelSmall',
-      medium: 'labelMedium',
-      large: 'labelLarge',
-    }
-  )
-  let bordeIzq = useScreenSize(
-    {
-      small: 'bordeIzq',
-      medium: 'bordeIzq',
-      large: 'bordeIzq'
-    }
-  )
+  let headline = useScreenSize({
+    small: "headlineSmall",
+    medium: "headlineMedium",
+    large: "headlineLarge",
+  })
+  let body = useScreenSize({
+    small: "bodySmall",
+    medium: "bodyMedium",
+    large: "bodyLarge",
+  })
+  let label = useScreenSize({
+    small: "labelSmall",
+    medium: "labelMedium",
+    large: "labelLarge",
+  })
+  let bordeIzq = useScreenSize({
+    small: "bordeIzq",
+    medium: "bordeIzq",
+    large: "bordeIzq",
+  })
   return (
     <div className={style.ejemplos}>
       <div className={style.carta}>
         <div className={style.texto}>
           <div className={`${headline} ${bordeIzq}`}>
-          <span>Tratamiento</span> fitosanitario de pallets
+            <span>Tratamiento</span> fitosanitario de pallets
           </div>
           <div className={body}>
             Nuestro servicio de tratamiento fitosanitario de pallets es una
@@ -50,7 +42,9 @@ const Ejemplos = () => {
             su vida útil y asegurando un rendimiento confiable en el manejo y
             almacenamiento de mercancías.
           </div>
-          <button className={`botonBorderLarge ${label}`}><a href="/contacto">Consúltenos</a></button>
+          <button className={`botonBorderLarge ${label}`}>
+            <a href='/contacto'>Consúltenos</a>
+          </button>
         </div>
         <div className={style.imgContainer}>
           <div className={style.fig1}></div>
@@ -68,7 +62,11 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="/palletsAdentroDeHorno.jpeg" alt="" className={style.imgServ}/>
+            <img
+              src='/palletsAdentroDeHorno.webp'
+              alt=''
+              className={style.imgServ}
+            />
           </picture>
         </div>
       </div>
@@ -89,12 +87,16 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="/paquetesTablasCamion.jpeg" alt="" className={style.imgServ}/>
+            <img
+              src='/paquetesTablasCamion.webp'
+              alt=''
+              className={style.imgServ}
+            />
           </picture>
         </div>
         <div className={style.texto}>
           <div className={`${headline} ${bordeIzq}`}>
-          <span>Tratamiento</span> fitosanitario de tablas
+            <span>Tratamiento</span> fitosanitario de tablas
           </div>
           <div className={body}>
             Nuestro servicio de tratamiento fitosanitario de tablas de madera es
@@ -109,12 +111,16 @@ const Ejemplos = () => {
             tranquilidad a nuestros clientes y garantizando la conformidad con
             las regulaciones fitosanitarias.
           </div>
-          <button className={`botonBorderLarge ${label}`}><a href="/contacto">Consúltenos</a></button>
+          <button className={`botonBorderLarge ${label}`}>
+            <a href='/contacto'>Consúltenos</a>
+          </button>
         </div>
       </div>
       <div className={style.carta}>
         <div className={style.texto}>
-          <div className={`${headline} ${bordeIzq}`}><span>Fabricación</span> de pallets tratados</div>
+          <div className={`${headline} ${bordeIzq}`}>
+            <span>Fabricación</span> de pallets tratados
+          </div>
           <div className={body}>
             Nuestro servicio de fabricación de pallets tratados es la solución
             perfecta para sus necesidades de transporte y almacenamiento
@@ -128,7 +134,9 @@ const Ejemplos = () => {
             de sus productos y la eficiencia en su cadena de suministro,
             brindando soluciones confiables y seguras para su negocio.
           </div>
-          <button className={`botonBorderLarge ${label}`}><a href="/contacto">Consúltenos</a></button>
+          <button className={`botonBorderLarge ${label}`}>
+            <a href='/contacto'>Consúltenos</a>
+          </button>
         </div>
         <div className={style.imgContainer}>
           <div className={style.fig1}></div>
@@ -146,7 +154,11 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src="/tresPalletsConFilm.jpeg" alt="" className={style.imgServ}/>
+            <img
+              src='/tresPalletsConFilm.webp'
+              alt=''
+              className={style.imgServ}
+            />
           </picture>
         </div>
       </div>

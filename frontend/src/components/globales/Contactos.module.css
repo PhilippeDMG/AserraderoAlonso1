@@ -1,6 +1,6 @@
 .contactenos {
   display: grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 48px;
   place-items: center;
   place-content: center;
@@ -10,14 +10,14 @@
 }
 
 .mapConteiner,
-.miMapa  {
+.miMapa {
   width: 100%;
   height: -webkit-fill-available;
   object-fit: cover;
   overflow: hidden;
 }
 .miMapa {
-  background-image: url('/Direccion.jpg');
+  background-image: url("/Direccion.webp");
   background-size: cover;
   background-position: 80% center;
   height: 100%;
@@ -67,7 +67,7 @@
   }
   .mapConteiner,
   .miMapa {
-    margin: 0 0 24px 0
+    margin: 0 0 24px 0;
   }
   .contactLema {
     grid-column: 1/2;
