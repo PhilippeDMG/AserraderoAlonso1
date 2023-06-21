@@ -14,11 +14,11 @@
       rgba(0, 0, 0, 0) 100%
     ),
     linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/recintoVistaOscuraConPallets.jpeg");
+    url("/recintoVistaOscuraConPallets.webp");
   background-size: cover;
   background-position: center;
   padding: 48px 64px 64px 64px;
-  height: 72vh
+  height: 72vh;
 }
 h1 {
   margin: 0;

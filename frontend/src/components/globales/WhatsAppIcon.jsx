@@ -1,8 +1,20 @@
 import styles from "./WhatsAppIcon.module.css"
+import { useScreenSize } from "../../utils/useScreenSize"
 const WhatsAppIcon = () => {
+  let display = useScreenSize({
+    small: "displaySmall",
+    medium: "displayMedium",
+    large: "displayLarge",
+  })
   return (
     <a
-      href='https://web.whatsapp.com/send?phone=543624225651'
+      // usar este codigo cuando se tenga el telefono definido
+      // href={
+      //   display === "displayMedium" | "displaySmall"
+      //     ? "https://api.whatsapp.com/send?phone=54..."
+      //     : "https://web.whatsapp.com/send?phone=54..."
+      // }
+      href=''
       className={styles.whatsapp}
     >
       <svg height='50' width='50'>

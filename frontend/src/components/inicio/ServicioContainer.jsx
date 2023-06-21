@@ -76,12 +76,12 @@ const ServicioContainer = () => {
     {
       servicio: "Tratamiento fitosanitario",
       body: "El tratamiento fitosanitario es un conjunto de técnicas utilizadas en la agricultura para proteger las plantas y cultivos de plagas, enfermedades y malezas. Involucra la aplicación de productos químicos, biológicos o métodos de control integrado para mantener la salud de las plantas y garantizar una producción agrícola eficiente y sostenible.",
-      img: "ServiciosInicio.jpg",
+      img: "ServiciosInicio.webp",
     },
     {
       servicio: "Construcción de pallets",
       body: "La construcción de pallets implica la fabricación de estructuras de madera diseñadas para facilitar el transporte y almacenamiento de mercancías. Los pallets se construyen con madera resistente y se diseñan para ser fácilmente manipulables con montacargas. Son ampliamente utilizados en la industria logística y de almacenamiento para optimizar el manejo de productos y mejorar la eficiencia en la cadena de suministro.",
-      img: "PalletsInicio.jpg",
+      img: "PalletsInicio.webp",
     },
     {
       servicio: "Aserrado de madera",

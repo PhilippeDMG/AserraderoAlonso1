@@ -59,7 +59,7 @@ const Instalaciones = () => {
 
   const cartas = [
     {
-      url: "/PalletsAlonso.jpg",
+      url: "/PalletsAlonso.webp",
       alt: "foto1",
     },
     {
@@ -71,23 +71,23 @@ const Instalaciones = () => {
       alt: "foto3",
     },
     {
-      url: "/Pallets2.jpg",
+      url: "/Pallets2.webp",
       alt: "foto4",
     },
     {
-      url: "/MuchosPallets.jpg",
+      url: "/MuchosPallets.webp",
       alt: "foto5",
     },
     {
-      url: "/InstalacionesExterior.jpg",
+      url: "/InstalacionesExterior.webp",
       alt: "foto6",
     },
     {
-      url: "/PalletsMaquina.jpg",
+      url: "/PalletsMaquina.webp",
       alt: "foto7",
     },
     {
-      url: "/Herramientas.jpg",
+      url: "/Herramientas.webp",
       alt: "foto8",
     },
   ]

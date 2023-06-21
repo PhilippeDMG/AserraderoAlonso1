@@ -13,7 +13,7 @@ const Contactenos = () => {
         cuerpo={
           "Estamos para ayudarlo. Contáctenos y descubra cómo podemos cumplir sus necesidades"
         }
-        nombreImagen={"NuestrosServiciosFondo.png"}
+        nombreImagen={"NuestrosServiciosFondo.webp"}
       />
       <Direccion />
       <Contactos />
