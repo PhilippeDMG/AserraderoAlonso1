@@ -9,6 +9,10 @@
   padding: 0 64px;
   background: var(--primario-0);
   border-bottom: 1px solid #974811;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 a {
   justify-content: flex-start;

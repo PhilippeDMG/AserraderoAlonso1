@@ -7,7 +7,7 @@ span {
 }
 .servicio{
   display: flex;
-  margin-bottom: 42px;
+  margin-bottom: 64px;
   justify-content: center;
   text-align: center;
 }
@@ -47,7 +47,9 @@ img {
   height: 100%;
   margin: 4px;
 }
-
+.mitexto p {
+  text-align: start;
+}
 .botones {
   display: grid;
   grid-template-columns: 1fr 1fr;

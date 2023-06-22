@@ -79,9 +79,9 @@ const PorQueElegirnos = () => {
           <div className={style.contenedor}>
             <div className={titulo}>Compromiso con el Medio Ambiente</div>
             <h3 className={label} style={{margin: '0'}}>Sostenibilidad en cada paso: Promoviendo la conservación forestal y el comercio responsable.</h3>
-            <div className={body}>
+            <p className={body}>
               Nos comprometemos con la sostenibilidad en cada paso. Nuestro tratamiento térmico fitosanitario es una alternativa ecológica y respetuosa con el medio ambiente, ya que no utiliza productos químicos dañinos. Al elegirnos, apoyas la conservación forestal y el comercio responsable, contribuyendo a un futuro más verde y sostenible.
-            </div>
+            </p>
           </div>
         </div>
       </div>

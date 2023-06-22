@@ -31,7 +31,7 @@ const ServicioContainer = () => {
     arrows: true, // Muestra las flechas de navegación
     infinite: true, // Permite navegar en bucle
     speed: 700, // Velocidad de transición
-    slidesToShow: 1, // Cantidad de elementos a mostrar al mismo tiempo
+    slidesToShow: 2, // Cantidad de elementos a mostrar al mismo tiempo
     autoplay: true, // Reproducción automática
     autoplaySpeed: 6000, // Velocidad de reproducción automática
     fade: false,

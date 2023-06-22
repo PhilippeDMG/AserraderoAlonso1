@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   padding: 80px 64px;
+  margin-top: 80px;
   position: relative;
   z-index: -1;
   background: linear-gradient(
@@ -41,11 +42,20 @@
 }
 
 @media screen and (max-width: 800px) {
+  .fondo {
+    margin-top: 64px;
+  }
   .fondo, .texto1 {
     padding: 64px 32px;
     gap: 24px;
   }
   .texto1 > * {
     max-width: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fondo {
+    margin-top: 48px;
   }
 }
