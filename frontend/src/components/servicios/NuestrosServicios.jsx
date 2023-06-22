@@ -24,7 +24,7 @@ const NuestrosServicios = () => {
         cuerpo={
           "Tratamiento, aserrado y construcción de pallets a medida, brindando soluciones integrales para el transporte y almacenamiento eficiente"
         }
-        nombreImagen={"NuestrosServiciosFondo.webp"}
+        nombreImagen={"tresPalletsConFilm.webp"}
       />
       <div className={style.resumen}>
         <div className={style.cartas}>

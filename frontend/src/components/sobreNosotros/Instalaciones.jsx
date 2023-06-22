@@ -63,11 +63,11 @@ const Instalaciones = () => {
       alt: "foto1",
     },
     {
-      url: "https://us.123rf.com/450wm/shablovskyistock/shablovskyistock2111/shablovskyistock211100204/178121291-aserradero-tablones-de-madera-en-un-aserradero-o-en-un-taller-de-carpinter%C3%ADa-aserrado-y-secado-de.jpg",
+      url: "/palletsEnCamionDentroRecinto.webp",
       alt: "foto2",
     },
     {
-      url: "https://palletsjauregui.com.ar/site/wp-content/uploads/2018/07/aserradero-madera-pallets-4.jpg",
+      url: "/recintoVistaOscuraConPallets.webp",
       alt: "foto3",
     },
     {
