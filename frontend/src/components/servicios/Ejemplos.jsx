@@ -26,21 +26,10 @@ const Ejemplos = () => {
       <div className={style.carta}>
         <div className={style.texto}>
           <div className={`${headline} ${bordeIzq}`}>
-            <span>Tratamiento</span> fitosanitario de pallets
+            <span>Tratamiento</span> fitosanitario
           </div>
           <div className={body}>
-            Nuestro servicio de tratamiento fitosanitario de pallets es una
-            etapa esencial en la cadena logística y comercial. Mediante un
-            proceso cuidadoso de calentamiento controlado, eliminamos plagas y
-            organismos dañinos que puedan estar presentes en la madera.
-            Cumplimos con las normativas fitosanitarias internacionales,
-            asegurando que los pallets tratados cumplan con los requisitos para
-            el comercio internacional. Este proceso garantiza la bioseguridad,
-            evitando la propagación de enfermedades y plagas forestales, y
-            protegiendo la integridad de los productos transportados. Además,
-            los pallets tratados son más resistentes al deterioro, prolongando
-            su vida útil y asegurando un rendimiento confiable en el manejo y
-            almacenamiento de mercancías.
+            Nuestro servicio de tratamiento térmico fitosanitario garantiza la eliminación eficaz de plagas presentes en los embalajes, evitando su propagación en los envíos internacionales. Utilizamos métodos térmicos o químicos, avalados por las normativas fitosanitarias internacionales. Todos los embalajes tratados son marcados con sellos de certificación y emitimos un certificado avalado por SENASA, que es un requisito fundamental para las aduanas de cualquier país de destino. Con nuestra solución de tratamiento fitosanitario, puedes confiar en un proceso seguro y legalmente respaldado.
           </div>
           <button className={`botonBorderLarge ${label}`}>
             <a href='/contacto'>Consúltenos</a>
@@ -96,20 +85,10 @@ const Ejemplos = () => {
         </div>
         <div className={style.texto}>
           <div className={`${headline} ${bordeIzq}`}>
-            <span>Tratamiento</span> fitosanitario de tablas
+            <span>Soluciones</span> de Pallets
           </div>
           <div className={body}>
-            Nuestro servicio de tratamiento fitosanitario de tablas de madera es
-            esencial para garantizar su calidad, durabilidad y cumplimiento
-            fitosanitario. A través de un proceso de calentamiento controlado,
-            eliminamos eficazmente plagas, insectos y organismos dañinos que
-            puedan comprometer la integridad de las tablas. Esto asegura que las
-            tablas estén libres de riesgos biológicos y sean aptas para su uso
-            en diversos proyectos de construcción, mueblería y otras
-            aplicaciones industriales. Con nuestro tratamiento fitosanitario,
-            las tablas cumplen con los estándares internacionales, brindando
-            tranquilidad a nuestros clientes y garantizando la conformidad con
-            las regulaciones fitosanitarias.
+            En nuestra empresa, ofrecemos una amplia gama de soluciones de pallets para cubrir todas tus necesidades logísticas. Nuestros pallets están diseñados y fabricados con los más altos estándares de calidad, asegurando su resistencia y durabilidad. Además, contamos con opciones personalizadas para adaptarnos a tus especificaciones y requerimientos específicos. Ya sea que necesites pallets estándar, pallets de exportación o soluciones a medida, nuestro equipo se encargará de brindarle productos confiables y de calidad para optimizar tu cadena de suministro.
           </div>
           <button className={`botonBorderLarge ${label}`}>
             <a href='/contacto'>Consúltenos</a>
@@ -119,20 +98,10 @@ const Ejemplos = () => {
       <div className={style.carta}>
         <div className={style.texto}>
           <div className={`${headline} ${bordeIzq}`}>
-            <span>Fabricación</span> de pallets tratados
+            <span>Tablas Aserradas</span> de Calidad
           </div>
           <div className={body}>
-            Nuestro servicio de fabricación de pallets tratados es la solución
-            perfecta para sus necesidades de transporte y almacenamiento
-            seguros. Utilizando madera sometida a un riguroso proceso de
-            tratamiento fitosanitario, construimos pallets duraderos y
-            confiables que cumplen con los estándares de calidad y bioseguridad
-            requeridos para el comercio internacional. Nuestro equipo de
-            artesanos altamente capacitados se encarga de fabricar pallets a
-            medida, adaptándolos a sus especificaciones y requisitos únicos. Con
-            nuestra fabricación de pallets tratados, garantizamos la protección
-            de sus productos y la eficiencia en su cadena de suministro,
-            brindando soluciones confiables y seguras para su negocio.
+            Nuestras tablas aserradas son producidas utilizando maderas seleccionadas y los procesos de aserrado más avanzados. Nos enorgullece ofrecer tablas de alta calidad, con medidas precisas y acabados impecables, que cumplen con tus estándares más exigentes. Ya sea para proyectos de construcción, fabricación de muebles o cualquier otra aplicación, nuestras tablas aserradas son una elección confiable. Además, podemos adaptar las dimensiones y características de las tablas según tus necesidades específicas. Confía en nuestra experiencia y calidad para obtener el material perfecto para tu proyecto.
           </div>
           <button className={`botonBorderLarge ${label}`}>
             <a href='/contacto'>Consúltenos</a>

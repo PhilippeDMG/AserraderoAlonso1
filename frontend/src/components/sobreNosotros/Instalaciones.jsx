@@ -95,12 +95,9 @@ const Instalaciones = () => {
   return (
     <div className={style.instalaciones}>
       <div className={style.texto}>
-        <div className={headline + " bordeIzq"}>Instalaciones</div>
+        <div className={headline + " bordeIzq"}>Nuestras Instalaciones</div>
         <div className={body}>
-          Nuestras instalaciones eficientes y funcionales están equipadas con
-          equipos especializados para el tratamiento fitosanitario y la
-          fabricación de pallets. Contamos con espacios adecuados y un equipo
-          capacitado para garantizar la calidad en nuestros servicios.
+          Nuestras instalaciones cuentan con equipos especializados para tratamiento fitosanitario y fabricación de pallets. Espacios funcionales y personal capacitado aseguran servicios de calidad.
         </div>
       </div>
       <div className={style.container}>
