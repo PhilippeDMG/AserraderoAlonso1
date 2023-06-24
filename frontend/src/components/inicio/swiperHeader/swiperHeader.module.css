@@ -1,27 +1,27 @@
-.fondo {
-  width: -webkit-fill-available;
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.4) 0%,
-      rgba(12, 12, 11, 0.0186047) 37.5%,
-      rgba(126, 124, 124, 0.2) 90.62%,
-      rgba(252, 248, 247, 0.3) 100%
-    ),
-    linear-gradient(
-      180deg,
-      rgba(184, 118, 70, 0.4) 45.83%,
-      rgba(0, 1, 4, 0.0327485) 99.99%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/recintoVistaOscuraConPallets.webp");
-  background-size: cover;
-  background-position: center;
-  padding: 48px 64px 64px 64px;
+.swiperCont {
+  width: 100%;
+  height: 100%;
+  background: #000;
   margin-top: 80px;
-  height: 72vh;
+  z-index: 0;
 }
-h1 {
+.parallaxbg {
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/Herramientas.webp');
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center 40%;
+}
+.swiperCard {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+.contenido h1 {
   margin: 0;
   color: var(--on-primary);
 }
@@ -79,14 +79,13 @@ h1 {
   height: fit-content;
 }
 @media screen and (max-width: 800px) {
-  .fondo {
+  .swiperCont {
     margin-top: 64px;
   }
 }
 @media screen and (max-width: 600px) {
-  .fondo {
+  .swiperCont {
     margin-top: 48px;
-    padding: 36px 32px 48px 32px;
   }
   .contenido {
     padding: 12px;
@@ -96,4 +95,9 @@ h1 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
   }
+  .swiperCard {
+    padding: 40px 42px;
+  }
 }
+
+

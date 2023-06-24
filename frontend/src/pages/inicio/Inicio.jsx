@@ -1,6 +1,6 @@
 import Navbar from "../../components/globales/Navbar"
 import Separador from "../../components/globales/Separador"
-import CompanyNameContainer from "../../components/inicio/CompanyNameContainer"
+import SwiperHeader from "../../components/inicio/swiperHeader/SwiperHeader"
 import AboutUsContainer from "../../components/inicio/AboutUsContainer"
 import PorQueElegirnos from "../../components/globales/PorQueElegirnos"
 import ServicioContainer from "../../components/inicio/ServicioContainer"
@@ -12,7 +12,7 @@ const Inicio = () => {
   return (
     <div className={style.main}>
       <Navbar />
-      <CompanyNameContainer />
+      <SwiperHeader />
       <AboutUsContainer />
       <Separador />
       <PorQueElegirnos />

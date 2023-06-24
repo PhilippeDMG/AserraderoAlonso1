@@ -1,9 +1,11 @@
 /* eslint-disable react/prop-types */
+import { Swiper, SwiperSlide } from "swiper/react";
 import style from "./ServicioContainer.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
-import Slider from "react-slick"
-import "../../utils/slick-carousel/slick/slick-theme.css"
-import "../../utils/slick-carousel/slick/slick.css"
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Navigation } from "swiper";
 
 const ServicioContainer = () => {
   let headline = useScreenSize({
@@ -26,24 +28,22 @@ const ServicioContainer = () => {
     medium: " bordeIzq",
     large: " bordeIzq",
   })
-  const settings = {
-    dots: true, // Muestra los puntos de navegación
-    arrows: true, // Muestra las flechas de navegación
-    infinite: true, // Permite navegar en bucle
-    speed: 700, // Velocidad de transición
-    slidesToShow: 2, // Cantidad de elementos a mostrar al mismo tiempo
-    autoplay: true, // Reproducción automática
-    autoplaySpeed: 6000, // Velocidad de reproducción automática
-    fade: false,
-    cssEase: "cubic-bezier(0.23, 1, 0.32, 1)",
-    transform: "translate3d(0, 0, 0)",
-  }
   const Carrucel = ({ cards }) => {
     return (
-      <Slider {...settings}>
+      <Swiper
+        slidesPerView={1}
+        centeredSlides={true}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        loop={true}
+        modules={[Pagination, Navigation]}
+        className={style.swiperCont}
+      >
         {cards.map((card) => {
           return (
-            <div key={card.servicio}>
+            <SwiperSlide className={style.slide} key={card.servicio}>
               <div className={style.carrusel}>
                 <picture>
                   <source />
@@ -51,11 +51,13 @@ const ServicioContainer = () => {
                   <img src={card.img} loading='lazy' />
                 </picture>
                 <div className={style.mitexto}>
-                  <h2 className={headline}>
-                    <span>{card.servicio.split(" ")[0]}</span>{" "}
-                    {card.servicio.split(" ").slice(1).join(" ")}
-                  </h2>
-                  <p className={body}>{card.body}</p>
+                  <div className={style.texto}>
+                    <h2 className={headline}>
+                      <span>{card.servicio.split(" ")[0]}</span>{" "}
+                      {card.servicio.split(" ").slice(1).join(" ")}
+                    </h2>
+                    <p className={body}>{card.body}</p>
+                  </div>
                   <div className={style.botones}>
                     <button className={"botonBorder " + label}>
                       <a href='/servicios'>Más</a>
@@ -66,10 +68,10 @@ const ServicioContainer = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
           )
         })}
-      </Slider>
+      </Swiper>
     )
   }
   const cartas = [

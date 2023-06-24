@@ -1,6 +1,31 @@
 import style from "./AboutUsContainer.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
+import { useRef, useState, useEffect } from 'react';
 const AboutUsContainer = () => {
+  const containerRef = useRef(null);
+  const [containerHeight, setContainerHeight] = useState(null);
+
+  useEffect(() => {
+    const updateContainerHeight = () => {
+      if (containerRef.current) {
+        const height = containerRef.current.clientHeight;
+        setContainerHeight(height);
+      }
+    };
+
+    // Actualizar la altura al montar el componente y cada vez que el contenido cambie
+    updateContainerHeight();
+
+    // Observar cambios en el contenido del contenedor
+    const observer = new MutationObserver(updateContainerHeight);
+    observer.observe(containerRef.current, { childList: true, subtree: true });
+
+    return () => {
+      // Detener la observación al desmontar el componente
+      observer.disconnect();
+    };
+  }, [containerHeight]);
+
   let body = useScreenSize({
     small: "bodySmall",
     medium: "bodyMedium",
@@ -28,7 +53,7 @@ const AboutUsContainer = () => {
   })
   return (
     <div className={style.sobreNosotros}>
-      <div className={style.izquierda}>
+      <div ref={containerRef} className={style.izquierda}>
         <div className={style.texto}>
           <h2 className={headline + bordeIzq}>
             <span>Sobre</span> Nosotros
@@ -44,7 +69,7 @@ const AboutUsContainer = () => {
           <a href='/contacto'>Contáctenos</a>
         </button>
       </div>
-      <div className={style.imagenes}>
+      <div className={style.imagenes} style={containerHeight ? { height: `${containerHeight}px` } : {}}>
         <picture>
           <img src='/PalletsMaquina.webp' alt='' />
         </picture>
