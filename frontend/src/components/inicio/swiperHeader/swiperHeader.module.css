@@ -14,7 +14,7 @@
   height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center 40%;
+  background-position: 0 0;
 }
 .swiperCard {
   -webkit-box-sizing: border-box;
@@ -73,6 +73,7 @@
   backdrop-filter: initial;
   transform-style: preserve-3d;
   perspective: 1000px;
+  overflow: hidden;
 }
 .contenido div {
   color: var(--on-primary);

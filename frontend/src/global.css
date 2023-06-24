@@ -338,3 +338,9 @@ button:active {
   margin: 0 auto;
   border-bottom: 1px solid var(--primary);
 }
+strong {
+  color: var(--primary);
+}
+b {
+  color: var(--neutral-40);
+}

@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import React from "react"
 import { Swiper, SwiperSlide } from "swiper/react";
 import style from "./ServicioContainer.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
@@ -56,7 +57,14 @@ const ServicioContainer = () => {
                       <span>{card.servicio.split(" ")[0]}</span>{" "}
                       {card.servicio.split(" ").slice(1).join(" ")}
                     </h2>
-                    <p className={body}>{card.body}</p>
+                    <p className={body}>
+                      {card.body.split(" ").map((word, index) => {
+                        if (card.palabrasClave.includes(word)) {
+                          return <b key={index}>{word} </b>;
+                        }
+                        return <React.Fragment key={index}>{word} </React.Fragment>;
+                      })}
+                    </p>
                   </div>
                   <div className={style.botones}>
                     <button className={"botonBorder " + label}>
@@ -79,16 +87,19 @@ const ServicioContainer = () => {
       servicio: "Tratamiento fitosanitario",
       body: "Este tratamiento, ya sea térmico o químico, tiene como objetivo eliminar plagas presentes en los embalajes para prevenir su propagación en los envíos internacionales. Los embalajes tratados se marcan con sellos y se emite un certificado avalado por SENASA, necesario para la aduana de cualquier país de destino.",
       img: "ServiciosInicio.webp",
+      palabrasClave: ['SENASA,']
     },
     {
       servicio: "Construcción de pallets",
       body: "La construcción de pallets implica la fabricación de estructuras de madera diseñadas para facilitar el transporte y almacenamiento de mercancias. Los pallets se construyen con madera resistente y se diseñan para ser fácilmente manipulables cono montacargas. Son ampliamente utilizados en la industria logística y de almacenamiento para optimizar el manejo de productos y mejorar la eficiencia de la cadena de suministro.",
       img: "PalletsInicio.webp",
+      palabrasClave: ['pallets']
     },
     {
       servicio: "Aserrado de madera",
       body: "El aserrado de madera es un proceso mediante el cual los troncos de árboles se cortan en tablas, vigas o piezas de madera de diferentes tamaños y formas. Se utiliza maquinaria especializada, como sierras, para realizar cortes precisos y obtener productos de madera utilizados en la fabricación de pallets, construcción y otros fines.",
       img: "https://3.bp.blogspot.com/-aYNky1cYCmg/W3ENGc9KmvI/AAAAAAAAWzU/UU2mAddfVGwJXRRrSqtK-YMM55kDEbnzACLcBGAs/s1200/madera%2Baserrada.jpg",
+      palabrasClave: ['aserrado', 'fabricación']
     },
   ]
   return (
