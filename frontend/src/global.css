@@ -321,7 +321,11 @@ button {transition: all 0.3s ease;}
 .botonFull:hover, .botonFullLarge:hover, .botonFullMedium:hover {
   transform: scale(1.1);
 }
-li {transition: all 0.3s ease;}
+li {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 li:hover {
   transform: scale(1.1);
 }

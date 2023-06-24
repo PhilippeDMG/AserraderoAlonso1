@@ -64,9 +64,11 @@ export default function SwiperHeader() {
               <div>
                 <div className={style.contenedor}>
                   <div className={style.contenido}>
-                    <h1 className={display} data-swiper-parallax="-300">
-                      <span>{card.title.split(" ")[0]}</span>{" "}
-                      {card.title.split(" ").slice(1).join(" ")}
+                    <h1 className={display} data-swiper-parallax="-300"> 
+                        <span>
+                          {card.title.split(" ")[0]}
+                        </span>{" "}
+                        {card.title.split(" ").slice(1).join(" ")}
                     </h1>
                     <div className={body} data-swiper-parallax="-200">{card.body} </div>
                     <div className={style.botones} data-swiper-parallax="-100">
@@ -88,7 +90,7 @@ export default function SwiperHeader() {
   }
   const cartas = [
     {
-      title: "E Catem",
+      title: `E Catem`,
       body: "Expertos en madera para soluciones confiables y duraderas.",
       firstButton: "Sobre Nosotros",
       href1: "/nosotros",
