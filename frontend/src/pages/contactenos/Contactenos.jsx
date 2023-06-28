@@ -3,10 +3,10 @@ import Navbar from "../../components/globales/Navbar"
 import Footer from "../../components/globales/Footer"
 import Contactos from "../../components/globales/Contactos"
 import Direccion from "../../components/globales/Direccion"
-import "./Contactenos.css"
+import styles from "./Contactenos.module.css"
 const Contactenos = () => {
   return (
-    <div className='main'>
+    <div className={styles.main}>
       <Navbar />
       <Portada
         titulo={"Contáctenos"}

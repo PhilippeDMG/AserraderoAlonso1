@@ -13,7 +13,7 @@ const Footer = () => {
   })
   return (
     <div className={style.footer}>
-      <div className={`${title} ${style.empresa}`}><span>Alonso</span> TimberCraft</div>
+      <div className={`${title} ${style.empresa}`}><span>E</span>Catem</div>
       <div className={style.palo}></div>
       <ul className={style.losBotones}>
         <li className={`${label} ${style.elBoton}`}><a href="/">Inicio</a></li>

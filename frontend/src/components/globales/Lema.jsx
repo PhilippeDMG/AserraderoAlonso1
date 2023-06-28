@@ -26,7 +26,7 @@ const Lema = () => {
   return (
     <div className={style.lema}>
       <h4 className={title}>Madera que inspira confianza</h4>
-      <h2 className={headline}><span>Alonso</span> TimberCraft</h2>
+      <h2 className={headline}><span>E</span> Catem</h2>
       <div className={`${style.tarjeta} ${label}`}>Localización:</div>
       <div className={body}>
         Osvaldo Magnasco

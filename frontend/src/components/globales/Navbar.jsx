@@ -40,7 +40,7 @@ const Navbar = () => {
     <div className={style.navbar}>
       {/* <img className={style.icono} alt='' src='/home.svg' /> */}
       <div className={body}>
-        <span>Alonso</span> TimberCraft
+        <span>E</span>Catem
       </div>
       <img
         className={style.burger}

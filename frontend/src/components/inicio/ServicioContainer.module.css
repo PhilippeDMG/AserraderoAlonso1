@@ -1,75 +1,111 @@
-span {
-  color: var(--primary);
-}
+
 .servicios {
-  margin: 64px;
+  padding: 64px;
   width: -webkit-fill-available;
+  background: linear-gradient(rgb(255,255,255,.6),rgb(255,255,255,.6)),url('/tablaDibujo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 -20%;
 }
-.servicio{
-  display: flex;
-  margin-bottom: 42px;
-  justify-content: center;
-  text-align: center;
+.swiperCont {
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 64px;
+  cursor: grab;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-  padding: 0 12px;
+.slide {
+  width: 60%;
 }
+
 .carrusel {
-  box-sizing: border-box;
-  width: --webkit-fill-available;
   display: flex;
-  flex-direction: column;
-  gap: 48px;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+  padding: 30px;
+  gap: 48px;
+  border: 1px solid rgba(255,255,255,0.4);
 }
-picture {
-  width: 98%;
-  height: 45vh;
+.carrusel picture {
+  width: 50%;
+  height: 70vh;
   display: flex;
   align-items: center
 }
-img {
+.carrusel img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  max-height: 500px;
   object-position: center;
+}
+.servicio{
+  display: flex;
+  margin-bottom: 64px;
+  justify-content: center;
+  text-align: center;
 }
 .mitexto {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-  height: 100%;
+  align-items: start;
+  text-align: start;
+  justify-content: space-between;
+  width: 50%;
+  height: 70vh;
   margin: 4px;
 }
-
+.mitexto span {
+  color: var(--primary);
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+}
 .botones {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 1fr;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   gap: 12px;
   width: fit-content;
   justify-items: center;
 }
-
+.botones a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0 12px;
+}
+.botones button {
+  width: 100%;
+}
 @media screen and (max-width: 800px) {
   .servicios {
-    margin: 32px;
+    padding: 32px;
   }
   .servicio {
     margin-bottom: 24px;
   }
 }
 
-@media screen and (max-width: 460px) {
-  picture {
-    height: 30vh;
+@media screen and (max-width: 560px) {
+  .botones {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
+  .carrusel {
+    flex-direction: column;
+  }
+  .mitexto {
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+    height: -webkit-fill-available;
+  }
+  .carrusel picture {
+    width: 100%;
+    height: 30vh;
+}
 }

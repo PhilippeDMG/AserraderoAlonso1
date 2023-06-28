@@ -9,17 +9,25 @@
   padding: 0 64px;
   background: var(--primario-0);
   border-bottom: 1px solid #974811;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
-a {
-  justify-content: flex-start;
+.navbar a {
   padding: 0 12px;
 }
 .icono {
   width: 36px;
   height: 36px;
 }
-span {
-  color: var(--primary);
+.navbar span {
+  color: rgba(0, 0, 0, 0.0);
+  display: inline-block;
+  background:  url('/EcatemLogo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 .navbarLinks {
   list-style: none;
@@ -45,12 +53,12 @@ span {
 .icono {
   padding: 0px 16px;
 }
-ul .linkButtons:hover {
+.navbar ul .linkButtons:hover {
   color: var(--primario-3);
   border-bottom: 4px solid var(--primario-3);
   cursor: pointer;
 }
-ul .linkButtons:active {
+.navbar ul .linkButtons:active {
   color: var(--primario-5);
   border-bottom: 4px solid var(--primario-5);
 }
@@ -99,18 +107,18 @@ ul .linkButtons:active {
   .navbarLinks li {
     transform-origin: left center; 
   }
-  ul .linkButtons:hover {
+  .navbar ul .linkButtons:hover {
     border-left: 12px solid var(--primary-fixed-dim);
     border-bottom: none;
-    transform: scale(1.1) translateX(10px);
+    transform: scale(1.05) translateX(5px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   }
-  ul .linkButtons:active {
+  .navbar ul .linkButtons:active {
     border-left: 12px solid var(--primary);
     border-bottom: none;
     background-color: var(--primario-1);
   }
-  a {
+  .linkButtons a {
     justify-content: flex-start;
     padding: 0 64px;
   }
