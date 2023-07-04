@@ -102,11 +102,7 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img
-              src='/tresPalletsConFilm.webp'
-              alt=''
-              className={style.imgServ}
-            />
+            <img src='/IMG_6432.webp' alt='' className={style.imgServ} />
           </picture>
         </div>
       </div>

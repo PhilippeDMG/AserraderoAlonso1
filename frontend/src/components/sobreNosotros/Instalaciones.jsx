@@ -49,7 +49,7 @@ const Instalaciones = () => {
 
   const cartas = [
     {
-      url: "/PalletsAlonso.webp",
+      url: "/IMG_6501.webp",
       alt: "foto1",
     },
     {
@@ -61,7 +61,7 @@ const Instalaciones = () => {
       alt: "foto3",
     },
     {
-      url: "/Pallets2.webp",
+      url: "/IMG_6429.webp",
       alt: "foto4",
     },
     {
@@ -73,11 +73,11 @@ const Instalaciones = () => {
       alt: "foto6",
     },
     {
-      url: "/PalletsMaquina.webp",
+      url: "/IMG_6420.webp",
       alt: "foto7",
     },
     {
-      url: "/Herramientas.webp",
+      url: "/IMG_6422.webp",
       alt: "foto8",
     },
   ]

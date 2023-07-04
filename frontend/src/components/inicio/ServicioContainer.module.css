@@ -1,8 +1,8 @@
-
 .servicios {
   padding: 64px;
   width: -webkit-fill-available;
-  background: linear-gradient(rgb(255,255,255,.6),rgb(255,255,255,.6)),url('/tablaDibujo.svg');
+  background: linear-gradient(rgb(255, 255, 255, 0.6), rgb(255, 255, 255, 0.6)),
+    url("/tablaDibujo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 -20%;
@@ -26,13 +26,13 @@
   box-sizing: border-box;
   padding: 30px;
   gap: 48px;
-  border: 1px solid rgba(255,255,255,0.4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .carrusel picture {
   width: 50%;
   height: 70vh;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 .carrusel img {
   width: 100%;
@@ -40,7 +40,7 @@
   object-fit: cover;
   object-position: center;
 }
-.servicio{
+.servicio {
   display: flex;
   margin-bottom: 64px;
   justify-content: center;
@@ -53,7 +53,7 @@
   text-align: start;
   justify-content: space-between;
   width: 50%;
-  height: 70vh;
+  height: 70%;
   margin: 4px;
 }
 .mitexto span {
@@ -101,11 +101,11 @@
   .mitexto {
     align-items: center;
     width: 100%;
-    min-height: 60vh;
+    min-height: 60%;
     height: -webkit-fill-available;
   }
   .carrusel picture {
     width: 100%;
     height: 30vh;
-}
+  }
 }
