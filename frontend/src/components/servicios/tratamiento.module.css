@@ -1,0 +1,11 @@
+.tratContainer {
+  margin: 0 auto;
+  width: 70vw;
+}
+.tratContainer summary {
+  text-align: center;
+  cursor: pointer;
+}
+.tratContainer h2 {
+  margin: 32px 0 12px 0;
+}

@@ -1,5 +1,4 @@
 import style from "./Navbar_.module.css"
-import { useScreenSize } from "../../utils/useScreenSize"
 import { useState, useEffect } from "react"
 
 const Navbar = () => {
@@ -7,17 +6,6 @@ const Navbar = () => {
   const toggleVisible = () => {
     setVisible(!visible)
   }
-  
-  let body = useScreenSize({
-    small: "bodySmall",
-    medium: "bodyMedium",
-    large: "bodyLarge",
-  })
-  let label = useScreenSize({
-    small: "labelSmall",
-    medium: "labelMedium",
-    large: "labelLarge",
-  })
   const handleItemClick = (event, url) => {
     event.preventDefault();
     setTimeout(() => {
@@ -39,7 +27,7 @@ const Navbar = () => {
   return (
     <div className={style.navbar}>
       {/* <img className={style.icono} alt='' src='/home.svg' /> */}
-      <div className={body}>
+      <div className={'body'}>
         <span>E</span>Catem
       </div>
       <img
@@ -49,16 +37,16 @@ const Navbar = () => {
         onClick={toggleVisible}
       />
       <ul className={visible ? style.navbarLinks + ' ' + style.active : style.navbarLinks}>
-      <li className={`${style.linkButtons} ${label}`}>
+      <li className={`${style.linkButtons} ${'label'}`}>
           <a href='/' onClick={(event) => handleItemClick(event, '/')}>Inicio</a>
         </li>
-        <li className={`${style.linkButtons} ${label}`}>
+        <li className={`${style.linkButtons} ${'label'}`}>
           <a href='/nosotros' onClick={(event) => handleItemClick(event, '/nosotros')}>Nosotros</a>
         </li>
-        <li className={`${style.linkButtons} ${label}`}>
+        <li className={`${style.linkButtons} ${'label'}`}>
           <a href='/servicios' onClick={(event) => handleItemClick(event, '/servicios')}>Servicios</a>
         </li>
-        <li className={`${style.linkButtons} ${label}`}>
+        <li className={`${style.linkButtons} ${'label'}`}>
           <a href='/contacto' onClick={(event) => handleItemClick(event, '/contacto')}>Contacto</a>
         </li>
       </ul>

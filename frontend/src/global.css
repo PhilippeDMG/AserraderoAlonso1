@@ -68,7 +68,7 @@ body {
 }
 
   /* font sizes */
-.displayLarge {
+.display {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -78,27 +78,7 @@ body {
   font-size: 57px;
   line-height: 64px;
 }
-.displayMedium {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 52px;
-}
-.displaySmall {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-}
-.headlineLarge {
+.headline {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -109,29 +89,7 @@ body {
   line-height: 40px;
   color: var(--neutral-4);
 }
-.headlineMedium {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 36px;
-  color: var(--neutral-4);
-}
-.headlineSmall {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  color: var(--neutral-4);
-}
-.titleLarge {
+.title {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -141,27 +99,7 @@ body {
   font-size: 22px;
   line-height: 28px;
 }
-.titleMedium {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-}
-.titleSmall {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-}
-.bodyLarge {
+.body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -172,29 +110,7 @@ body {
   line-height: 24px;
   color: var(--neutral-60);
 }
-.bodyMedium {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: var(--neutral-60);
-}
-.bodySmall {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: var(--neutral-60);
-}
-.labelLarge {
+.label {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -204,27 +120,6 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
-.labelMedium {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-}
-.labelSmall {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 16px;
-}
-
 .botonBorder {
   display: flex;
   justify-content: center; 
@@ -237,68 +132,175 @@ body {
   background: none;
   cursor: pointer;
 }
-
-.botonBorderMedium {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-  width: fit-cotent;
-  padding: 8px 24px;
-  place-items: center;
-  border: 2px solid var(--primary);
-  background: none;
-  cursor: pointer;
-}
-
-.botonBorderLarge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-  width: fit-cotent;
-  padding: 8px 32px;
-  place-items: center;
-  border: 2px solid var(--primary);
-  background: none;
-  cursor: pointer;
-}
 .botonFull {
   display: flex;
   justify-content: center;
   align-items: center;
   height: fit-content;
   width: fit-cotent;
-  padding: 8px 12px;
-  color: var(--on-primary);
-  background: var(--on-primary-container);
-  border: 2px solid var(--on-primary-container);
-  cursor: pointer;
-}
-.botonFullMedium {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-  width: fit-cotent;
-  padding: 8px 24px;
-  color: var(--on-primary);
-  background: var(--on-primary-container);
-  border: 2px solid var(--on-primary-container);
-  cursor: pointer;
-}
-.botonFullLarge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-  width: fit-cotent;
   padding: 8px 32px;
   color: var(--on-primary);
   background: var(--on-primary-container);
   border: 2px solid var(--on-primary-container);
   cursor: pointer;
 }
+@media screen and (max-width: 800px) {
+  .display {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 52px;
+  }
+  .headline {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--neutral-4);
+  }
+  .title {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  }
+  .body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--neutral-60);
+  }
+  .label {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .botonBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-cotent;
+    padding: 8px 24px;
+    place-items: center;
+    border: 2px solid var(--primary);
+    background: none;
+    cursor: pointer;
+  }
+  .botonFull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-cotent;
+    padding: 8px 24px;
+    color: var(--on-primary);
+    background: var(--on-primary-container);
+    border: 2px solid var(--on-primary-container);
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 600px) {
+  .display {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .headline {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--neutral-4);
+  }
+  .title {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    }
+  .body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--neutral-60);
+  }
+  .label {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .botonBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-cotent;
+    padding: 8px 32px;
+    place-items: center;
+    border: 2px solid var(--primary);
+    background: none;
+    cursor: pointer;
+  }
+  .botonFull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-cotent;
+    padding: 8px 12px;
+    color: var(--on-primary);
+    background: var(--on-primary-container);
+    border: 2px solid var(--on-primary-container);
+    cursor: pointer;
+  }
+}
+
 .bordeIzq {
   border-left: 6px solid var(--primary);
   padding: 0 24px;

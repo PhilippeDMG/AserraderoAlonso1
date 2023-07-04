@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 320px;
-  margin: 200px 0 160px;
+  margin: 200px 0 0;
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/PalletsAdentro.webp");
   background-attachment: fixed;
   background-position: center;

@@ -2,33 +2,12 @@
 import React from "react"
 import { Swiper, SwiperSlide } from "swiper/react";
 import style from "./ServicioContainer.module.css"
-import { useScreenSize } from "../../utils/useScreenSize"
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
 const ServicioContainer = () => {
-  let headline = useScreenSize({
-    small: "headlineSmall",
-    medium: "headlineMedium",
-    large: "headlineLarge",
-  })
-  let body = useScreenSize({
-    small: "bodySmall",
-    medium: "bodyMedium",
-    large: "bodyLarge",
-  })
-  let label = useScreenSize({
-    small: "labelSmall",
-    medium: "labelMedium",
-    large: "labelLarge",
-  })
-  let bordeIzq = useScreenSize({
-    small: " bordeIzq",
-    medium: " bordeIzq",
-    large: " bordeIzq",
-  })
   const Carrucel = ({ cards }) => {
     return (
       <Swiper
@@ -53,11 +32,11 @@ const ServicioContainer = () => {
                 </picture>
                 <div className={style.mitexto}>
                   <div className={style.texto}>
-                    <h2 className={headline}>
+                    <h2 className={'headline'}>
                       <span>{card.servicio.split(" ")[0]}</span>{" "}
                       {card.servicio.split(" ").slice(1).join(" ")}
                     </h2>
-                    <p className={body}>
+                    <p className={'body'}>
                       {card.body.split(" ").map((word, index) => {
                         if (card.palabrasClave.includes(word)) {
                           return <b key={index}>{word} </b>;
@@ -67,10 +46,10 @@ const ServicioContainer = () => {
                     </p>
                   </div>
                   <div className={style.botones}>
-                    <button className={"botonBorder " + label}>
+                    <button className={"botonBorder " + 'label'}>
                       <a href='/servicios'>Más</a>
                     </button>
-                    <button className={"botonFull " + label}>
+                    <button className={"botonFull " + 'label'}>
                       <a href='/contacto'>Contáctenos</a>
                     </button>
                   </div>
@@ -105,7 +84,7 @@ const ServicioContainer = () => {
   return (
     <div className={style.servicios}>
       <div className={style.servicio}>
-        <h2 className={bordeIzq + " " + headline}>
+        <h2 className={'bordeIzq' + ' headline'}>
           <span>Nuestros</span> Servicios
         </h2>
       </div>

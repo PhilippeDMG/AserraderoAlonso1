@@ -5,16 +5,6 @@ import { useScreenSize } from "../../utils/useScreenSize"
 import "../../utils/slick-carousel/slick/slick-theme.css"
 import "../../utils/slick-carousel/slick/slick.css"
 const Instalaciones = () => {
-  let headline = useScreenSize({
-    small: "headlineSmall",
-    medium: "headlineMedium",
-    large: "headlineLarge",
-  })
-  let body = useScreenSize({
-    small: "bodySmall",
-    medium: "bodyMedium",
-    large: "bodyLarge",
-  })
   let slides = useScreenSize({
     small: 1,
     medium: 2,
@@ -95,8 +85,8 @@ const Instalaciones = () => {
   return (
     <div className={style.instalaciones}>
       <div className={style.texto}>
-        <div className={headline + " bordeIzq"}>Nuestras Instalaciones</div>
-        <div className={body}>
+        <div className={'headline' + " bordeIzq"}>Nuestras Instalaciones</div>
+        <div className={'body'}>
           Nuestras instalaciones cuentan con equipos especializados para tratamiento fitosanitario y fabricación de pallets. Espacios funcionales y personal capacitado aseguran servicios de calidad.
         </div>
       </div>

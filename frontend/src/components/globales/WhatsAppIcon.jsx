@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styles from "./WhatsAppIcon.module.css"
 import { useScreenSize } from "../../utils/useScreenSize"
 const WhatsAppIcon = () => {

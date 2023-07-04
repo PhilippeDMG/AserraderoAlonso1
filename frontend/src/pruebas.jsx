@@ -8,6 +8,6 @@ import Contactenos from './pages/contactenos/Contactenos'
 import SobreNosotros from './pages/sobreNosotros/SobreNosotros'
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Inicio />
+    <Servicios />
   </React.StrictMode>
 )

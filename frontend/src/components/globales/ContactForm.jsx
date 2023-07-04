@@ -1,6 +1,5 @@
 import { useState, useRef } from "react"
 import styles from "./ContactForm.module.css"
-import { useScreenSize } from "../../utils/useScreenSize"
 import axios from "axios"
 import ReCAPTCHA from "react-google-recaptcha"
 
@@ -51,57 +50,42 @@ const ContactForm = () => {
       setStatusStyle(styles.statusError)
     }
   }
-  const headline = useScreenSize({
-    small: "headlineSmall",
-    medium: "headlineMedium",
-    large: "headlineLarge",
-  })
-  const body = useScreenSize({
-    small: "bodySmall",
-    medium: "bodyMedium",
-    large: "bodyLarge",
-  })
-  const label = useScreenSize({
-    small: "labelSmall",
-    medium: "labelMedium",
-    large: "labelLarge",
-  })
 
   return (
     <div className={styles.fromContainer}>
       <form className={styles.contactForm} onSubmit={handleSubmit}>
-        <h2 className={headline}>Contáctenos</h2>
+        <h2 className={'headline'}>Contáctenos</h2>
         <div className={styles.formGroup}>
           <input
             id='name'
-            className={`${styles.input} ${body}`}
+            className={`${styles.input} ${'body'}`}
             type='text'
             placeholder={" "}
             value={name}
             onChange={(event) => setName(event.target.value)}
             required
           />
-          <label htmlFor='name' className={styles.formLabel + " " + body}>
+          <label htmlFor='name' className={styles.formLabel + " " + 'body'}>
             Nombre
           </label>
         </div>
         <div className={styles.formGroup}>
           <input
             id='mail'
-            className={`${styles.input} ${body}`}
+            className={`${styles.input} ${'body'}`}
             type='email'
             placeholder={" "}
             value={email}
             onChange={(event) => setEmail(event.target.value)}
             required
           />
-          <label htmlFor='mail' className={styles.formLabel + " " + body}>
+          <label htmlFor='mail' className={styles.formLabel + " " + 'body'}>
             Email
           </label>
         </div>
         <div className={styles.formGroup}>
           <textarea
-            className={`${styles.text} ${body}`}
+            className={`${styles.text} ${'body'}`}
             id='text'
             type='text'
             rows={4}
@@ -110,7 +94,7 @@ const ContactForm = () => {
             onChange={(event) => setMessage(event.target.value)}
             required
           />
-          <label htmlFor='text' className={styles.formLabel + " " + body}>
+          <label htmlFor='text' className={styles.formLabel + " " + 'body'}>
             Mensaje
           </label>
         </div>
@@ -121,16 +105,16 @@ const ContactForm = () => {
             onChange={onChange}
           />
           {captchaValido === false && (
-            <div className={statusStyle + " " + body}>
+            <div className={statusStyle + " " + 'body'}>
               Por favor aceptá el captcha
             </div>
           )}
         </div>
         <div className={styles.buttonContainer}>
-          <button className={`botonBorder ${label}`} type='submit'>
+          <button className={`botonBorder ${'label'}`} type='submit'>
             Enviar Consulta
           </button>
-          {status && <p className={statusStyle + " " + body}>{status}</p>}
+          {status && <p className={statusStyle + " " + 'body'}>{status}</p>}
         </div>
       </form>
     </div>

@@ -5,38 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { useScreenSize } from "../../../utils/useScreenSize"
 import style from "./swiperHeader.module.css";
 
 // import required modules
 import { Parallax, Pagination, Navigation } from "swiper";
 
 export default function SwiperHeader() {
-  let display = useScreenSize({
-    small: "displaySmall",
-    medium: "displayMedium",
-    large: "displayLarge",
-  })
-  let body = useScreenSize({
-    small: "bodySmall",
-    medium: "bodyMedium",
-    large: "bodyLarge",
-  })
-  let label = useScreenSize({
-    small: "labelSmall",
-    medium: "labelMedium",
-    large: "labelLarge",
-  })
-  let botonBorder = useScreenSize({
-    small: "botonBorder",
-    medium: "botonBorderMedium",
-    large: "botonBorderLarge",
-  })
-  let botonFull = useScreenSize({
-    small: "botonFull",
-    medium: "botonFullMedium",
-    large: "botonFullLarge",
-  })
   const Carrucel = ({ cards }) => {
     return (
       <Swiper
@@ -64,18 +38,18 @@ export default function SwiperHeader() {
               <div>
                 <div className={style.contenedor}>
                   <div className={style.contenido}>
-                    <h1 className={display} data-swiper-parallax="-300"> 
+                    <h1 className={'display'} data-swiper-parallax="-300"> 
                         <span>
                           {card.title.split(" ")[0]}
                         </span>{" "}
                         {card.title.split(" ").slice(1).join(" ")}
                     </h1>
-                    <div className={body} data-swiper-parallax="-200">{card.body} </div>
+                    <div className={'body'} data-swiper-parallax="-200">{card.body} </div>
                     <div className={style.botones} data-swiper-parallax="-100">
-                      <button className={botonBorder + " " + label}>
+                      <button className={'botonBorder' + " " + 'label'}>
                         <a href={card.href1}>{card.firstButton}</a>
                       </button>
-                      <button className={botonFull + " " + label}>
+                      <button className={'botonFull' + " " + 'label'}>
                         <a href={card.href2}>{card.secondButton}</a>
                       </button>
                     </div>
