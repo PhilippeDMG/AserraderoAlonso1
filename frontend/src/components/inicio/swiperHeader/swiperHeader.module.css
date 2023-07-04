@@ -75,6 +75,7 @@
   transform-style: preserve-3d;
   perspective: 1000px;
   overflow: hidden;
+  cursor: grab;
 }
 .contenido div {
   color: var(--on-primary);

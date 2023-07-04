@@ -70,7 +70,7 @@ const ServicioContainer = () => {
     },
     {
       servicio: "Construcción de pallets",
-      body: "La construcción de pallets implica la fabricación de estructuras de madera diseñadas para facilitar el transporte y almacenamiento de mercancias. Los pallets se construyen con madera resistente y se diseñan para ser fácilmente manipulables cono montacargas. Son ampliamente utilizados en la industria logística y de almacenamiento para optimizar el manejo de productos y mejorar la eficiencia de la cadena de suministro.",
+      body: "La construcción de pallets implica la fabricación de estructuras de madera diseñadas para facilitar el transporte y almacenamiento de mercancias. Los pallets se construyen con madera resistente y se diseñan para ser fácilmente manipulables con montacargas. Son ampliamente utilizados en la industria logística y de almacenamiento para optimizar el manejo de productos y mejorar la eficiencia de la cadena de suministro.",
       img: "PalletsInicio.webp",
       palabrasClave: ['pallets']
     },

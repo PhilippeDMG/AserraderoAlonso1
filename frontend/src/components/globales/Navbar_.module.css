@@ -28,6 +28,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
+  margin-right: 8px;
 }
 .navbarLinks {
   list-style: none;
