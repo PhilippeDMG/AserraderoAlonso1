@@ -1,4 +1,14 @@
+svg {
+  display: inline-block;
+  background: transparent;
+  border-radius: 50%;
+  transition: background 0.5s ease;
+}
+svg:hover {
+  background: white;
+}
 .whatsapp {
+  padding: 8px;
   position: fixed;
   bottom: 16px;
   right: 16px;

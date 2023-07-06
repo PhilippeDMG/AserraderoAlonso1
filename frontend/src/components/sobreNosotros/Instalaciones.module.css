@@ -24,6 +24,10 @@
   width: -webkit-fill-available;
   height: clamp(100%, 100%, 60vh);
   margin: 0 120px;
+  cursor: grab;
+}
+.container:active {
+  cursor: grabbing;
 }
 picture {
   width: 100%;

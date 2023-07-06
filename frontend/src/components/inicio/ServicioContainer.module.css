@@ -28,6 +28,9 @@
   gap: 48px;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
+.carrusel:active {
+  cursor: grabbing;
+}
 .carrusel picture {
   width: 50%;
   height: 70vh;

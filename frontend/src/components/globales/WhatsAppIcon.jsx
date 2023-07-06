@@ -19,7 +19,7 @@ const WhatsAppIcon = () => {
       className={styles.whatsapp}
     >
       <svg height='50' width='50'>
-        <image href='/WhatsAppIcon.svg' width='100%' height='100%' />
+        <image href='/WhatsApp-Black-White.svg' width='100%' height='100%' />
       </svg>
     </a>
   )

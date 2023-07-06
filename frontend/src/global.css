@@ -13,27 +13,26 @@ body {
   max-width: 100%;
   width: 100vw;
   line-height: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
 :root {
-
   /* Colors */
   --success: #270;
-  --error: #D8000C;
+  --error: #d8000c;
 
-  --neutral-98: #FFF8F6;
-  --neutral-60: #998F8A;
-  --neutral-40: #655D59;
-  --neutral-30: #4D4542;
+  --neutral-98: #fff8f6;
+  --neutral-60: #998f8a;
+  --neutral-40: #655d59;
+  --neutral-30: #4d4542;
 
-  --neutral-4: #120D0A;
+  --neutral-4: #120d0a;
   --primary: #974811;
-  --on-primary: #FFFFFF;
+  --on-primary: #ffffff;
   --on-primary-container: #331200;
-  --primary-fixed-dim: #FFB68E;
+  --primary-fixed-dim: #ffb68e;
   --secondary: #765848;
 
   --primario-0: #fcf8f7;
@@ -67,9 +66,9 @@ body {
   --padding-75xl: 94px;
 }
 
-  /* font sizes */
+/* font sizes */
 .display {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -79,7 +78,7 @@ body {
   line-height: 64px;
 }
 .headline {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -90,7 +89,7 @@ body {
   color: var(--neutral-4);
 }
 .title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -100,7 +99,7 @@ body {
   line-height: 28px;
 }
 .body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -111,7 +110,7 @@ body {
   color: var(--neutral-60);
 }
 .label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -122,7 +121,7 @@ body {
 }
 .botonBorder {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   height: fit-content;
   width: fit-cotent;
@@ -144,9 +143,10 @@ body {
   border: 2px solid var(--on-primary-container);
   cursor: pointer;
 }
+
 @media screen and (max-width: 800px) {
   .display {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -156,7 +156,7 @@ body {
     line-height: 52px;
   }
   .headline {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -167,17 +167,17 @@ body {
     color: var(--neutral-4);
   }
   .title {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
   }
   .body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -188,7 +188,7 @@ body {
     color: var(--neutral-60);
   }
   .label {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -224,7 +224,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .display {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -234,7 +234,7 @@ body {
     line-height: 44px;
   }
   .headline {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -245,7 +245,7 @@ body {
     color: var(--neutral-4);
   }
   .title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -253,9 +253,9 @@ body {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    }
+  }
   .body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -266,7 +266,7 @@ body {
     color: var(--neutral-60);
   }
   .label {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -308,7 +308,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-  cursor: pointer;    
+  cursor: pointer;
   width: 100%;
   height: 100%;
   display: flex;
@@ -316,11 +316,17 @@ a {
   justify-content: center;
   transition: all 0.3s ease;
 }
-button {transition: all 0.3s ease;}
-.botonBorder:hover, .botonBorderLarge:hover, .botonBorderMedium:hover {
+button {
+  transition: all 0.3s ease;
+}
+.botonBorder:hover,
+.botonBorderLarge:hover,
+.botonBorderMedium:hover {
   transform: scale(1.1);
 }
-.botonFull:hover, .botonFullLarge:hover, .botonFullMedium:hover {
+.botonFull:hover,
+.botonFullLarge:hover,
+.botonFullMedium:hover {
   transform: scale(1.1);
 }
 li {
