@@ -1,4 +1,5 @@
 /* eslint-disable no-undef */
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -28,15 +29,15 @@ app.post('/send-email', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'manuelnoru@gmail.com', // Cambiar con la dirección de correo electrónico del remitente
-      pass: 'rvor wquk dcay rdez' // Cambiar con la contraseña del correo electrónico del remitente
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS
     }
-  });
+  });  
 
   const mailOptions = {
-    from: 'manuelnoru@gmail.com', // Cambiar con la dirección de correo electrónico del remitente
-    to: 'manuelnoru@gmail.com', // Cambiar con la dirección de correo electrónico del destinatario
-    subject: 'New message from your website',
+    from: `${process.env.EMAIL_USER}`,
+    to: 'gabrielpaez0000@gmail.com',
+    subject: 'Consulta ',
     html: `
       <p>Name: ${name}</p>
       <p>Email: ${email}</p>
@@ -47,10 +48,10 @@ app.post('/send-email', (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(error);
-      res.status(500).send('Error sending email');
+      res.status(500).send('Error enviando email');
     } else {
       console.log('Email sent: ' + info.response);
-      res.status(200).send('Email sent successfully');
+      res.status(200).send('Email enviado con éxito');
     }
   });
 });
