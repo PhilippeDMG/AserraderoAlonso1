@@ -2,12 +2,15 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import "./global.css"
-import Inicio from './pages/inicio/Inicio'
-import Servicios from './pages/servicios/Servicios'
-import Contactenos from './pages/contactenos/Contactenos'
-import SobreNosotros from './pages/sobreNosotros/SobreNosotros'
+import Portada from "./components/globales/Portada"
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Servicios />
+    <Portada
+      titulo={"Contáctenos"}
+      cuerpo={
+        "Estamos para ayudarlo. Contáctenos y descubra cómo podemos cumplir sus necesidades"
+      }
+      nombreImagen={"IMG_6496.webp"}
+    />
   </React.StrictMode>
 )

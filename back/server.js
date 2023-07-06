@@ -36,12 +36,12 @@ app.post('/send-email', (req, res) => {
 
   const mailOptions = {
     from: `${process.env.EMAIL_USER}`,
-    to: 'gabrielpaez0000@gmail.com',
-    subject: 'Consulta ',
+    to: 'contact@ecatem.com.ar',
+    subject: `Nueva consulta para ECatem de ${name}`,
     html: `
-      <p>Name: ${name}</p>
+      <p>Nombre: ${name}</p>
       <p>Email: ${email}</p>
-      <p>Message: ${message}</p>
+      <p>Mensaje: <br> ${message}</p>
     `
   };
 
