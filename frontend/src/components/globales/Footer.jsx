@@ -16,7 +16,7 @@ const Footer = () => {
           <li><img src='/mail-circulo.svg' /></li>
           <li><img src='/wpp-circulo.svg' /></li>
         </ul>
-        <div className={`${'label'}`}>alonsotimbercraft@mail.com</div>
+        <div className={`${'label'}`}>contact@ecatem.com.ar</div>
       </div>
     </div>
   )
