@@ -9,13 +9,11 @@ const WhatsAppIcon = () => {
   })
   return (
     <a
-      // usar este codigo cuando se tenga el telefono definido
-      // href={
-      //   display === "displayMedium" | "displaySmall"
-      //     ? "https://api.whatsapp.com/send?phone=54..."
-      //     : "https://web.whatsapp.com/send?phone=54..."
-      // }
-      href=''
+      href={
+        (display === "displayMedium") | "displaySmall"
+          ? "https://api.whatsapp.com/send?phone=5493454489270"
+          : "https://web.whatsapp.com/send?phone=5493454489270"
+      }
       className={styles.whatsapp}
     >
       <svg height='50' width='50'>
