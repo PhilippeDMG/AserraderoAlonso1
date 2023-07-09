@@ -5,7 +5,7 @@ svg {
   transition: background 0.5s ease;
 }
 svg:hover {
-  background: white;
+  background: var(--primary-fixed-dim);
 }
 .whatsapp {
   padding: 8px;

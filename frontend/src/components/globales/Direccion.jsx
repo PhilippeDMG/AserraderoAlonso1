@@ -36,9 +36,9 @@ const Direccion = () => {
             </div>
             <div>
               <div className={"title"}>WhatsApp</div>
-              <div className={"body"}>+54 9 345 403 2282 </div>
+              <div className={"body"}>+54 9 3454 24-4769 <br />+54 9 3454 48-9270</div>
               <div className={"title"}>Email</div>
-              <div className={"body"}>alonsotimbercraft@gmail.com</div>
+              <div className={"body"}>contact@ecatem.com.ar</div>
             </div>
           </div>
         </div>

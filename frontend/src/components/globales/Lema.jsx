@@ -14,7 +14,7 @@ const Lema = () => {
       <div className={style.mipalo}></div>
       <div className={'body'}>
         <p>¿Consultas? Llámenos </p>
-        <li>+54 9 345 403 2282</li>
+        <p>+54 9 3454 24-4769 <td />+54 9 3454 48-9270</p>
       </div>
     </div>
   )
