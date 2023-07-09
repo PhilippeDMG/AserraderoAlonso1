@@ -56,7 +56,7 @@ const Ejemplos = () => {
               className={style.imgServ}
             /> */}
             <img
-              src='/paquetesTablasCamion.webp'
+              src='/img/pallets-galpon.webp'
               alt=''
               className={style.imgServ}
             />
@@ -102,7 +102,7 @@ const Ejemplos = () => {
               style={usarMapa ? null : { display: "none" }}
               className={style.imgServ}
             /> */}
-            <img src='/IMG_6432.webp' alt='' className={style.imgServ} />
+            <img src='/paquetesTablasCamion.webp' alt='' className={style.imgServ} />
           </picture>
         </div>
       </div>

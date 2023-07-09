@@ -5,6 +5,7 @@ import ReCAPTCHA from "react-google-recaptcha"
 
 const ContactForm = () => {
   const [name, setName] = useState("")
+  const [lastname, setLastName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const [status, setStatus] = useState("")
@@ -24,13 +25,14 @@ const ContactForm = () => {
     event.preventDefault()
     if (captcha.current.getValue()) {
       axios
-        .post("/send-email", { name, email, message })
+        .post("/send-email", { name, lastname, email, message })
         .then((response) => {
           console.log(response.data)
           setStatusStyle(styles.statusSuccess)
-          setStatus("Email sent successfully")
+          setStatus("Email enviado con éxito")
           setMessage("")
           setName("")
+          setLastName("")
           setEmail("")
           if (timeoutId) {
             clearTimeout(timeoutId)
@@ -42,7 +44,7 @@ const ContactForm = () => {
         })
         .catch((error) => {
           console.log(error.response.data)
-          setStatus("Error sending email")
+          setStatus("Error enviando email")
           setStatusStyle(styles.statusError)
         })
     } else {
@@ -60,6 +62,7 @@ const ContactForm = () => {
             id='name'
             className={`${styles.input} ${'body'}`}
             type='text'
+            autoComplete="name"
             placeholder={" "}
             value={name}
             onChange={(event) => setName(event.target.value)}
@@ -71,9 +74,25 @@ const ContactForm = () => {
         </div>
         <div className={styles.formGroup}>
           <input
+            id='lastname'
+            className={`${styles.input} ${'body'}`}
+            type='text'
+            autoComplete="family-name"
+            value={lastname}
+            placeholder={" "}
+            onChange={(event) => setLastName(event.target.value)}
+            required
+          />
+          <label htmlFor='name' className={styles.formLabel + " " + 'body'}>
+            Apellido
+          </label>
+        </div>
+        <div className={styles.formGroup}>
+          <input
             id='mail'
             className={`${styles.input} ${'body'}`}
             type='email'
+            autoComplete="email" 
             placeholder={" "}
             value={email}
             onChange={(event) => setEmail(event.target.value)}

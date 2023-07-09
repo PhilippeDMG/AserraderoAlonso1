@@ -14,7 +14,7 @@ const App = () => {
         cuerpo={
           "Estamos para ayudarlo. Contáctenos y descubra cómo podemos cumplir sus necesidades"
         }
-        nombreImagen={"IMG_6496.webp"}
+        nombreImagen={"img/sellos-4.webp"}
       />
       <Direccion />
       <Contactos />

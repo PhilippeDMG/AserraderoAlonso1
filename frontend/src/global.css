@@ -352,3 +352,14 @@ strong {
 b {
   color: var(--neutral-40);
 }
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 3em;
+  color:var(--primary-fixed-dim);
+}
+img {
+  max-width: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

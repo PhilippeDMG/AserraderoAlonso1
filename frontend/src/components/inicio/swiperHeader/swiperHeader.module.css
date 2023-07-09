@@ -6,8 +6,8 @@
   z-index: 0;
 }
 .parallaxbg {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/IMG_6440.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/img/cargando-pallets.webp");
   position: absolute;
   left: 0;
   top: 0;
@@ -15,7 +15,8 @@
   height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: 0 0;
+  background-position: 50% 67%;
+  background-repeat: no-repeat;
 }
 .swiperCard {
   -webkit-box-sizing: border-box;

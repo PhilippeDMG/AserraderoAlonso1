@@ -18,15 +18,15 @@ const MisionVision = () => {
           </p>
         </div>
         <div className={style.imagenes}>
-          <picture>
-            <img src='/IMG_6433.webp' alt='' />
+          <picture>     
+            <img src='/img/pallets-galpon-1.webp' alt='pallets en recinto' loading="lazy" />
           </picture>
         </div>
       </div>
       <div className={style.contenedor}>
         <div className={style.imagenes}>
           <picture>
-            <img src='/IMG_6438.webp' alt='' />
+            <img src='/img/recinto-catem-pallet.webp' alt='pallets en galpón' loading="lazy" />
           </picture>
         </div>
         <div className={style.texto}>

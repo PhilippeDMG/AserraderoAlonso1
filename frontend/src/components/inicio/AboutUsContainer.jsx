@@ -44,10 +44,8 @@ const AboutUsContainer = () => {
       </div>
       <div className={style.imagenes} style={containerHeight ? { height: `${containerHeight}px` } : {}}>
         <picture>
-          <img src='/PalletsMaquina.webp' alt='' />
+          <img src="/img/tablas-tratadas.webp" loading='lazy' alt='tablas aserradas' />
         </picture>
-        <div className={style.imagen1}></div>
-        <div className={style.imagen2}></div>
       </div>
     </div>
   )

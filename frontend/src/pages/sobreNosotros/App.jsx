@@ -17,7 +17,7 @@ const App = () => {
         cuerpo={
           "Pasión por la madera, calidad en cada detalle. Descubra quiénes somos y lo que hacemos"
         }
-        nombreImagen={"IMG_6503.webp"}
+        nombreImagen={"img/sellos-2.webp"}
       />
       <MisionVision />
       <Separador />

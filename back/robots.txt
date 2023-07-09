@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /uploads/
+Disallow: /logs/
+Disallow: /includes/
+Disallow: /scripts/
+Sitemap: https://www.ecatem.com.ar/sitemap.xml

@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import style from "./swiperHeader.module.css";
 
 // import required modules
-import { Parallax, Pagination, Navigation } from "swiper";
+import { Parallax, Pagination, Navigation } from "swiper/modules";
 
 export default function SwiperHeader() {
   const Carrucel = ({ cards }) => {

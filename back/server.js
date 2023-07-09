@@ -20,11 +20,19 @@ app.use(express.static(__dirname + '/../frontend/dist/src/pages/inicio/'));
 app.use('/contacto', express.static(__dirname + '/../frontend/dist/src/pages/contactenos/'));
 app.use('/servicios', express.static(__dirname + '/../frontend/dist/src/pages/servicios/'));
 app.use('/nosotros', express.static(__dirname + '/../frontend/dist/src/pages/sobreNosotros/'));
+
+app.get('/robots.txt', (req, res) => {
+  res.sendFile(__dirname + '/robots.txt');
+});
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(__dirname + '/sitemap.xml');
+});
+
 // Servir archivos estáticos desde el directorio raíz
 app.use(express.static(__dirname + '/../frontend/dist/'));
 
 app.post('/send-email', (req, res) => {
-  const { name, email, message } = req.body;
+  const { name, lastname, email, message } = req.body;
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -37,10 +45,10 @@ app.post('/send-email', (req, res) => {
   const mailOptions = {
     from: `${process.env.EMAIL_USER}`,
     to: 'contact@ecatem.com.ar',
-    subject: `Nueva consulta para ECatem de ${name}`,
+    subject: `Nueva consulta para ECatem de ${name} ${lastname}`,
     html: `
-      <p>Nombre: ${name}</p>
-      <p>Email: ${email}</p>
+      <p>Nombre: ${name} ${lastname}</p>
+      <p>Email: <br>${email}</p>
       <p>Mensaje: <br> ${message}</p>
     `
   };

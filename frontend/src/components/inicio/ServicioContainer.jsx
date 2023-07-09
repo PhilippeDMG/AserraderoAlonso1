@@ -5,7 +5,7 @@ import style from "./ServicioContainer.module.css"
 import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
-import { Pagination, Navigation } from "swiper"
+import { Pagination, Navigation } from "swiper/modules"
 
 const ServicioContainer = () => {
   const Carrucel = ({ cards }) => {
@@ -67,19 +67,19 @@ const ServicioContainer = () => {
     {
       servicio: "Tratamiento fitosanitario",
       body: "Este tratamiento, ya sea térmico o químico, tiene como objetivo eliminar plagas presentes en los embalajes para prevenir su propagación en los envíos internacionales. Los embalajes tratados se marcan con sellos y se emite un certificado avalado por SENASA, necesario para la aduana de cualquier país de destino.",
-      img: "ServiciosInicio.webp",
+      img: "/img/sellando-pallet.webp",
       palabrasClave: ["SENASA,"],
     },
     {
       servicio: "Construcción de pallets",
       body: "La construcción de pallets implica la fabricación de estructuras de madera diseñadas para facilitar el transporte y almacenamiento de mercancias. Los pallets se construyen con madera resistente y se diseñan para ser fácilmente manipulables con montacargas. Son ampliamente utilizados en la industria logística y de almacenamiento para optimizar el manejo de productos y mejorar la eficiencia de la cadena de suministro.",
-      img: "PalletsInicio.webp",
+      img: "/img/cargando-pallets-5.webp",
       palabrasClave: ["pallets"],
     },
     {
       servicio: "Aserrado de madera",
       body: "El aserrado de madera es un proceso mediante el cual los troncos de árboles se cortan en tablas, vigas o piezas de madera de diferentes tamaños y formas. Se utiliza maquinaria especializada, como sierras, para realizar cortes precisos y obtener productos de madera utilizados en la fabricación de pallets, construcción y otros fines.",
-      img: "IMG_6432.webp",
+      img: "/img/recinto-catem-tablas-2.webp",
       palabrasClave: ["aserrado", "fabricación"],
     },
   ]
