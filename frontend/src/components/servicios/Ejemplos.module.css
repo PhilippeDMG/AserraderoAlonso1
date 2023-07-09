@@ -167,3 +167,8 @@ span {
     margin: 520px 0 24px;
   }
 }
+@media only screen and (max-device-width: 600px) {
+  .ejemplos {
+    background-attachment: scroll;
+  }
+}
