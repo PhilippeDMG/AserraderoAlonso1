@@ -43,7 +43,7 @@ const Tratamiento = () => {
               El uso del horno CATEM para el tratamiento térmico de maderas y pallets ofrece numerosos beneficios. Además de cumplir con las regulaciones fitosanitarias, este método es altamente eficaz para eliminar plagas y enfermedades, asegurando la calidad y la integridad de los materiales tratados. Asimismo, el proceso de tratamiento térmico con el horno CATEM es seguro, confiable y ampliamente reconocido a nivel internacional.
             </p>
             <p className="body">
-              Recuerda que el cumplimiento adecuado de las regulaciones fitosanitarias es fundamental para el comercio internacional de maderas y pallets. El uso del horno CATEM y la aplicación del tratamiento térmico adecuado garantizan la protección de los ecosistemas forestales y contribuyen a un comercio sostenible y responsable.
+              El cumplimiento adecuado de las regulaciones fitosanitarias es fundamental para el comercio internacional de maderas y pallets. El uso del horno CATEM y la aplicación del tratamiento térmico adecuado garantizan la protección de los ecosistemas forestales y contribuyen a un comercio sostenible y responsable.
             </p>
           </div>
         </details>
