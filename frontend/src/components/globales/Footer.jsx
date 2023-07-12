@@ -1,5 +1,6 @@
 import style from "./Footer.module.css"
 const Footer = () => {
+  const anio = new Date().getFullYear()
   return (
     <div className={style.footerCont}>
       <div className={style.footer}>
@@ -21,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.copyright}>
-          <p>Copyright © 2023</p>
+          <p>Copyright © {anio}</p>
           <p>G&P Dev</p>
         </div>
     </div>

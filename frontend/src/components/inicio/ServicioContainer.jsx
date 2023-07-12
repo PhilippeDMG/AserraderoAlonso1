@@ -5,7 +5,7 @@ import style from "./ServicioContainer.module.css"
 import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
-import { Pagination, Navigation } from "swiper/modules"
+import { Pagination, Navigation, Autoplay } from "swiper/modules"
 
 const ServicioContainer = () => {
   const Carrucel = ({ cards }) => {
@@ -18,7 +18,11 @@ const ServicioContainer = () => {
           clickable: true,
         }}
         loop={true}
-        modules={[Pagination, Navigation]}
+        autoplay={{
+          delay: 10000,
+          disableOnInteraction: true,
+        }}
+        modules={[Pagination, Navigation,Autoplay]}
         className={style.swiperCont}
       >
         {cards.map((card) => {
